@@ -1,0 +1,850 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6461794222155175007E1077 /* FJFWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 6461794122155175007E1077 /* FJFWindow.m */; };
+		6461794522155511007E1077 /* FJFApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 6461794422155511007E1077 /* FJFApplication.m */; };
+		6461794822155585007E1077 /* FJFImageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 6461794622155584007E1077 /* FJFImageControl.m */; };
+		6461794B2215704B007E1077 /* ic_red_box@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 646179492215704B007E1077 /* ic_red_box@3x.png */; };
+		6461794C2215704B007E1077 /* ic_red_box@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6461794A2215704B007E1077 /* ic_red_box@2x.png */; };
+		6461794F2215722A007E1077 /* FJFTapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6461794E2215722A007E1077 /* FJFTapView.m */; };
+		646179522215723A007E1077 /* FJFButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 646179512215723A007E1077 /* FJFButton.m */; };
+		64617955221574AE007E1077 /* FJFTapGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 64617954221574AE007E1077 /* FJFTapGestureRecognizer.m */; };
+		6461795822158531007E1077 /* FJFLongPressGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6461795722158531007E1077 /* FJFLongPressGestureRecognizer.m */; };
+		6461795D22158D67007E1077 /* FJFLongPressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6461795C22158D67007E1077 /* FJFLongPressView.m */; };
+		646179602215961C007E1077 /* UIGestureRecognizer+FJFTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = 6461795F2215961C007E1077 /* UIGestureRecognizer+FJFTouch.m */; };
+		64A40AB02216A3BD00A6E751 /* FJFSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A40AAF2216A3BD00A6E751 /* FJFSwitch.m */; };
+		64F68AB82213B0210017990B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F68AB72213B0210017990B /* AppDelegate.m */; };
+		64F68ABB2213B0210017990B /* FJFFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F68ABA2213B0210017990B /* FJFFirstViewController.m */; };
+		64F68ABE2213B0210017990B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64F68ABC2213B0210017990B /* Main.storyboard */; };
+		64F68AC02213B0220017990B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64F68ABF2213B0220017990B /* Assets.xcassets */; };
+		64F68AC32213B0220017990B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64F68AC12213B0220017990B /* LaunchScreen.storyboard */; };
+		64F68AC62213B0220017990B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F68AC52213B0220017990B /* main.m */; };
+		64F68AD02213B0220017990B /* FJFTouchEventDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F68ACF2213B0220017990B /* FJFTouchEventDemoTests.m */; };
+		64F68ADB2213B0220017990B /* FJFTouchEventDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F68ADA2213B0220017990B /* FJFTouchEventDemoUITests.m */; };
+		64F68AEA2213B0A30017990B /* AView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F68AE92213B0A30017990B /* AView.m */; };
+		64F68AED2213B0AC0017990B /* BView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F68AEC2213B0AC0017990B /* BView.m */; };
+		64F68AF02213B0B30017990B /* CView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F68AEF2213B0B30017990B /* CView.m */; };
+		64F68AF32213B0BD0017990B /* DView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F68AF22213B0BD0017990B /* DView.m */; };
+		64F68AF62213B0C60017990B /* EView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F68AF52213B0C60017990B /* EView.m */; };
+		64F68AF92213B0CD0017990B /* FView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F68AF82213B0CD0017990B /* FView.m */; };
+		64F68AFC2213B6230017990B /* UIView+FJFTouchEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F68AFB2213B6230017990B /* UIView+FJFTouchEvent.m */; };
+		64F68AFF2213CA220017990B /* FJFSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F68AFE2213CA220017990B /* FJFSecondViewController.m */; };
+		64F68B022213CA2C0017990B /* FJFThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F68B012213CA2C0017990B /* FJFThreeViewController.m */; };
+		64F68B052213CA360017990B /* FJFFourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F68B042213CA360017990B /* FJFFourViewController.m */; };
+		64F68B082213CB1F0017990B /* FJFTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F68B072213CB1F0017990B /* FJFTabBarViewController.m */; };
+		64F68B11221405160017990B /* FJFCustomPopMenuStytle.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F68B0A221405160017990B /* FJFCustomPopMenuStytle.m */; };
+		64F68B12221405160017990B /* FJFCustomPopMenuIndicateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F68B0C221405160017990B /* FJFCustomPopMenuIndicateView.m */; };
+		64F68B13221405160017990B /* FJFCustomPopMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F68B10221405160017990B /* FJFCustomPopMenuView.m */; };
+		64F68B16221405560017990B /* FJTabBarView+FJFBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F68B15221405550017990B /* FJTabBarView+FJFBadge.m */; };
+		64F68B2C221412910017990B /* public_tabbar_panel_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64F68B1B221412910017990B /* public_tabbar_panel_bg@2x.png */; };
+		64F68B2D221412910017990B /* tab_faxian_hui@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64F68B1C221412910017990B /* tab_faxian_hui@3x.png */; };
+		64F68B2E221412910017990B /* tab_dianpu_xuanzhong@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64F68B1D221412910017990B /* tab_dianpu_xuanzhong@3x.png */; };
+		64F68B2F221412910017990B /* tab_dianpu_xuanzhong@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64F68B1E221412910017990B /* tab_dianpu_xuanzhong@2x.png */; };
+		64F68B30221412910017990B /* tab_faxian_hui@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64F68B1F221412910017990B /* tab_faxian_hui@2x.png */; };
+		64F68B31221412910017990B /* tab_jingxuan_hui@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64F68B20221412910017990B /* tab_jingxuan_hui@2x.png */; };
+		64F68B32221412910017990B /* tab_wode_xuanzhong@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64F68B21221412910017990B /* tab_wode_xuanzhong@3x.png */; };
+		64F68B33221412910017990B /* tab_jingxuan_xuanzhong@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64F68B22221412910017990B /* tab_jingxuan_xuanzhong@2x.png */; };
+		64F68B34221412910017990B /* tab_wode_hui@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64F68B23221412910017990B /* tab_wode_hui@2x.png */; };
+		64F68B35221412910017990B /* tab_faxian_xuanzhong@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64F68B24221412910017990B /* tab_faxian_xuanzhong@2x.png */; };
+		64F68B36221412910017990B /* tab_faxian_xuanzhong@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64F68B25221412910017990B /* tab_faxian_xuanzhong@3x.png */; };
+		64F68B37221412910017990B /* tab_wode_hui@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64F68B26221412910017990B /* tab_wode_hui@3x.png */; };
+		64F68B38221412910017990B /* tab_jingxuan_xuanzhong@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64F68B27221412910017990B /* tab_jingxuan_xuanzhong@3x.png */; };
+		64F68B39221412910017990B /* tab_wode_xuanzhong@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64F68B28221412910017990B /* tab_wode_xuanzhong@2x.png */; };
+		64F68B3A221412910017990B /* tab_jingxuan_hui@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64F68B29221412910017990B /* tab_jingxuan_hui@3x.png */; };
+		64F68B3B221412910017990B /* tab_dianpu_hui@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64F68B2A221412910017990B /* tab_dianpu_hui@2x.png */; };
+		64F68B3C221412910017990B /* tab_dianpu_hui@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64F68B2B221412910017990B /* tab_dianpu_hui@3x.png */; };
+		64F68B3F22141E9C0017990B /* FJFTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F68B3E22141E9C0017990B /* FJFTabbar.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64F68ACC2213B0220017990B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64F68AAB2213B0210017990B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64F68AB22213B0210017990B;
+			remoteInfo = FJFTouchEventDemo;
+		};
+		64F68AD72213B0220017990B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64F68AAB2213B0210017990B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64F68AB22213B0210017990B;
+			remoteInfo = FJFTouchEventDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6461794022155175007E1077 /* FJFWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FJFWindow.h; sourceTree = "<group>"; };
+		6461794122155175007E1077 /* FJFWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJFWindow.m; sourceTree = "<group>"; };
+		6461794322155511007E1077 /* FJFApplication.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FJFApplication.h; sourceTree = "<group>"; };
+		6461794422155511007E1077 /* FJFApplication.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJFApplication.m; sourceTree = "<group>"; };
+		6461794622155584007E1077 /* FJFImageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFImageControl.m; sourceTree = "<group>"; };
+		6461794722155584007E1077 /* FJFImageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFImageControl.h; sourceTree = "<group>"; };
+		646179492215704B007E1077 /* ic_red_box@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_red_box@3x.png"; sourceTree = "<group>"; };
+		6461794A2215704B007E1077 /* ic_red_box@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_red_box@2x.png"; sourceTree = "<group>"; };
+		6461794D2215722A007E1077 /* FJFTapView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FJFTapView.h; sourceTree = "<group>"; };
+		6461794E2215722A007E1077 /* FJFTapView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJFTapView.m; sourceTree = "<group>"; };
+		646179502215723A007E1077 /* FJFButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FJFButton.h; sourceTree = "<group>"; };
+		646179512215723A007E1077 /* FJFButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJFButton.m; sourceTree = "<group>"; };
+		64617953221574AE007E1077 /* FJFTapGestureRecognizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FJFTapGestureRecognizer.h; sourceTree = "<group>"; };
+		64617954221574AE007E1077 /* FJFTapGestureRecognizer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJFTapGestureRecognizer.m; sourceTree = "<group>"; };
+		6461795622158531007E1077 /* FJFLongPressGestureRecognizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FJFLongPressGestureRecognizer.h; sourceTree = "<group>"; };
+		6461795722158531007E1077 /* FJFLongPressGestureRecognizer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJFLongPressGestureRecognizer.m; sourceTree = "<group>"; };
+		6461795B22158D67007E1077 /* FJFLongPressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FJFLongPressView.h; sourceTree = "<group>"; };
+		6461795C22158D67007E1077 /* FJFLongPressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJFLongPressView.m; sourceTree = "<group>"; };
+		6461795E2215961C007E1077 /* UIGestureRecognizer+FJFTouch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+FJFTouch.h"; sourceTree = "<group>"; };
+		6461795F2215961C007E1077 /* UIGestureRecognizer+FJFTouch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+FJFTouch.m"; sourceTree = "<group>"; };
+		64A40AAE2216A3BD00A6E751 /* FJFSwitch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FJFSwitch.h; sourceTree = "<group>"; };
+		64A40AAF2216A3BD00A6E751 /* FJFSwitch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJFSwitch.m; sourceTree = "<group>"; };
+		64F68AB32213B0210017990B /* FJFTouchEventDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FJFTouchEventDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64F68AB62213B0210017990B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		64F68AB72213B0210017990B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		64F68AB92213B0210017990B /* FJFFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FJFFirstViewController.h; sourceTree = "<group>"; };
+		64F68ABA2213B0210017990B /* FJFFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJFFirstViewController.m; sourceTree = "<group>"; };
+		64F68ABD2213B0210017990B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64F68ABF2213B0220017990B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64F68AC22213B0220017990B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		64F68AC42213B0220017990B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64F68AC52213B0220017990B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		64F68ACB2213B0220017990B /* FJFTouchEventDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FJFTouchEventDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64F68ACF2213B0220017990B /* FJFTouchEventDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJFTouchEventDemoTests.m; sourceTree = "<group>"; };
+		64F68AD12213B0220017990B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64F68AD62213B0220017990B /* FJFTouchEventDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FJFTouchEventDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64F68ADA2213B0220017990B /* FJFTouchEventDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJFTouchEventDemoUITests.m; sourceTree = "<group>"; };
+		64F68ADC2213B0220017990B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64F68AE82213B0A30017990B /* AView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AView.h; sourceTree = "<group>"; };
+		64F68AE92213B0A30017990B /* AView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AView.m; sourceTree = "<group>"; };
+		64F68AEB2213B0AC0017990B /* BView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BView.h; sourceTree = "<group>"; };
+		64F68AEC2213B0AC0017990B /* BView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BView.m; sourceTree = "<group>"; };
+		64F68AEE2213B0B30017990B /* CView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CView.h; sourceTree = "<group>"; };
+		64F68AEF2213B0B30017990B /* CView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CView.m; sourceTree = "<group>"; };
+		64F68AF12213B0BD0017990B /* DView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DView.h; sourceTree = "<group>"; };
+		64F68AF22213B0BD0017990B /* DView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DView.m; sourceTree = "<group>"; };
+		64F68AF42213B0C60017990B /* EView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EView.h; sourceTree = "<group>"; };
+		64F68AF52213B0C60017990B /* EView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EView.m; sourceTree = "<group>"; };
+		64F68AF72213B0CD0017990B /* FView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FView.h; sourceTree = "<group>"; };
+		64F68AF82213B0CD0017990B /* FView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FView.m; sourceTree = "<group>"; };
+		64F68AFA2213B6230017990B /* UIView+FJFTouchEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+FJFTouchEvent.h"; sourceTree = "<group>"; };
+		64F68AFB2213B6230017990B /* UIView+FJFTouchEvent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+FJFTouchEvent.m"; sourceTree = "<group>"; };
+		64F68AFD2213CA220017990B /* FJFSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FJFSecondViewController.h; sourceTree = "<group>"; };
+		64F68AFE2213CA220017990B /* FJFSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJFSecondViewController.m; sourceTree = "<group>"; };
+		64F68B002213CA2C0017990B /* FJFThreeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FJFThreeViewController.h; sourceTree = "<group>"; };
+		64F68B012213CA2C0017990B /* FJFThreeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJFThreeViewController.m; sourceTree = "<group>"; };
+		64F68B032213CA360017990B /* FJFFourViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FJFFourViewController.h; sourceTree = "<group>"; };
+		64F68B042213CA360017990B /* FJFFourViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJFFourViewController.m; sourceTree = "<group>"; };
+		64F68B062213CB1F0017990B /* FJFTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FJFTabBarViewController.h; sourceTree = "<group>"; };
+		64F68B072213CB1F0017990B /* FJFTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJFTabBarViewController.m; sourceTree = "<group>"; };
+		64F68B0A221405160017990B /* FJFCustomPopMenuStytle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFCustomPopMenuStytle.m; sourceTree = "<group>"; };
+		64F68B0B221405160017990B /* FJFButtonClickedBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFButtonClickedBlock.h; sourceTree = "<group>"; };
+		64F68B0C221405160017990B /* FJFCustomPopMenuIndicateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFCustomPopMenuIndicateView.m; sourceTree = "<group>"; };
+		64F68B0D221405160017990B /* FJFCustomPopMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFCustomPopMenuView.h; sourceTree = "<group>"; };
+		64F68B0E221405160017990B /* FJFCustomPopMenuStytle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFCustomPopMenuStytle.h; sourceTree = "<group>"; };
+		64F68B0F221405160017990B /* FJFCustomPopMenuIndicateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFCustomPopMenuIndicateView.h; sourceTree = "<group>"; };
+		64F68B10221405160017990B /* FJFCustomPopMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFCustomPopMenuView.m; sourceTree = "<group>"; };
+		64F68B14221405550017990B /* FJTabBarView+FJFBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FJTabBarView+FJFBadge.h"; sourceTree = "<group>"; };
+		64F68B15221405550017990B /* FJTabBarView+FJFBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FJTabBarView+FJFBadge.m"; sourceTree = "<group>"; };
+		64F68B1B221412910017990B /* public_tabbar_panel_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "public_tabbar_panel_bg@2x.png"; sourceTree = "<group>"; };
+		64F68B1C221412910017990B /* tab_faxian_hui@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_faxian_hui@3x.png"; sourceTree = "<group>"; };
+		64F68B1D221412910017990B /* tab_dianpu_xuanzhong@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_dianpu_xuanzhong@3x.png"; sourceTree = "<group>"; };
+		64F68B1E221412910017990B /* tab_dianpu_xuanzhong@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_dianpu_xuanzhong@2x.png"; sourceTree = "<group>"; };
+		64F68B1F221412910017990B /* tab_faxian_hui@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_faxian_hui@2x.png"; sourceTree = "<group>"; };
+		64F68B20221412910017990B /* tab_jingxuan_hui@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_jingxuan_hui@2x.png"; sourceTree = "<group>"; };
+		64F68B21221412910017990B /* tab_wode_xuanzhong@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_wode_xuanzhong@3x.png"; sourceTree = "<group>"; };
+		64F68B22221412910017990B /* tab_jingxuan_xuanzhong@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_jingxuan_xuanzhong@2x.png"; sourceTree = "<group>"; };
+		64F68B23221412910017990B /* tab_wode_hui@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_wode_hui@2x.png"; sourceTree = "<group>"; };
+		64F68B24221412910017990B /* tab_faxian_xuanzhong@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_faxian_xuanzhong@2x.png"; sourceTree = "<group>"; };
+		64F68B25221412910017990B /* tab_faxian_xuanzhong@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_faxian_xuanzhong@3x.png"; sourceTree = "<group>"; };
+		64F68B26221412910017990B /* tab_wode_hui@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_wode_hui@3x.png"; sourceTree = "<group>"; };
+		64F68B27221412910017990B /* tab_jingxuan_xuanzhong@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_jingxuan_xuanzhong@3x.png"; sourceTree = "<group>"; };
+		64F68B28221412910017990B /* tab_wode_xuanzhong@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_wode_xuanzhong@2x.png"; sourceTree = "<group>"; };
+		64F68B29221412910017990B /* tab_jingxuan_hui@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_jingxuan_hui@3x.png"; sourceTree = "<group>"; };
+		64F68B2A221412910017990B /* tab_dianpu_hui@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_dianpu_hui@2x.png"; sourceTree = "<group>"; };
+		64F68B2B221412910017990B /* tab_dianpu_hui@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_dianpu_hui@3x.png"; sourceTree = "<group>"; };
+		64F68B3D22141E9C0017990B /* FJFTabbar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FJFTabbar.h; sourceTree = "<group>"; };
+		64F68B3E22141E9C0017990B /* FJFTabbar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJFTabbar.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64F68AB02213B0210017990B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64F68AC82213B0220017990B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64F68AD32213B0220017990B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6461795922158A1A007E1077 /* HitTest */ = {
+			isa = PBXGroup;
+			children = (
+				64F68AE82213B0A30017990B /* AView.h */,
+				64F68AE92213B0A30017990B /* AView.m */,
+				64F68AEB2213B0AC0017990B /* BView.h */,
+				64F68AEC2213B0AC0017990B /* BView.m */,
+				64F68AEE2213B0B30017990B /* CView.h */,
+				64F68AEF2213B0B30017990B /* CView.m */,
+				64F68AF12213B0BD0017990B /* DView.h */,
+				64F68AF22213B0BD0017990B /* DView.m */,
+				64F68AF42213B0C60017990B /* EView.h */,
+				64F68AF52213B0C60017990B /* EView.m */,
+				64F68AF72213B0CD0017990B /* FView.h */,
+				64F68AF82213B0CD0017990B /* FView.m */,
+				6461794022155175007E1077 /* FJFWindow.h */,
+				6461794122155175007E1077 /* FJFWindow.m */,
+				6461794322155511007E1077 /* FJFApplication.h */,
+				6461794422155511007E1077 /* FJFApplication.m */,
+				64F68AFA2213B6230017990B /* UIView+FJFTouchEvent.h */,
+				64F68AFB2213B6230017990B /* UIView+FJFTouchEvent.m */,
+			);
+			path = HitTest;
+			sourceTree = "<group>";
+		};
+		6461795A22158A22007E1077 /* ResponderChain */ = {
+			isa = PBXGroup;
+			children = (
+				6461794722155584007E1077 /* FJFImageControl.h */,
+				6461794622155584007E1077 /* FJFImageControl.m */,
+				6461794D2215722A007E1077 /* FJFTapView.h */,
+				6461794E2215722A007E1077 /* FJFTapView.m */,
+				6461795B22158D67007E1077 /* FJFLongPressView.h */,
+				6461795C22158D67007E1077 /* FJFLongPressView.m */,
+				64617953221574AE007E1077 /* FJFTapGestureRecognizer.h */,
+				64617954221574AE007E1077 /* FJFTapGestureRecognizer.m */,
+				6461795622158531007E1077 /* FJFLongPressGestureRecognizer.h */,
+				6461795722158531007E1077 /* FJFLongPressGestureRecognizer.m */,
+				646179502215723A007E1077 /* FJFButton.h */,
+				646179512215723A007E1077 /* FJFButton.m */,
+				64A40AAE2216A3BD00A6E751 /* FJFSwitch.h */,
+				64A40AAF2216A3BD00A6E751 /* FJFSwitch.m */,
+				6461795E2215961C007E1077 /* UIGestureRecognizer+FJFTouch.h */,
+				6461795F2215961C007E1077 /* UIGestureRecognizer+FJFTouch.m */,
+			);
+			path = ResponderChain;
+			sourceTree = "<group>";
+		};
+		64F68AAA2213B0210017990B = {
+			isa = PBXGroup;
+			children = (
+				64F68AB52213B0210017990B /* FJFTouchEventDemo */,
+				64F68ACE2213B0220017990B /* FJFTouchEventDemoTests */,
+				64F68AD92213B0220017990B /* FJFTouchEventDemoUITests */,
+				64F68AB42213B0210017990B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64F68AB42213B0210017990B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64F68AB32213B0210017990B /* FJFTouchEventDemo.app */,
+				64F68ACB2213B0220017990B /* FJFTouchEventDemoTests.xctest */,
+				64F68AD62213B0220017990B /* FJFTouchEventDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64F68AB52213B0210017990B /* FJFTouchEventDemo */ = {
+			isa = PBXGroup;
+			children = (
+				64F68B09221405160017990B /* FJFCustomPopMenuView */,
+				6461795A22158A22007E1077 /* ResponderChain */,
+				6461795922158A1A007E1077 /* HitTest */,
+				64F68AB62213B0210017990B /* AppDelegate.h */,
+				64F68AB72213B0210017990B /* AppDelegate.m */,
+				64F68AB92213B0210017990B /* FJFFirstViewController.h */,
+				64F68ABA2213B0210017990B /* FJFFirstViewController.m */,
+				64F68AFD2213CA220017990B /* FJFSecondViewController.h */,
+				64F68AFE2213CA220017990B /* FJFSecondViewController.m */,
+				64F68B002213CA2C0017990B /* FJFThreeViewController.h */,
+				64F68B012213CA2C0017990B /* FJFThreeViewController.m */,
+				64F68B032213CA360017990B /* FJFFourViewController.h */,
+				64F68B042213CA360017990B /* FJFFourViewController.m */,
+				64F68B062213CB1F0017990B /* FJFTabBarViewController.h */,
+				64F68B072213CB1F0017990B /* FJFTabBarViewController.m */,
+				64F68B14221405550017990B /* FJTabBarView+FJFBadge.h */,
+				64F68B15221405550017990B /* FJTabBarView+FJFBadge.m */,
+				64F68B3D22141E9C0017990B /* FJFTabbar.h */,
+				64F68B3E22141E9C0017990B /* FJFTabbar.m */,
+				64F68ABC2213B0210017990B /* Main.storyboard */,
+				64F68B1A221412910017990B /* Resources */,
+				64F68ABF2213B0220017990B /* Assets.xcassets */,
+				64F68AC12213B0220017990B /* LaunchScreen.storyboard */,
+				64F68AC42213B0220017990B /* Info.plist */,
+				64F68AC52213B0220017990B /* main.m */,
+			);
+			path = FJFTouchEventDemo;
+			sourceTree = "<group>";
+		};
+		64F68ACE2213B0220017990B /* FJFTouchEventDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				64F68ACF2213B0220017990B /* FJFTouchEventDemoTests.m */,
+				64F68AD12213B0220017990B /* Info.plist */,
+			);
+			path = FJFTouchEventDemoTests;
+			sourceTree = "<group>";
+		};
+		64F68AD92213B0220017990B /* FJFTouchEventDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				64F68ADA2213B0220017990B /* FJFTouchEventDemoUITests.m */,
+				64F68ADC2213B0220017990B /* Info.plist */,
+			);
+			path = FJFTouchEventDemoUITests;
+			sourceTree = "<group>";
+		};
+		64F68B09221405160017990B /* FJFCustomPopMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				64F68B0B221405160017990B /* FJFButtonClickedBlock.h */,
+				64F68B0E221405160017990B /* FJFCustomPopMenuStytle.h */,
+				64F68B0A221405160017990B /* FJFCustomPopMenuStytle.m */,
+				64F68B0F221405160017990B /* FJFCustomPopMenuIndicateView.h */,
+				64F68B0C221405160017990B /* FJFCustomPopMenuIndicateView.m */,
+				64F68B0D221405160017990B /* FJFCustomPopMenuView.h */,
+				64F68B10221405160017990B /* FJFCustomPopMenuView.m */,
+			);
+			path = FJFCustomPopMenuView;
+			sourceTree = "<group>";
+		};
+		64F68B1A221412910017990B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6461794A2215704B007E1077 /* ic_red_box@2x.png */,
+				646179492215704B007E1077 /* ic_red_box@3x.png */,
+				64F68B1B221412910017990B /* public_tabbar_panel_bg@2x.png */,
+				64F68B1C221412910017990B /* tab_faxian_hui@3x.png */,
+				64F68B1D221412910017990B /* tab_dianpu_xuanzhong@3x.png */,
+				64F68B1E221412910017990B /* tab_dianpu_xuanzhong@2x.png */,
+				64F68B1F221412910017990B /* tab_faxian_hui@2x.png */,
+				64F68B20221412910017990B /* tab_jingxuan_hui@2x.png */,
+				64F68B21221412910017990B /* tab_wode_xuanzhong@3x.png */,
+				64F68B22221412910017990B /* tab_jingxuan_xuanzhong@2x.png */,
+				64F68B23221412910017990B /* tab_wode_hui@2x.png */,
+				64F68B24221412910017990B /* tab_faxian_xuanzhong@2x.png */,
+				64F68B25221412910017990B /* tab_faxian_xuanzhong@3x.png */,
+				64F68B26221412910017990B /* tab_wode_hui@3x.png */,
+				64F68B27221412910017990B /* tab_jingxuan_xuanzhong@3x.png */,
+				64F68B28221412910017990B /* tab_wode_xuanzhong@2x.png */,
+				64F68B29221412910017990B /* tab_jingxuan_hui@3x.png */,
+				64F68B2A221412910017990B /* tab_dianpu_hui@2x.png */,
+				64F68B2B221412910017990B /* tab_dianpu_hui@3x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64F68AB22213B0210017990B /* FJFTouchEventDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64F68ADF2213B0220017990B /* Build configuration list for PBXNativeTarget "FJFTouchEventDemo" */;
+			buildPhases = (
+				64F68AAF2213B0210017990B /* Sources */,
+				64F68AB02213B0210017990B /* Frameworks */,
+				64F68AB12213B0210017990B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FJFTouchEventDemo;
+			productName = FJFTouchEventDemo;
+			productReference = 64F68AB32213B0210017990B /* FJFTouchEventDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64F68ACA2213B0220017990B /* FJFTouchEventDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64F68AE22213B0220017990B /* Build configuration list for PBXNativeTarget "FJFTouchEventDemoTests" */;
+			buildPhases = (
+				64F68AC72213B0220017990B /* Sources */,
+				64F68AC82213B0220017990B /* Frameworks */,
+				64F68AC92213B0220017990B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64F68ACD2213B0220017990B /* PBXTargetDependency */,
+			);
+			name = FJFTouchEventDemoTests;
+			productName = FJFTouchEventDemoTests;
+			productReference = 64F68ACB2213B0220017990B /* FJFTouchEventDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		64F68AD52213B0220017990B /* FJFTouchEventDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64F68AE52213B0220017990B /* Build configuration list for PBXNativeTarget "FJFTouchEventDemoUITests" */;
+			buildPhases = (
+				64F68AD22213B0220017990B /* Sources */,
+				64F68AD32213B0220017990B /* Frameworks */,
+				64F68AD42213B0220017990B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64F68AD82213B0220017990B /* PBXTargetDependency */,
+			);
+			name = FJFTouchEventDemoUITests;
+			productName = FJFTouchEventDemoUITests;
+			productReference = 64F68AD62213B0220017990B /* FJFTouchEventDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64F68AAB2213B0210017990B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "方金峰";
+				TargetAttributes = {
+					64F68AB22213B0210017990B = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					64F68ACA2213B0220017990B = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 64F68AB22213B0210017990B;
+					};
+					64F68AD52213B0220017990B = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 64F68AB22213B0210017990B;
+					};
+				};
+			};
+			buildConfigurationList = 64F68AAE2213B0210017990B /* Build configuration list for PBXProject "FJFTouchEventDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64F68AAA2213B0210017990B;
+			productRefGroup = 64F68AB42213B0210017990B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64F68AB22213B0210017990B /* FJFTouchEventDemo */,
+				64F68ACA2213B0220017990B /* FJFTouchEventDemoTests */,
+				64F68AD52213B0220017990B /* FJFTouchEventDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64F68AB12213B0210017990B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64F68B33221412910017990B /* tab_jingxuan_xuanzhong@2x.png in Resources */,
+				64F68B36221412910017990B /* tab_faxian_xuanzhong@3x.png in Resources */,
+				64F68B3B221412910017990B /* tab_dianpu_hui@2x.png in Resources */,
+				64F68B35221412910017990B /* tab_faxian_xuanzhong@2x.png in Resources */,
+				6461794C2215704B007E1077 /* ic_red_box@2x.png in Resources */,
+				64F68AC32213B0220017990B /* LaunchScreen.storyboard in Resources */,
+				64F68B2E221412910017990B /* tab_dianpu_xuanzhong@3x.png in Resources */,
+				64F68B31221412910017990B /* tab_jingxuan_hui@2x.png in Resources */,
+				64F68B3C221412910017990B /* tab_dianpu_hui@3x.png in Resources */,
+				6461794B2215704B007E1077 /* ic_red_box@3x.png in Resources */,
+				64F68B38221412910017990B /* tab_jingxuan_xuanzhong@3x.png in Resources */,
+				64F68AC02213B0220017990B /* Assets.xcassets in Resources */,
+				64F68ABE2213B0210017990B /* Main.storyboard in Resources */,
+				64F68B30221412910017990B /* tab_faxian_hui@2x.png in Resources */,
+				64F68B2C221412910017990B /* public_tabbar_panel_bg@2x.png in Resources */,
+				64F68B37221412910017990B /* tab_wode_hui@3x.png in Resources */,
+				64F68B39221412910017990B /* tab_wode_xuanzhong@2x.png in Resources */,
+				64F68B2F221412910017990B /* tab_dianpu_xuanzhong@2x.png in Resources */,
+				64F68B2D221412910017990B /* tab_faxian_hui@3x.png in Resources */,
+				64F68B34221412910017990B /* tab_wode_hui@2x.png in Resources */,
+				64F68B3A221412910017990B /* tab_jingxuan_hui@3x.png in Resources */,
+				64F68B32221412910017990B /* tab_wode_xuanzhong@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64F68AC92213B0220017990B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64F68AD42213B0220017990B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64F68AAF2213B0210017990B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6461794222155175007E1077 /* FJFWindow.m in Sources */,
+				64F68AFC2213B6230017990B /* UIView+FJFTouchEvent.m in Sources */,
+				64617955221574AE007E1077 /* FJFTapGestureRecognizer.m in Sources */,
+				64F68B16221405560017990B /* FJTabBarView+FJFBadge.m in Sources */,
+				64F68AF02213B0B30017990B /* CView.m in Sources */,
+				64F68B082213CB1F0017990B /* FJFTabBarViewController.m in Sources */,
+				6461795D22158D67007E1077 /* FJFLongPressView.m in Sources */,
+				64F68ABB2213B0210017990B /* FJFFirstViewController.m in Sources */,
+				6461794F2215722A007E1077 /* FJFTapView.m in Sources */,
+				64F68AFF2213CA220017990B /* FJFSecondViewController.m in Sources */,
+				646179602215961C007E1077 /* UIGestureRecognizer+FJFTouch.m in Sources */,
+				646179522215723A007E1077 /* FJFButton.m in Sources */,
+				6461794522155511007E1077 /* FJFApplication.m in Sources */,
+				64F68AF62213B0C60017990B /* EView.m in Sources */,
+				6461795822158531007E1077 /* FJFLongPressGestureRecognizer.m in Sources */,
+				64F68AC62213B0220017990B /* main.m in Sources */,
+				64F68B052213CA360017990B /* FJFFourViewController.m in Sources */,
+				64F68AEA2213B0A30017990B /* AView.m in Sources */,
+				64F68AB82213B0210017990B /* AppDelegate.m in Sources */,
+				64F68B13221405160017990B /* FJFCustomPopMenuView.m in Sources */,
+				64F68B12221405160017990B /* FJFCustomPopMenuIndicateView.m in Sources */,
+				64F68B11221405160017990B /* FJFCustomPopMenuStytle.m in Sources */,
+				64F68B022213CA2C0017990B /* FJFThreeViewController.m in Sources */,
+				64A40AB02216A3BD00A6E751 /* FJFSwitch.m in Sources */,
+				64F68B3F22141E9C0017990B /* FJFTabbar.m in Sources */,
+				64F68AF92213B0CD0017990B /* FView.m in Sources */,
+				64F68AF32213B0BD0017990B /* DView.m in Sources */,
+				6461794822155585007E1077 /* FJFImageControl.m in Sources */,
+				64F68AED2213B0AC0017990B /* BView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64F68AC72213B0220017990B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64F68AD02213B0220017990B /* FJFTouchEventDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64F68AD22213B0220017990B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64F68ADB2213B0220017990B /* FJFTouchEventDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64F68ACD2213B0220017990B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64F68AB22213B0210017990B /* FJFTouchEventDemo */;
+			targetProxy = 64F68ACC2213B0220017990B /* PBXContainerItemProxy */;
+		};
+		64F68AD82213B0220017990B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64F68AB22213B0210017990B /* FJFTouchEventDemo */;
+			targetProxy = 64F68AD72213B0220017990B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		64F68ABC2213B0210017990B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64F68ABD2213B0210017990B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		64F68AC12213B0220017990B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64F68AC22213B0220017990B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64F68ADD2213B0220017990B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		64F68ADE2213B0220017990B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64F68AE02213B0220017990B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2PB2XYK7EA;
+				INFOPLIST_FILE = FJFTouchEventDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FJF.FJFTouchEventDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64F68AE12213B0220017990B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2PB2XYK7EA;
+				INFOPLIST_FILE = FJFTouchEventDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FJF.FJFTouchEventDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		64F68AE32213B0220017990B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2PB2XYK7EA;
+				INFOPLIST_FILE = FJFTouchEventDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FJF.FJFTouchEventDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FJFTouchEventDemo.app/FJFTouchEventDemo";
+			};
+			name = Debug;
+		};
+		64F68AE42213B0220017990B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2PB2XYK7EA;
+				INFOPLIST_FILE = FJFTouchEventDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FJF.FJFTouchEventDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FJFTouchEventDemo.app/FJFTouchEventDemo";
+			};
+			name = Release;
+		};
+		64F68AE62213B0220017990B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2PB2XYK7EA;
+				INFOPLIST_FILE = FJFTouchEventDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FJF.FJFTouchEventDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FJFTouchEventDemo;
+			};
+			name = Debug;
+		};
+		64F68AE72213B0220017990B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2PB2XYK7EA;
+				INFOPLIST_FILE = FJFTouchEventDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FJF.FJFTouchEventDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FJFTouchEventDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64F68AAE2213B0210017990B /* Build configuration list for PBXProject "FJFTouchEventDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64F68ADD2213B0220017990B /* Debug */,
+				64F68ADE2213B0220017990B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64F68ADF2213B0220017990B /* Build configuration list for PBXNativeTarget "FJFTouchEventDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64F68AE02213B0220017990B /* Debug */,
+				64F68AE12213B0220017990B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64F68AE22213B0220017990B /* Build configuration list for PBXNativeTarget "FJFTouchEventDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64F68AE32213B0220017990B /* Debug */,
+				64F68AE42213B0220017990B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64F68AE52213B0220017990B /* Build configuration list for PBXNativeTarget "FJFTouchEventDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64F68AE62213B0220017990B /* Debug */,
+				64F68AE72213B0220017990B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64F68AAB2213B0210017990B /* Project object */;
+}
