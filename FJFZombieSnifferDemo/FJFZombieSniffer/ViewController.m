@@ -36,7 +36,7 @@
     UIView* testObj = [[UIView alloc] init];
     [testObj release];
     for (int i = 0; i < 10; i++) {
-        UIView* testView=[[UIView alloc] initWithFrame:CGRectMake(0,200,CGRectGetWidth(self.view.bounds), 60)];
+        UIView* testView = [[UIView alloc] initWithFrame:CGRectMake(0,200,CGRectGetWidth(self.view.bounds), 60)];
         [self.view addSubview:testView];
     }
     [testObj setNeedsLayout];
