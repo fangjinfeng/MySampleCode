@@ -155,7 +155,7 @@
 
 - (void)tableViewMoveToTop {
     [UIView animateWithDuration:0.3 animations:^{
-        self.tableView.y = self->_scrollViewStartPositionY + 1;
+        self.tableView.y = self->_scrollViewStartPositionY + 0.01;
         self.topContainerView.alpha = 0.0f;
         self.topContainerView.y = - [FJFTopContainerView viewHeight];
     } completion:^(BOOL finished) {
@@ -165,7 +165,7 @@
 
 - (void)tableViewMoveToBottom {
     [UIView animateWithDuration:0.3 animations:^{
-        self.tableView.y = self->_scrollViewLimitMaxY - 1;
+        self.tableView.y = self->_scrollViewLimitMaxY - 0.01;
         self.topContainerView.y = 0.0f;
         self.topContainerView.alpha = 1.0f;
     } completion:^(BOOL finished) {
