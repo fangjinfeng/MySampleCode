@@ -44,7 +44,9 @@
 // 设置 控件
 - (void)setupViewControls {
     
-    _scrollViewLimitMaxY = self.view.frame.size.height - 100;
+    self.edgesForExtendedLayout = UIRectEdgeNone;
+    
+    _scrollViewLimitMaxY = self.view.frame.size.height - 150;
     _scrollViewStartPositionY = 0;
     
     self.navigationItem.title = @"模仿高德路线规划滑动";
