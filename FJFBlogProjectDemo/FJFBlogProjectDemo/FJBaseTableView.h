@@ -9,5 +9,4 @@
 #import <UIKit/UIKit.h>
 
 @interface FJBaseTableView : UITableView
-@property (nonatomic, assign) BOOL enableScroll;
 @end
