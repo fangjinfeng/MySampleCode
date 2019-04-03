@@ -144,7 +144,7 @@
         }
         
         // 滑动临界值
-        CGFloat criticalValue = _scrollViewLimitMaxY/2.0;
+        CGFloat criticalValue = (_scrollViewLimitMaxY - _scrollViewStartPositionY)/2.0;
         if (sender.view.frame.origin.y <= criticalValue) {
             [self tableViewMoveToTop];
         } else {
