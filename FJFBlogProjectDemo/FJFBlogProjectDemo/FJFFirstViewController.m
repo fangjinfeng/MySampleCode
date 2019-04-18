@@ -105,9 +105,9 @@
         CGFloat offsetY = _previousOffsetY - self.tableView.contentOffset.y;
         NSInteger y_offset = point.y - _beganPoint.y - offsetY;
         
-        if (sender.view.frame.origin.y >= _scrollViewStartPositionY || (self.tableView.contentOffset.y == 0 && self.tableView.contentSize.height > self.tableView.frame.size.height)) {
+        if ((sender.view.frame.origin.y >= _scrollViewStartPositionY && sender.view.frame.origin.y <= _scrollViewLimitMaxY) || (self.tableView.contentOffset.y == 0 && self.tableView.contentSize.height > self.tableView.frame.size.height)) {
             sender.view.center = CGPointMake(_curPoint.x, _curPoint.y + y_offset);
-            [self updateViewControlsWithSlideOffset:y_offset];
+            [self updateViewControlsWhenSliding];
         }
         
         if (sender.view.frame.origin.y > _scrollViewLimitMaxY) {
@@ -175,15 +175,19 @@
     }];
 }
 
-- (void)updateViewControlsWithSlideOffset:(CGFloat)slideOffset {
-    CGFloat offsetLimitDistance = _scrollViewLimitMaxY - _scrollViewStartPositionY;
-    CGFloat topViewHeight = [FJFTopContainerView viewHeight];
+- (void)updateViewControlsWhenSliding {
+    if (self.tableView.frame.origin.y > _scrollViewStartPositionY && self.tableView.frame.origin.y < _scrollViewLimitMaxY) {
+        
+        CGFloat offsetLimitDistance = _scrollViewLimitMaxY - _scrollViewStartPositionY;
+        CGFloat offsetDistance = self.tableView.frame.origin.y - _scrollViewStartPositionY;
+        if (offsetDistance > 0 && offsetDistance < offsetLimitDistance) {
+            CGFloat topViewHeight = [FJFTopContainerView viewHeight];
+            CGFloat topViewHeightOffset =  offsetDistance * (topViewHeight / offsetLimitDistance);
+            CGFloat viewAlpha = offsetDistance / offsetLimitDistance;
+            _topContainerView.y = topViewHeightOffset - topViewHeight;
+            _topContainerView.alpha = viewAlpha;        }
+    }
     
-    CGFloat topViewHeightOffset =  slideOffset * (topViewHeight / offsetLimitDistance);
-    CGFloat viewAlpha = fabs(topViewHeightOffset) / topViewHeight;
-    
-    _topContainerView.y = _topTipContainerViewCurrentY + topViewHeightOffset;
-    _topContainerView.alpha = 1 - viewAlpha;
 }
 
 - (void)updateViewControlsWithSlideUp:(BOOL)slideUp {
