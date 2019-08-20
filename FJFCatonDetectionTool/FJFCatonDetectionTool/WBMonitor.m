@@ -15,7 +15,6 @@ static u_int64_t _MainRunLoopFrameMark = 0;
 static float _MainRunLoopMillisecondPerSecond = 1000.0;
 static double _MainRunLoopBlanceMillisecondPerFrame = 16.666666;
 
-
 static mach_timebase_info_data_t _MainRunLoopFrameTimeBase(void) {
     static mach_timebase_info_data_t *timebase = 0;
     
@@ -35,7 +34,6 @@ static void _MainRunLoopFrameCallBack(CFRunLoopActivity activity) {
         u_int64_t check = mach_absolute_time();
         u_int64_t sum = (check - _MainRunLoopFrameMark) * (double)timebase.numer / (double)timebase.denom / 1e6;
         _MainRunLoopFrameMark = check;
-
         if (sum > _MainRunLoopBlanceMillisecondPerFrame) {
             NSInteger blanceFramePerSecond = (NSInteger)(_MainRunLoopMillisecondPerSecond - sum);
             _MainRunLoopMillisecondPerSecond = (blanceFramePerSecond > 0) ? blanceFramePerSecond : 0;

@@ -6,7 +6,6 @@
 //  Copyright © 2019 方金峰. All rights reserved.
 //
 
-#import "YYFPSLabel.h"
 #import "WBMonitor.h"
 #import "ViewController.h"
 
@@ -28,9 +27,6 @@
     
     [self.view addSubview:self.myTableView];
     [self.view addSubview:self.fpsShowLabel];
-    
-    YYFPSLabel *fpsLabel = [[YYFPSLabel alloc] initWithFrame:CGRectMake(20, 100, 60, 30)];
-    [self.view addSubview:fpsLabel];
     
     WBMonitor *monitor = [[WBMonitor alloc] init];
     [monitor startMonitor];
