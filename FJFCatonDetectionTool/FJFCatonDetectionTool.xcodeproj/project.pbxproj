@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		644A4BB02303AE9B00E47FAA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 644A4BAF2303AE9B00E47FAA /* AppDelegate.m */; };
+		644A4BB32303AE9B00E47FAA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 644A4BB22303AE9B00E47FAA /* ViewController.m */; };
+		644A4BB62303AE9B00E47FAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 644A4BB42303AE9B00E47FAA /* Main.storyboard */; };
+		644A4BB82303AE9D00E47FAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 644A4BB72303AE9D00E47FAA /* Assets.xcassets */; };
+		644A4BBB2303AE9D00E47FAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 644A4BB92303AE9D00E47FAA /* LaunchScreen.storyboard */; };
+		644A4BBE2303AE9D00E47FAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 644A4BBD2303AE9D00E47FAA /* main.m */; };
+		644A4BC82303AE9D00E47FAA /* FJFCatonDetectionToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 644A4BC72303AE9D00E47FAA /* FJFCatonDetectionToolTests.m */; };
+		644A4BD32303AE9D00E47FAA /* FJFCatonDetectionToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 644A4BD22303AE9D00E47FAA /* FJFCatonDetectionToolUITests.m */; };
+		644A4BE22303AECF00E47FAA /* WBMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 644A4BE12303AECF00E47FAA /* WBMonitor.m */; };
+		644A4BE52303D54E00E47FAA /* BSBacktraceLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 644A4BE42303D54E00E47FAA /* BSBacktraceLogger.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		644A4BC42303AE9D00E47FAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 644A4BA32303AE9B00E47FAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 644A4BAA2303AE9B00E47FAA;
+			remoteInfo = FJFCatonDetectionTool;
+		};
+		644A4BCF2303AE9D00E47FAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 644A4BA32303AE9B00E47FAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 644A4BAA2303AE9B00E47FAA;
+			remoteInfo = FJFCatonDetectionTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		644A4BAB2303AE9B00E47FAA /* FJFCatonDetectionTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FJFCatonDetectionTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		644A4BAE2303AE9B00E47FAA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		644A4BAF2303AE9B00E47FAA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		644A4BB12303AE9B00E47FAA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		644A4BB22303AE9B00E47FAA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		644A4BB52303AE9B00E47FAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		644A4BB72303AE9D00E47FAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		644A4BBA2303AE9D00E47FAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		644A4BBC2303AE9D00E47FAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		644A4BBD2303AE9D00E47FAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		644A4BC32303AE9D00E47FAA /* FJFCatonDetectionToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FJFCatonDetectionToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		644A4BC72303AE9D00E47FAA /* FJFCatonDetectionToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJFCatonDetectionToolTests.m; sourceTree = "<group>"; };
+		644A4BC92303AE9D00E47FAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		644A4BCE2303AE9D00E47FAA /* FJFCatonDetectionToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FJFCatonDetectionToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		644A4BD22303AE9D00E47FAA /* FJFCatonDetectionToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJFCatonDetectionToolUITests.m; sourceTree = "<group>"; };
+		644A4BD42303AE9D00E47FAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		644A4BE02303AECF00E47FAA /* WBMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBMonitor.h; sourceTree = "<group>"; };
+		644A4BE12303AECF00E47FAA /* WBMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBMonitor.m; sourceTree = "<group>"; };
+		644A4BE32303D54E00E47FAA /* BSBacktraceLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSBacktraceLogger.h; sourceTree = "<group>"; };
+		644A4BE42303D54E00E47FAA /* BSBacktraceLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSBacktraceLogger.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		644A4BA82303AE9B00E47FAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		644A4BC02303AE9D00E47FAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		644A4BCB2303AE9D00E47FAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		644A4BA22303AE9B00E47FAA = {
+			isa = PBXGroup;
+			children = (
+				644A4BAD2303AE9B00E47FAA /* FJFCatonDetectionTool */,
+				644A4BC62303AE9D00E47FAA /* FJFCatonDetectionToolTests */,
+				644A4BD12303AE9D00E47FAA /* FJFCatonDetectionToolUITests */,
+				644A4BAC2303AE9B00E47FAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		644A4BAC2303AE9B00E47FAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				644A4BAB2303AE9B00E47FAA /* FJFCatonDetectionTool.app */,
+				644A4BC32303AE9D00E47FAA /* FJFCatonDetectionToolTests.xctest */,
+				644A4BCE2303AE9D00E47FAA /* FJFCatonDetectionToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		644A4BAD2303AE9B00E47FAA /* FJFCatonDetectionTool */ = {
+			isa = PBXGroup;
+			children = (
+				644A4BAE2303AE9B00E47FAA /* AppDelegate.h */,
+				644A4BAF2303AE9B00E47FAA /* AppDelegate.m */,
+				644A4BB12303AE9B00E47FAA /* ViewController.h */,
+				644A4BB22303AE9B00E47FAA /* ViewController.m */,
+				644A4BE02303AECF00E47FAA /* WBMonitor.h */,
+				644A4BE12303AECF00E47FAA /* WBMonitor.m */,
+				644A4BE32303D54E00E47FAA /* BSBacktraceLogger.h */,
+				644A4BE42303D54E00E47FAA /* BSBacktraceLogger.m */,
+				644A4BB42303AE9B00E47FAA /* Main.storyboard */,
+				644A4BB72303AE9D00E47FAA /* Assets.xcassets */,
+				644A4BB92303AE9D00E47FAA /* LaunchScreen.storyboard */,
+				644A4BBC2303AE9D00E47FAA /* Info.plist */,
+				644A4BBD2303AE9D00E47FAA /* main.m */,
+			);
+			path = FJFCatonDetectionTool;
+			sourceTree = "<group>";
+		};
+		644A4BC62303AE9D00E47FAA /* FJFCatonDetectionToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				644A4BC72303AE9D00E47FAA /* FJFCatonDetectionToolTests.m */,
+				644A4BC92303AE9D00E47FAA /* Info.plist */,
+			);
+			path = FJFCatonDetectionToolTests;
+			sourceTree = "<group>";
+		};
+		644A4BD12303AE9D00E47FAA /* FJFCatonDetectionToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				644A4BD22303AE9D00E47FAA /* FJFCatonDetectionToolUITests.m */,
+				644A4BD42303AE9D00E47FAA /* Info.plist */,
+			);
+			path = FJFCatonDetectionToolUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		644A4BAA2303AE9B00E47FAA /* FJFCatonDetectionTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 644A4BD72303AE9D00E47FAA /* Build configuration list for PBXNativeTarget "FJFCatonDetectionTool" */;
+			buildPhases = (
+				644A4BA72303AE9B00E47FAA /* Sources */,
+				644A4BA82303AE9B00E47FAA /* Frameworks */,
+				644A4BA92303AE9B00E47FAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FJFCatonDetectionTool;
+			productName = FJFCatonDetectionTool;
+			productReference = 644A4BAB2303AE9B00E47FAA /* FJFCatonDetectionTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		644A4BC22303AE9D00E47FAA /* FJFCatonDetectionToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 644A4BDA2303AE9D00E47FAA /* Build configuration list for PBXNativeTarget "FJFCatonDetectionToolTests" */;
+			buildPhases = (
+				644A4BBF2303AE9D00E47FAA /* Sources */,
+				644A4BC02303AE9D00E47FAA /* Frameworks */,
+				644A4BC12303AE9D00E47FAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				644A4BC52303AE9D00E47FAA /* PBXTargetDependency */,
+			);
+			name = FJFCatonDetectionToolTests;
+			productName = FJFCatonDetectionToolTests;
+			productReference = 644A4BC32303AE9D00E47FAA /* FJFCatonDetectionToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		644A4BCD2303AE9D00E47FAA /* FJFCatonDetectionToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 644A4BDD2303AE9D00E47FAA /* Build configuration list for PBXNativeTarget "FJFCatonDetectionToolUITests" */;
+			buildPhases = (
+				644A4BCA2303AE9D00E47FAA /* Sources */,
+				644A4BCB2303AE9D00E47FAA /* Frameworks */,
+				644A4BCC2303AE9D00E47FAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				644A4BD02303AE9D00E47FAA /* PBXTargetDependency */,
+			);
+			name = FJFCatonDetectionToolUITests;
+			productName = FJFCatonDetectionToolUITests;
+			productReference = 644A4BCE2303AE9D00E47FAA /* FJFCatonDetectionToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		644A4BA32303AE9B00E47FAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "方金峰";
+				TargetAttributes = {
+					644A4BAA2303AE9B00E47FAA = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					644A4BC22303AE9D00E47FAA = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 644A4BAA2303AE9B00E47FAA;
+					};
+					644A4BCD2303AE9D00E47FAA = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 644A4BAA2303AE9B00E47FAA;
+					};
+				};
+			};
+			buildConfigurationList = 644A4BA62303AE9B00E47FAA /* Build configuration list for PBXProject "FJFCatonDetectionTool" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 644A4BA22303AE9B00E47FAA;
+			productRefGroup = 644A4BAC2303AE9B00E47FAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				644A4BAA2303AE9B00E47FAA /* FJFCatonDetectionTool */,
+				644A4BC22303AE9D00E47FAA /* FJFCatonDetectionToolTests */,
+				644A4BCD2303AE9D00E47FAA /* FJFCatonDetectionToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		644A4BA92303AE9B00E47FAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				644A4BBB2303AE9D00E47FAA /* LaunchScreen.storyboard in Resources */,
+				644A4BB82303AE9D00E47FAA /* Assets.xcassets in Resources */,
+				644A4BB62303AE9B00E47FAA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		644A4BC12303AE9D00E47FAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		644A4BCC2303AE9D00E47FAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		644A4BA72303AE9B00E47FAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				644A4BB32303AE9B00E47FAA /* ViewController.m in Sources */,
+				644A4BBE2303AE9D00E47FAA /* main.m in Sources */,
+				644A4BB02303AE9B00E47FAA /* AppDelegate.m in Sources */,
+				644A4BE22303AECF00E47FAA /* WBMonitor.m in Sources */,
+				644A4BE52303D54E00E47FAA /* BSBacktraceLogger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		644A4BBF2303AE9D00E47FAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				644A4BC82303AE9D00E47FAA /* FJFCatonDetectionToolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		644A4BCA2303AE9D00E47FAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				644A4BD32303AE9D00E47FAA /* FJFCatonDetectionToolUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		644A4BC52303AE9D00E47FAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 644A4BAA2303AE9B00E47FAA /* FJFCatonDetectionTool */;
+			targetProxy = 644A4BC42303AE9D00E47FAA /* PBXContainerItemProxy */;
+		};
+		644A4BD02303AE9D00E47FAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 644A4BAA2303AE9B00E47FAA /* FJFCatonDetectionTool */;
+			targetProxy = 644A4BCF2303AE9D00E47FAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		644A4BB42303AE9B00E47FAA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				644A4BB52303AE9B00E47FAA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		644A4BB92303AE9D00E47FAA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				644A4BBA2303AE9D00E47FAA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		644A4BD52303AE9D00E47FAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		644A4BD62303AE9D00E47FAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		644A4BD82303AE9D00E47FAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2PB2XYK7EA;
+				INFOPLIST_FILE = FJFCatonDetectionTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FJF.FJFCatonDetectionTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		644A4BD92303AE9D00E47FAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2PB2XYK7EA;
+				INFOPLIST_FILE = FJFCatonDetectionTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FJF.FJFCatonDetectionTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		644A4BDB2303AE9D00E47FAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2PB2XYK7EA;
+				INFOPLIST_FILE = FJFCatonDetectionToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FJF.FJFCatonDetectionToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FJFCatonDetectionTool.app/FJFCatonDetectionTool";
+			};
+			name = Debug;
+		};
+		644A4BDC2303AE9D00E47FAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2PB2XYK7EA;
+				INFOPLIST_FILE = FJFCatonDetectionToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FJF.FJFCatonDetectionToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FJFCatonDetectionTool.app/FJFCatonDetectionTool";
+			};
+			name = Release;
+		};
+		644A4BDE2303AE9D00E47FAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2PB2XYK7EA;
+				INFOPLIST_FILE = FJFCatonDetectionToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FJF.FJFCatonDetectionToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FJFCatonDetectionTool;
+			};
+			name = Debug;
+		};
+		644A4BDF2303AE9D00E47FAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2PB2XYK7EA;
+				INFOPLIST_FILE = FJFCatonDetectionToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FJF.FJFCatonDetectionToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FJFCatonDetectionTool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		644A4BA62303AE9B00E47FAA /* Build configuration list for PBXProject "FJFCatonDetectionTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				644A4BD52303AE9D00E47FAA /* Debug */,
+				644A4BD62303AE9D00E47FAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		644A4BD72303AE9D00E47FAA /* Build configuration list for PBXNativeTarget "FJFCatonDetectionTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				644A4BD82303AE9D00E47FAA /* Debug */,
+				644A4BD92303AE9D00E47FAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		644A4BDA2303AE9D00E47FAA /* Build configuration list for PBXNativeTarget "FJFCatonDetectionToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				644A4BDB2303AE9D00E47FAA /* Debug */,
+				644A4BDC2303AE9D00E47FAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		644A4BDD2303AE9D00E47FAA /* Build configuration list for PBXNativeTarget "FJFCatonDetectionToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				644A4BDE2303AE9D00E47FAA /* Debug */,
+				644A4BDF2303AE9D00E47FAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 644A4BA32303AE9B00E47FAA /* Project object */;
+}
