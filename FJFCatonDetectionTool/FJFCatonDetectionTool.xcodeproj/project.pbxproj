@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6400FF3A230C07A70021E0CD /* FJFMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6400FF39230C07A70021E0CD /* FJFMonitor.m */; };
 		644A4BB02303AE9B00E47FAA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 644A4BAF2303AE9B00E47FAA /* AppDelegate.m */; };
 		644A4BB32303AE9B00E47FAA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 644A4BB22303AE9B00E47FAA /* ViewController.m */; };
 		644A4BB62303AE9B00E47FAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 644A4BB42303AE9B00E47FAA /* Main.storyboard */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6400FF38230C07A70021E0CD /* FJFMonitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FJFMonitor.h; sourceTree = "<group>"; };
+		6400FF39230C07A70021E0CD /* FJFMonitor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJFMonitor.m; sourceTree = "<group>"; };
 		644A4BAB2303AE9B00E47FAA /* FJFCatonDetectionTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FJFCatonDetectionTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		644A4BAE2303AE9B00E47FAA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		644A4BAF2303AE9B00E47FAA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -113,6 +116,8 @@
 				644A4BB22303AE9B00E47FAA /* ViewController.m */,
 				644A4BE02303AECF00E47FAA /* WBMonitor.h */,
 				644A4BE12303AECF00E47FAA /* WBMonitor.m */,
+				6400FF38230C07A70021E0CD /* FJFMonitor.h */,
+				6400FF39230C07A70021E0CD /* FJFMonitor.m */,
 				644A4BE32303D54E00E47FAA /* BSBacktraceLogger.h */,
 				644A4BE42303D54E00E47FAA /* BSBacktraceLogger.m */,
 				644A4BB42303AE9B00E47FAA /* Main.storyboard */,
@@ -277,6 +282,7 @@
 				644A4BB02303AE9B00E47FAA /* AppDelegate.m in Sources */,
 				644A4BE22303AECF00E47FAA /* WBMonitor.m in Sources */,
 				644A4BE52303D54E00E47FAA /* BSBacktraceLogger.m in Sources */,
+				6400FF3A230C07A70021E0CD /* FJFMonitor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

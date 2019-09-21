@@ -7,6 +7,7 @@
 //
 
 #import "WBMonitor.h"
+#import "FJFMonitor.h"
 #import "ViewController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
@@ -30,6 +31,9 @@
     
     WBMonitor *monitor = [[WBMonitor alloc] init];
     [monitor startMonitor];
+    FJFMonitor *tmpMonitor = [FJFMonitor new];
+    [tmpMonitor startMonitor];
+    
     __weak typeof(self) weakSelf = self;
     monitor.fpsBlock = ^(NSInteger fps) {
        weakSelf.fpsShowLabel.text = [NSString stringWithFormat:@"%ld", fps];

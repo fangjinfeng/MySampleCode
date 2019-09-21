@@ -1,0 +1,672 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A035A4D2325ED40001CFD3E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A035A4C2325ED40001CFD3E /* AppDelegate.m */; };
+		9A035A502325ED40001CFD3E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A035A4F2325ED40001CFD3E /* ViewController.m */; };
+		9A035A532325ED40001CFD3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A035A512325ED40001CFD3E /* Main.storyboard */; };
+		9A035A552325ED41001CFD3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A035A542325ED41001CFD3E /* Assets.xcassets */; };
+		9A035A582325ED41001CFD3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A035A562325ED41001CFD3E /* LaunchScreen.storyboard */; };
+		9A035A5B2325ED41001CFD3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A035A5A2325ED41001CFD3E /* main.m */; };
+		9A035A652325ED41001CFD3E /* FJFMarqueeGradientEffectDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A035A642325ED41001CFD3E /* FJFMarqueeGradientEffectDemoTests.m */; };
+		9A035A702325ED41001CFD3E /* FJFMarqueeGradientEffectDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A035A6F2325ED41001CFD3E /* FJFMarqueeGradientEffectDemoUITests.m */; };
+		9A035A7F2325EDC6001CFD3E /* FJFMarqueeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A035A7E2325EDC6001CFD3E /* FJFMarqueeView.m */; };
+		9A035AD82325F9BB001CFD3E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 9A035AD32325F9BB001CFD3E /* LICENSE */; };
+		9A035AD92325F9BB001CFD3E /* JhtMarquee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A035AD52325F9BB001CFD3E /* JhtMarquee.framework */; };
+		9A035ADA2325F9BB001CFD3E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9A035AD72325F9BB001CFD3E /* README.md */; };
+		9A035ADD2325FB44001CFD3E /* FJFMaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A035ADC2325FB44001CFD3E /* FJFMaskViewController.m */; };
+		9A0BE25B232F7D0D008B68F1 /* FJFMarqueeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0BE25A232F7D0D008B68F1 /* FJFMarqueeViewController.m */; };
+		9A0BE2B3232F80D7008B68F1 /* FJFShapeCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0BE2AF232F80D7008B68F1 /* FJFShapeCircleView.m */; };
+		9A0BE2B4232F80D7008B68F1 /* FJFShapeCircleViewStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0BE2B1232F80D7008B68F1 /* FJFShapeCircleViewStyle.m */; };
+		9A0BE2B7232F81EB008B68F1 /* FJFCircleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0BE2B6232F81EB008B68F1 /* FJFCircleViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A035A612325ED41001CFD3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A035A402325ED40001CFD3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A035A472325ED40001CFD3E;
+			remoteInfo = FJFMarqueeGradientEffectDemo;
+		};
+		9A035A6C2325ED41001CFD3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A035A402325ED40001CFD3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A035A472325ED40001CFD3E;
+			remoteInfo = FJFMarqueeGradientEffectDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9A035A482325ED40001CFD3E /* FJFMarqueeGradientEffectDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FJFMarqueeGradientEffectDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A035A4B2325ED40001CFD3E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9A035A4C2325ED40001CFD3E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9A035A4E2325ED40001CFD3E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9A035A4F2325ED40001CFD3E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9A035A522325ED40001CFD3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A035A542325ED41001CFD3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A035A572325ED41001CFD3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A035A592325ED41001CFD3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A035A5A2325ED41001CFD3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9A035A602325ED41001CFD3E /* FJFMarqueeGradientEffectDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FJFMarqueeGradientEffectDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A035A642325ED41001CFD3E /* FJFMarqueeGradientEffectDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJFMarqueeGradientEffectDemoTests.m; sourceTree = "<group>"; };
+		9A035A662325ED41001CFD3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A035A6B2325ED41001CFD3E /* FJFMarqueeGradientEffectDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FJFMarqueeGradientEffectDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A035A6F2325ED41001CFD3E /* FJFMarqueeGradientEffectDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJFMarqueeGradientEffectDemoUITests.m; sourceTree = "<group>"; };
+		9A035A712325ED41001CFD3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A035A7D2325EDC6001CFD3E /* FJFMarqueeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFMarqueeView.h; sourceTree = "<group>"; };
+		9A035A7E2325EDC6001CFD3E /* FJFMarqueeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFMarqueeView.m; sourceTree = "<group>"; };
+		9A035AD32325F9BB001CFD3E /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9A035AD52325F9BB001CFD3E /* JhtMarquee.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JhtMarquee.framework; sourceTree = "<group>"; };
+		9A035AD72325F9BB001CFD3E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9A035ADB2325FB44001CFD3E /* FJFMaskViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FJFMaskViewController.h; sourceTree = "<group>"; };
+		9A035ADC2325FB44001CFD3E /* FJFMaskViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJFMaskViewController.m; sourceTree = "<group>"; };
+		9A0BE259232F7D0D008B68F1 /* FJFMarqueeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FJFMarqueeViewController.h; sourceTree = "<group>"; };
+		9A0BE25A232F7D0D008B68F1 /* FJFMarqueeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJFMarqueeViewController.m; sourceTree = "<group>"; };
+		9A0BE2AF232F80D7008B68F1 /* FJFShapeCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFShapeCircleView.m; sourceTree = "<group>"; };
+		9A0BE2B0232F80D7008B68F1 /* FJFShapeCircleViewStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFShapeCircleViewStyle.h; sourceTree = "<group>"; };
+		9A0BE2B1232F80D7008B68F1 /* FJFShapeCircleViewStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFShapeCircleViewStyle.m; sourceTree = "<group>"; };
+		9A0BE2B2232F80D7008B68F1 /* FJFShapeCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFShapeCircleView.h; sourceTree = "<group>"; };
+		9A0BE2B5232F81EB008B68F1 /* FJFCircleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FJFCircleViewController.h; sourceTree = "<group>"; };
+		9A0BE2B6232F81EB008B68F1 /* FJFCircleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJFCircleViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A035A452325ED40001CFD3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A035AD92325F9BB001CFD3E /* JhtMarquee.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A035A5D2325ED41001CFD3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A035A682325ED41001CFD3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A035A3F2325ED40001CFD3E = {
+			isa = PBXGroup;
+			children = (
+				9A035A4A2325ED40001CFD3E /* FJFMarqueeGradientEffectDemo */,
+				9A035A632325ED41001CFD3E /* FJFMarqueeGradientEffectDemoTests */,
+				9A035A6E2325ED41001CFD3E /* FJFMarqueeGradientEffectDemoUITests */,
+				9A035A492325ED40001CFD3E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A035A492325ED40001CFD3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A035A482325ED40001CFD3E /* FJFMarqueeGradientEffectDemo.app */,
+				9A035A602325ED41001CFD3E /* FJFMarqueeGradientEffectDemoTests.xctest */,
+				9A035A6B2325ED41001CFD3E /* FJFMarqueeGradientEffectDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A035A4A2325ED40001CFD3E /* FJFMarqueeGradientEffectDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9A0BE2AE232F80D7008B68F1 /* FJFShapeCircleView */,
+				9A035AD22325F9BB001CFD3E /* JhtMarquee */,
+				9A035A4B2325ED40001CFD3E /* AppDelegate.h */,
+				9A035A4C2325ED40001CFD3E /* AppDelegate.m */,
+				9A035A4E2325ED40001CFD3E /* ViewController.h */,
+				9A035A4F2325ED40001CFD3E /* ViewController.m */,
+				9A035ADB2325FB44001CFD3E /* FJFMaskViewController.h */,
+				9A035ADC2325FB44001CFD3E /* FJFMaskViewController.m */,
+				9A0BE259232F7D0D008B68F1 /* FJFMarqueeViewController.h */,
+				9A0BE25A232F7D0D008B68F1 /* FJFMarqueeViewController.m */,
+				9A0BE2B5232F81EB008B68F1 /* FJFCircleViewController.h */,
+				9A0BE2B6232F81EB008B68F1 /* FJFCircleViewController.m */,
+				9A035A7D2325EDC6001CFD3E /* FJFMarqueeView.h */,
+				9A035A7E2325EDC6001CFD3E /* FJFMarqueeView.m */,
+				9A035A512325ED40001CFD3E /* Main.storyboard */,
+				9A035A542325ED41001CFD3E /* Assets.xcassets */,
+				9A035A562325ED41001CFD3E /* LaunchScreen.storyboard */,
+				9A035A592325ED41001CFD3E /* Info.plist */,
+				9A035A5A2325ED41001CFD3E /* main.m */,
+			);
+			path = FJFMarqueeGradientEffectDemo;
+			sourceTree = "<group>";
+		};
+		9A035A632325ED41001CFD3E /* FJFMarqueeGradientEffectDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A035A642325ED41001CFD3E /* FJFMarqueeGradientEffectDemoTests.m */,
+				9A035A662325ED41001CFD3E /* Info.plist */,
+			);
+			path = FJFMarqueeGradientEffectDemoTests;
+			sourceTree = "<group>";
+		};
+		9A035A6E2325ED41001CFD3E /* FJFMarqueeGradientEffectDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9A035A6F2325ED41001CFD3E /* FJFMarqueeGradientEffectDemoUITests.m */,
+				9A035A712325ED41001CFD3E /* Info.plist */,
+			);
+			path = FJFMarqueeGradientEffectDemoUITests;
+			sourceTree = "<group>";
+		};
+		9A035AD22325F9BB001CFD3E /* JhtMarquee */ = {
+			isa = PBXGroup;
+			children = (
+				9A035AD32325F9BB001CFD3E /* LICENSE */,
+				9A035AD42325F9BB001CFD3E /* JhtMarquee_SDK */,
+				9A035AD62325F9BB001CFD3E /* JhtMarquee */,
+				9A035AD72325F9BB001CFD3E /* README.md */,
+			);
+			path = JhtMarquee;
+			sourceTree = "<group>";
+		};
+		9A035AD42325F9BB001CFD3E /* JhtMarquee_SDK */ = {
+			isa = PBXGroup;
+			children = (
+				9A035AD52325F9BB001CFD3E /* JhtMarquee.framework */,
+			);
+			path = JhtMarquee_SDK;
+			sourceTree = "<group>";
+		};
+		9A035AD62325F9BB001CFD3E /* JhtMarquee */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = JhtMarquee;
+			sourceTree = "<group>";
+		};
+		9A0BE2AE232F80D7008B68F1 /* FJFShapeCircleView */ = {
+			isa = PBXGroup;
+			children = (
+				9A0BE2B2232F80D7008B68F1 /* FJFShapeCircleView.h */,
+				9A0BE2AF232F80D7008B68F1 /* FJFShapeCircleView.m */,
+				9A0BE2B0232F80D7008B68F1 /* FJFShapeCircleViewStyle.h */,
+				9A0BE2B1232F80D7008B68F1 /* FJFShapeCircleViewStyle.m */,
+			);
+			path = FJFShapeCircleView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A035A472325ED40001CFD3E /* FJFMarqueeGradientEffectDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A035A742325ED41001CFD3E /* Build configuration list for PBXNativeTarget "FJFMarqueeGradientEffectDemo" */;
+			buildPhases = (
+				9A035A442325ED40001CFD3E /* Sources */,
+				9A035A452325ED40001CFD3E /* Frameworks */,
+				9A035A462325ED40001CFD3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FJFMarqueeGradientEffectDemo;
+			productName = FJFMarqueeGradientEffectDemo;
+			productReference = 9A035A482325ED40001CFD3E /* FJFMarqueeGradientEffectDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A035A5F2325ED41001CFD3E /* FJFMarqueeGradientEffectDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A035A772325ED41001CFD3E /* Build configuration list for PBXNativeTarget "FJFMarqueeGradientEffectDemoTests" */;
+			buildPhases = (
+				9A035A5C2325ED41001CFD3E /* Sources */,
+				9A035A5D2325ED41001CFD3E /* Frameworks */,
+				9A035A5E2325ED41001CFD3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A035A622325ED41001CFD3E /* PBXTargetDependency */,
+			);
+			name = FJFMarqueeGradientEffectDemoTests;
+			productName = FJFMarqueeGradientEffectDemoTests;
+			productReference = 9A035A602325ED41001CFD3E /* FJFMarqueeGradientEffectDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9A035A6A2325ED41001CFD3E /* FJFMarqueeGradientEffectDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A035A7A2325ED41001CFD3E /* Build configuration list for PBXNativeTarget "FJFMarqueeGradientEffectDemoUITests" */;
+			buildPhases = (
+				9A035A672325ED41001CFD3E /* Sources */,
+				9A035A682325ED41001CFD3E /* Frameworks */,
+				9A035A692325ED41001CFD3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A035A6D2325ED41001CFD3E /* PBXTargetDependency */,
+			);
+			name = FJFMarqueeGradientEffectDemoUITests;
+			productName = FJFMarqueeGradientEffectDemoUITests;
+			productReference = 9A035A6B2325ED41001CFD3E /* FJFMarqueeGradientEffectDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A035A402325ED40001CFD3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = macmini;
+				TargetAttributes = {
+					9A035A472325ED40001CFD3E = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					9A035A5F2325ED41001CFD3E = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 9A035A472325ED40001CFD3E;
+					};
+					9A035A6A2325ED41001CFD3E = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 9A035A472325ED40001CFD3E;
+					};
+				};
+			};
+			buildConfigurationList = 9A035A432325ED40001CFD3E /* Build configuration list for PBXProject "FJFMarqueeGradientEffectDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A035A3F2325ED40001CFD3E;
+			productRefGroup = 9A035A492325ED40001CFD3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A035A472325ED40001CFD3E /* FJFMarqueeGradientEffectDemo */,
+				9A035A5F2325ED41001CFD3E /* FJFMarqueeGradientEffectDemoTests */,
+				9A035A6A2325ED41001CFD3E /* FJFMarqueeGradientEffectDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A035A462325ED40001CFD3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A035A582325ED41001CFD3E /* LaunchScreen.storyboard in Resources */,
+				9A035A552325ED41001CFD3E /* Assets.xcassets in Resources */,
+				9A035ADA2325F9BB001CFD3E /* README.md in Resources */,
+				9A035AD82325F9BB001CFD3E /* LICENSE in Resources */,
+				9A035A532325ED40001CFD3E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A035A5E2325ED41001CFD3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A035A692325ED41001CFD3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A035A442325ED40001CFD3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A035A502325ED40001CFD3E /* ViewController.m in Sources */,
+				9A035ADD2325FB44001CFD3E /* FJFMaskViewController.m in Sources */,
+				9A0BE25B232F7D0D008B68F1 /* FJFMarqueeViewController.m in Sources */,
+				9A0BE2B4232F80D7008B68F1 /* FJFShapeCircleViewStyle.m in Sources */,
+				9A0BE2B7232F81EB008B68F1 /* FJFCircleViewController.m in Sources */,
+				9A0BE2B3232F80D7008B68F1 /* FJFShapeCircleView.m in Sources */,
+				9A035A5B2325ED41001CFD3E /* main.m in Sources */,
+				9A035A7F2325EDC6001CFD3E /* FJFMarqueeView.m in Sources */,
+				9A035A4D2325ED40001CFD3E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A035A5C2325ED41001CFD3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A035A652325ED41001CFD3E /* FJFMarqueeGradientEffectDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A035A672325ED41001CFD3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A035A702325ED41001CFD3E /* FJFMarqueeGradientEffectDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A035A622325ED41001CFD3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A035A472325ED40001CFD3E /* FJFMarqueeGradientEffectDemo */;
+			targetProxy = 9A035A612325ED41001CFD3E /* PBXContainerItemProxy */;
+		};
+		9A035A6D2325ED41001CFD3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A035A472325ED40001CFD3E /* FJFMarqueeGradientEffectDemo */;
+			targetProxy = 9A035A6C2325ED41001CFD3E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A035A512325ED40001CFD3E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A035A522325ED40001CFD3E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A035A562325ED41001CFD3E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A035A572325ED41001CFD3E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A035A722325ED41001CFD3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9A035A732325ED41001CFD3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A035A752325ED41001CFD3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SDMS3W5X5V;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FJFMarqueeGradientEffectDemo/JhtMarquee/JhtMarquee_SDK",
+				);
+				INFOPLIST_FILE = FJFMarqueeGradientEffectDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FJF.FJFMarqueeGradientEffectDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A035A762325ED41001CFD3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SDMS3W5X5V;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FJFMarqueeGradientEffectDemo/JhtMarquee/JhtMarquee_SDK",
+				);
+				INFOPLIST_FILE = FJFMarqueeGradientEffectDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FJF.FJFMarqueeGradientEffectDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9A035A782325ED41001CFD3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SDMS3W5X5V;
+				INFOPLIST_FILE = FJFMarqueeGradientEffectDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FJF.FJFMarqueeGradientEffectDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FJFMarqueeGradientEffectDemo.app/FJFMarqueeGradientEffectDemo";
+			};
+			name = Debug;
+		};
+		9A035A792325ED41001CFD3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SDMS3W5X5V;
+				INFOPLIST_FILE = FJFMarqueeGradientEffectDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FJF.FJFMarqueeGradientEffectDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FJFMarqueeGradientEffectDemo.app/FJFMarqueeGradientEffectDemo";
+			};
+			name = Release;
+		};
+		9A035A7B2325ED41001CFD3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SDMS3W5X5V;
+				INFOPLIST_FILE = FJFMarqueeGradientEffectDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FJF.FJFMarqueeGradientEffectDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FJFMarqueeGradientEffectDemo;
+			};
+			name = Debug;
+		};
+		9A035A7C2325ED41001CFD3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SDMS3W5X5V;
+				INFOPLIST_FILE = FJFMarqueeGradientEffectDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FJF.FJFMarqueeGradientEffectDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FJFMarqueeGradientEffectDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A035A432325ED40001CFD3E /* Build configuration list for PBXProject "FJFMarqueeGradientEffectDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A035A722325ED41001CFD3E /* Debug */,
+				9A035A732325ED41001CFD3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A035A742325ED41001CFD3E /* Build configuration list for PBXNativeTarget "FJFMarqueeGradientEffectDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A035A752325ED41001CFD3E /* Debug */,
+				9A035A762325ED41001CFD3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A035A772325ED41001CFD3E /* Build configuration list for PBXNativeTarget "FJFMarqueeGradientEffectDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A035A782325ED41001CFD3E /* Debug */,
+				9A035A792325ED41001CFD3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A035A7A2325ED41001CFD3E /* Build configuration list for PBXNativeTarget "FJFMarqueeGradientEffectDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A035A7B2325ED41001CFD3E /* Debug */,
+				9A035A7C2325ED41001CFD3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A035A402325ED40001CFD3E /* Project object */;
+}

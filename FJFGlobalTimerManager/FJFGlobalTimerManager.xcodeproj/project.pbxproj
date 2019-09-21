@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A06292E232E3FE500751426 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A06292D232E3FE500751426 /* AppDelegate.m */; };
+		9A062931232E3FE500751426 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A062930232E3FE500751426 /* ViewController.m */; };
+		9A062934232E3FE500751426 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A062932232E3FE500751426 /* Main.storyboard */; };
+		9A062936232E3FE700751426 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A062935232E3FE700751426 /* Assets.xcassets */; };
+		9A062939232E3FE700751426 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A062937232E3FE700751426 /* LaunchScreen.storyboard */; };
+		9A06293C232E3FE700751426 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A06293B232E3FE700751426 /* main.m */; };
+		9A062946232E3FE700751426 /* FJFGlobalTimerManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A062945232E3FE700751426 /* FJFGlobalTimerManagerTests.m */; };
+		9A062951232E3FE700751426 /* FJFGlobalTimerManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A062950232E3FE700751426 /* FJFGlobalTimerManagerUITests.m */; };
+		9A062961232E405B00751426 /* FJFGlobalTimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A062960232E405B00751426 /* FJFGlobalTimerManager.m */; };
+		9A0BE255232F2E99008B68F1 /* NSObject+PerformTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0BE254232F2E99008B68F1 /* NSObject+PerformTimer.m */; };
+		9A0BE258232F34A7008B68F1 /* FJFFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0BE257232F34A7008B68F1 /* FJFFirstViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A062942232E3FE700751426 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A062921232E3FE500751426 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A062928232E3FE500751426;
+			remoteInfo = FJFGlobalTimerManager;
+		};
+		9A06294D232E3FE700751426 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A062921232E3FE500751426 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A062928232E3FE500751426;
+			remoteInfo = FJFGlobalTimerManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9A062929232E3FE500751426 /* FJFGlobalTimerManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FJFGlobalTimerManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A06292C232E3FE500751426 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9A06292D232E3FE500751426 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9A06292F232E3FE500751426 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9A062930232E3FE500751426 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9A062933232E3FE500751426 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A062935232E3FE700751426 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A062938232E3FE700751426 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A06293A232E3FE700751426 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A06293B232E3FE700751426 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9A062941232E3FE700751426 /* FJFGlobalTimerManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FJFGlobalTimerManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A062945232E3FE700751426 /* FJFGlobalTimerManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJFGlobalTimerManagerTests.m; sourceTree = "<group>"; };
+		9A062947232E3FE700751426 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A06294C232E3FE700751426 /* FJFGlobalTimerManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FJFGlobalTimerManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A062950232E3FE700751426 /* FJFGlobalTimerManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJFGlobalTimerManagerUITests.m; sourceTree = "<group>"; };
+		9A062952232E3FE700751426 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A06295F232E405B00751426 /* FJFGlobalTimerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FJFGlobalTimerManager.h; sourceTree = "<group>"; };
+		9A062960232E405B00751426 /* FJFGlobalTimerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJFGlobalTimerManager.m; sourceTree = "<group>"; };
+		9A0BE253232F2E99008B68F1 /* NSObject+PerformTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+PerformTimer.h"; sourceTree = "<group>"; };
+		9A0BE254232F2E99008B68F1 /* NSObject+PerformTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+PerformTimer.m"; sourceTree = "<group>"; };
+		9A0BE256232F34A7008B68F1 /* FJFFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FJFFirstViewController.h; sourceTree = "<group>"; };
+		9A0BE257232F34A7008B68F1 /* FJFFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJFFirstViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A062926232E3FE500751426 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A06293E232E3FE700751426 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A062949232E3FE700751426 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A062920232E3FE500751426 = {
+			isa = PBXGroup;
+			children = (
+				9A06292B232E3FE500751426 /* FJFGlobalTimerManager */,
+				9A062944232E3FE700751426 /* FJFGlobalTimerManagerTests */,
+				9A06294F232E3FE700751426 /* FJFGlobalTimerManagerUITests */,
+				9A06292A232E3FE500751426 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A06292A232E3FE500751426 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A062929232E3FE500751426 /* FJFGlobalTimerManager.app */,
+				9A062941232E3FE700751426 /* FJFGlobalTimerManagerTests.xctest */,
+				9A06294C232E3FE700751426 /* FJFGlobalTimerManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A06292B232E3FE500751426 /* FJFGlobalTimerManager */ = {
+			isa = PBXGroup;
+			children = (
+				9A06295E232E404500751426 /* GlobalTimer */,
+				9A06292C232E3FE500751426 /* AppDelegate.h */,
+				9A06292D232E3FE500751426 /* AppDelegate.m */,
+				9A06292F232E3FE500751426 /* ViewController.h */,
+				9A062930232E3FE500751426 /* ViewController.m */,
+				9A0BE256232F34A7008B68F1 /* FJFFirstViewController.h */,
+				9A0BE257232F34A7008B68F1 /* FJFFirstViewController.m */,
+				9A062932232E3FE500751426 /* Main.storyboard */,
+				9A062935232E3FE700751426 /* Assets.xcassets */,
+				9A062937232E3FE700751426 /* LaunchScreen.storyboard */,
+				9A06293A232E3FE700751426 /* Info.plist */,
+				9A06293B232E3FE700751426 /* main.m */,
+			);
+			path = FJFGlobalTimerManager;
+			sourceTree = "<group>";
+		};
+		9A062944232E3FE700751426 /* FJFGlobalTimerManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A062945232E3FE700751426 /* FJFGlobalTimerManagerTests.m */,
+				9A062947232E3FE700751426 /* Info.plist */,
+			);
+			path = FJFGlobalTimerManagerTests;
+			sourceTree = "<group>";
+		};
+		9A06294F232E3FE700751426 /* FJFGlobalTimerManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9A062950232E3FE700751426 /* FJFGlobalTimerManagerUITests.m */,
+				9A062952232E3FE700751426 /* Info.plist */,
+			);
+			path = FJFGlobalTimerManagerUITests;
+			sourceTree = "<group>";
+		};
+		9A06295E232E404500751426 /* GlobalTimer */ = {
+			isa = PBXGroup;
+			children = (
+				9A06295F232E405B00751426 /* FJFGlobalTimerManager.h */,
+				9A062960232E405B00751426 /* FJFGlobalTimerManager.m */,
+				9A0BE253232F2E99008B68F1 /* NSObject+PerformTimer.h */,
+				9A0BE254232F2E99008B68F1 /* NSObject+PerformTimer.m */,
+			);
+			path = GlobalTimer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A062928232E3FE500751426 /* FJFGlobalTimerManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A062955232E3FE700751426 /* Build configuration list for PBXNativeTarget "FJFGlobalTimerManager" */;
+			buildPhases = (
+				9A062925232E3FE500751426 /* Sources */,
+				9A062926232E3FE500751426 /* Frameworks */,
+				9A062927232E3FE500751426 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FJFGlobalTimerManager;
+			productName = FJFGlobalTimerManager;
+			productReference = 9A062929232E3FE500751426 /* FJFGlobalTimerManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A062940232E3FE700751426 /* FJFGlobalTimerManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A062958232E3FE700751426 /* Build configuration list for PBXNativeTarget "FJFGlobalTimerManagerTests" */;
+			buildPhases = (
+				9A06293D232E3FE700751426 /* Sources */,
+				9A06293E232E3FE700751426 /* Frameworks */,
+				9A06293F232E3FE700751426 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A062943232E3FE700751426 /* PBXTargetDependency */,
+			);
+			name = FJFGlobalTimerManagerTests;
+			productName = FJFGlobalTimerManagerTests;
+			productReference = 9A062941232E3FE700751426 /* FJFGlobalTimerManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9A06294B232E3FE700751426 /* FJFGlobalTimerManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A06295B232E3FE700751426 /* Build configuration list for PBXNativeTarget "FJFGlobalTimerManagerUITests" */;
+			buildPhases = (
+				9A062948232E3FE700751426 /* Sources */,
+				9A062949232E3FE700751426 /* Frameworks */,
+				9A06294A232E3FE700751426 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A06294E232E3FE700751426 /* PBXTargetDependency */,
+			);
+			name = FJFGlobalTimerManagerUITests;
+			productName = FJFGlobalTimerManagerUITests;
+			productReference = 9A06294C232E3FE700751426 /* FJFGlobalTimerManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A062921232E3FE500751426 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = macmini;
+				TargetAttributes = {
+					9A062928232E3FE500751426 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					9A062940232E3FE700751426 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 9A062928232E3FE500751426;
+					};
+					9A06294B232E3FE700751426 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 9A062928232E3FE500751426;
+					};
+				};
+			};
+			buildConfigurationList = 9A062924232E3FE500751426 /* Build configuration list for PBXProject "FJFGlobalTimerManager" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A062920232E3FE500751426;
+			productRefGroup = 9A06292A232E3FE500751426 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A062928232E3FE500751426 /* FJFGlobalTimerManager */,
+				9A062940232E3FE700751426 /* FJFGlobalTimerManagerTests */,
+				9A06294B232E3FE700751426 /* FJFGlobalTimerManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A062927232E3FE500751426 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A062939232E3FE700751426 /* LaunchScreen.storyboard in Resources */,
+				9A062936232E3FE700751426 /* Assets.xcassets in Resources */,
+				9A062934232E3FE500751426 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A06293F232E3FE700751426 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A06294A232E3FE700751426 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A062925232E3FE500751426 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A062931232E3FE500751426 /* ViewController.m in Sources */,
+				9A062961232E405B00751426 /* FJFGlobalTimerManager.m in Sources */,
+				9A0BE255232F2E99008B68F1 /* NSObject+PerformTimer.m in Sources */,
+				9A06293C232E3FE700751426 /* main.m in Sources */,
+				9A0BE258232F34A7008B68F1 /* FJFFirstViewController.m in Sources */,
+				9A06292E232E3FE500751426 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A06293D232E3FE700751426 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A062946232E3FE700751426 /* FJFGlobalTimerManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A062948232E3FE700751426 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A062951232E3FE700751426 /* FJFGlobalTimerManagerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A062943232E3FE700751426 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A062928232E3FE500751426 /* FJFGlobalTimerManager */;
+			targetProxy = 9A062942232E3FE700751426 /* PBXContainerItemProxy */;
+		};
+		9A06294E232E3FE700751426 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A062928232E3FE500751426 /* FJFGlobalTimerManager */;
+			targetProxy = 9A06294D232E3FE700751426 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A062932232E3FE500751426 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A062933232E3FE500751426 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A062937232E3FE700751426 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A062938232E3FE700751426 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A062953232E3FE700751426 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9A062954232E3FE700751426 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A062956232E3FE700751426 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SDMS3W5X5V;
+				INFOPLIST_FILE = FJFGlobalTimerManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FJF.FJFGlobalTimerManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A062957232E3FE700751426 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SDMS3W5X5V;
+				INFOPLIST_FILE = FJFGlobalTimerManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FJF.FJFGlobalTimerManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9A062959232E3FE700751426 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SDMS3W5X5V;
+				INFOPLIST_FILE = FJFGlobalTimerManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FJF.FJFGlobalTimerManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FJFGlobalTimerManager.app/FJFGlobalTimerManager";
+			};
+			name = Debug;
+		};
+		9A06295A232E3FE700751426 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SDMS3W5X5V;
+				INFOPLIST_FILE = FJFGlobalTimerManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FJF.FJFGlobalTimerManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FJFGlobalTimerManager.app/FJFGlobalTimerManager";
+			};
+			name = Release;
+		};
+		9A06295C232E3FE700751426 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SDMS3W5X5V;
+				INFOPLIST_FILE = FJFGlobalTimerManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FJF.FJFGlobalTimerManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FJFGlobalTimerManager;
+			};
+			name = Debug;
+		};
+		9A06295D232E3FE700751426 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SDMS3W5X5V;
+				INFOPLIST_FILE = FJFGlobalTimerManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FJF.FJFGlobalTimerManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FJFGlobalTimerManager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A062924232E3FE500751426 /* Build configuration list for PBXProject "FJFGlobalTimerManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A062953232E3FE700751426 /* Debug */,
+				9A062954232E3FE700751426 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A062955232E3FE700751426 /* Build configuration list for PBXNativeTarget "FJFGlobalTimerManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A062956232E3FE700751426 /* Debug */,
+				9A062957232E3FE700751426 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A062958232E3FE700751426 /* Build configuration list for PBXNativeTarget "FJFGlobalTimerManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A062959232E3FE700751426 /* Debug */,
+				9A06295A232E3FE700751426 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A06295B232E3FE700751426 /* Build configuration list for PBXNativeTarget "FJFGlobalTimerManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A06295C232E3FE700751426 /* Debug */,
+				9A06295D232E3FE700751426 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A062921232E3FE500751426 /* Project object */;
+}
