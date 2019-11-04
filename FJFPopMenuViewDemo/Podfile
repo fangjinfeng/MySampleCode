@@ -1,0 +1,19 @@
+
+platform :ios, ‘8.0’
+
+use_frameworks!
+#Framework
+
+# ruby语法
+# target数组 如果有新的target直接加入该数组
+targetsArray = [‘FJFPopMenuViewDemo’]
+# 循环
+targetsArray.each do |t|
+    target t do
+
+ pod 'Masonry'
+
+
+    end
+end
+
