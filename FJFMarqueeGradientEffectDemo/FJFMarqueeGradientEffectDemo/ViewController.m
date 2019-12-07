@@ -87,7 +87,10 @@
         _viewControllerDict = @{
                                 @"FJFMaskViewController": @"CALayer的Mask效果演示",
                                 @"FJFMarqueeViewController": @"跑马灯渐变效果",
-                                @"FJFCircleViewController" : @"检测效果图"
+                                @"FJFCircleViewController" : @"检测效果图",
+                                @"FJFCurveGraphViewController" : @"曲线图",
+                                @"FJFGradualCircleViewController" : @"渐变圆环",
+                                @"FJFSegmentCircleViewController" : @"段圆环",
                                 };
     }
     return _viewControllerDict;

@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		64060C7D239BF7A300289376 /* FJFCurveGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64060C77239BF7A300289376 /* FJFCurveGraphView.m */; };
+		64060C7E239BF7A300289376 /* FJFCurveGraphBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64060C79239BF7A300289376 /* FJFCurveGraphBackgroundView.m */; };
+		64060C7F239BF7A300289376 /* FJFCurveGraphContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64060C7A239BF7A300289376 /* FJFCurveGraphContainerView.m */; };
+		64060C83239BF7AB00289376 /* FJFGradualCircleShapeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64060C81239BF7AB00289376 /* FJFGradualCircleShapeView.m */; };
+		64060C87239BF7B300289376 /* FJFSegmentCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64060C85239BF7B300289376 /* FJFSegmentCircleView.m */; };
+		64060C8A239BF7BC00289376 /* FJFSegmentCircleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64060C89239BF7BC00289376 /* FJFSegmentCircleViewController.m */; };
+		64060C8D239BF7CC00289376 /* FJFGradualCircleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64060C8C239BF7CC00289376 /* FJFGradualCircleViewController.m */; };
+		64060C90239BF7D600289376 /* FJFCurveGraphViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64060C8F239BF7D600289376 /* FJFCurveGraphViewController.m */; };
 		9A035A4D2325ED40001CFD3E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A035A4C2325ED40001CFD3E /* AppDelegate.m */; };
 		9A035A502325ED40001CFD3E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A035A4F2325ED40001CFD3E /* ViewController.m */; };
 		9A035A532325ED40001CFD3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A035A512325ED40001CFD3E /* Main.storyboard */; };
@@ -44,6 +52,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		64060C77239BF7A300289376 /* FJFCurveGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFCurveGraphView.m; sourceTree = "<group>"; };
+		64060C78239BF7A300289376 /* FJFCurveGraphContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFCurveGraphContainerView.h; sourceTree = "<group>"; };
+		64060C79239BF7A300289376 /* FJFCurveGraphBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFCurveGraphBackgroundView.m; sourceTree = "<group>"; };
+		64060C7A239BF7A300289376 /* FJFCurveGraphContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFCurveGraphContainerView.m; sourceTree = "<group>"; };
+		64060C7B239BF7A300289376 /* FJFCurveGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFCurveGraphView.h; sourceTree = "<group>"; };
+		64060C7C239BF7A300289376 /* FJFCurveGraphBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFCurveGraphBackgroundView.h; sourceTree = "<group>"; };
+		64060C81239BF7AB00289376 /* FJFGradualCircleShapeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFGradualCircleShapeView.m; sourceTree = "<group>"; };
+		64060C82239BF7AB00289376 /* FJFGradualCircleShapeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFGradualCircleShapeView.h; sourceTree = "<group>"; };
+		64060C85239BF7B300289376 /* FJFSegmentCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFSegmentCircleView.m; sourceTree = "<group>"; };
+		64060C86239BF7B300289376 /* FJFSegmentCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFSegmentCircleView.h; sourceTree = "<group>"; };
+		64060C88239BF7BC00289376 /* FJFSegmentCircleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFSegmentCircleViewController.h; sourceTree = "<group>"; };
+		64060C89239BF7BC00289376 /* FJFSegmentCircleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFSegmentCircleViewController.m; sourceTree = "<group>"; };
+		64060C8B239BF7CC00289376 /* FJFGradualCircleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFGradualCircleViewController.h; sourceTree = "<group>"; };
+		64060C8C239BF7CC00289376 /* FJFGradualCircleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFGradualCircleViewController.m; sourceTree = "<group>"; };
+		64060C8E239BF7D600289376 /* FJFCurveGraphViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFCurveGraphViewController.h; sourceTree = "<group>"; };
+		64060C8F239BF7D600289376 /* FJFCurveGraphViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFCurveGraphViewController.m; sourceTree = "<group>"; };
 		9A035A482325ED40001CFD3E /* FJFMarqueeGradientEffectDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FJFMarqueeGradientEffectDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A035A4B2325ED40001CFD3E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9A035A4C2325ED40001CFD3E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -103,6 +127,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		64060C76239BF7A300289376 /* FJFCurveGraphView */ = {
+			isa = PBXGroup;
+			children = (
+				64060C77239BF7A300289376 /* FJFCurveGraphView.m */,
+				64060C78239BF7A300289376 /* FJFCurveGraphContainerView.h */,
+				64060C79239BF7A300289376 /* FJFCurveGraphBackgroundView.m */,
+				64060C7A239BF7A300289376 /* FJFCurveGraphContainerView.m */,
+				64060C7B239BF7A300289376 /* FJFCurveGraphView.h */,
+				64060C7C239BF7A300289376 /* FJFCurveGraphBackgroundView.h */,
+			);
+			path = FJFCurveGraphView;
+			sourceTree = "<group>";
+		};
+		64060C80239BF7AB00289376 /* FJFGradualCircleView */ = {
+			isa = PBXGroup;
+			children = (
+				64060C81239BF7AB00289376 /* FJFGradualCircleShapeView.m */,
+				64060C82239BF7AB00289376 /* FJFGradualCircleShapeView.h */,
+			);
+			path = FJFGradualCircleView;
+			sourceTree = "<group>";
+		};
+		64060C84239BF7B300289376 /* FJFSegmentCircleView */ = {
+			isa = PBXGroup;
+			children = (
+				64060C85239BF7B300289376 /* FJFSegmentCircleView.m */,
+				64060C86239BF7B300289376 /* FJFSegmentCircleView.h */,
+			);
+			path = FJFSegmentCircleView;
+			sourceTree = "<group>";
+		};
 		9A035A3F2325ED40001CFD3E = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +181,9 @@
 		9A035A4A2325ED40001CFD3E /* FJFMarqueeGradientEffectDemo */ = {
 			isa = PBXGroup;
 			children = (
+				64060C84239BF7B300289376 /* FJFSegmentCircleView */,
+				64060C80239BF7AB00289376 /* FJFGradualCircleView */,
+				64060C76239BF7A300289376 /* FJFCurveGraphView */,
 				9A0BE2AE232F80D7008B68F1 /* FJFShapeCircleView */,
 				9A035AD22325F9BB001CFD3E /* JhtMarquee */,
 				9A035A4B2325ED40001CFD3E /* AppDelegate.h */,
@@ -140,6 +198,12 @@
 				9A0BE2B6232F81EB008B68F1 /* FJFCircleViewController.m */,
 				9A035A7D2325EDC6001CFD3E /* FJFMarqueeView.h */,
 				9A035A7E2325EDC6001CFD3E /* FJFMarqueeView.m */,
+				64060C8E239BF7D600289376 /* FJFCurveGraphViewController.h */,
+				64060C8F239BF7D600289376 /* FJFCurveGraphViewController.m */,
+				64060C8B239BF7CC00289376 /* FJFGradualCircleViewController.h */,
+				64060C8C239BF7CC00289376 /* FJFGradualCircleViewController.m */,
+				64060C88239BF7BC00289376 /* FJFSegmentCircleViewController.h */,
+				64060C89239BF7BC00289376 /* FJFSegmentCircleViewController.m */,
 				9A035A512325ED40001CFD3E /* Main.storyboard */,
 				9A035A542325ED41001CFD3E /* Assets.xcassets */,
 				9A035A562325ED41001CFD3E /* LaunchScreen.storyboard */,
@@ -336,14 +400,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64060C8A239BF7BC00289376 /* FJFSegmentCircleViewController.m in Sources */,
 				9A035A502325ED40001CFD3E /* ViewController.m in Sources */,
 				9A035ADD2325FB44001CFD3E /* FJFMaskViewController.m in Sources */,
+				64060C7D239BF7A300289376 /* FJFCurveGraphView.m in Sources */,
+				64060C8D239BF7CC00289376 /* FJFGradualCircleViewController.m in Sources */,
+				64060C87239BF7B300289376 /* FJFSegmentCircleView.m in Sources */,
 				9A0BE25B232F7D0D008B68F1 /* FJFMarqueeViewController.m in Sources */,
 				9A0BE2B4232F80D7008B68F1 /* FJFShapeCircleViewStyle.m in Sources */,
+				64060C90239BF7D600289376 /* FJFCurveGraphViewController.m in Sources */,
 				9A0BE2B7232F81EB008B68F1 /* FJFCircleViewController.m in Sources */,
+				64060C83239BF7AB00289376 /* FJFGradualCircleShapeView.m in Sources */,
+				64060C7F239BF7A300289376 /* FJFCurveGraphContainerView.m in Sources */,
 				9A0BE2B3232F80D7008B68F1 /* FJFShapeCircleView.m in Sources */,
 				9A035A5B2325ED41001CFD3E /* main.m in Sources */,
 				9A035A7F2325EDC6001CFD3E /* FJFMarqueeView.m in Sources */,
+				64060C7E239BF7A300289376 /* FJFCurveGraphBackgroundView.m in Sources */,
 				9A035A4D2325ED40001CFD3E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
