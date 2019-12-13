@@ -1,8 +1,8 @@
 //
-//  FJFCurveGraphBackgroundView.h
+//  FJFHistogramBackgroundView.h
 //  FJFMarqueeGradientEffectDemo
 //
-//  Created by macmini on 03/12/2019.
+//  Created by macmini on 09/12/2019.
 //  Copyright © 2019 macmini. All rights reserved.
 //
 
@@ -11,7 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 // 控件  属性
-@interface FJFCurveGraphBackgroundControlsProperty : NSObject
+@interface FJFHistogramBackgroundControlsProperty : NSObject
 // verticalFont
 @property (nonatomic, strong) UIFont *verticalFont;
 // horizontalFont
@@ -24,7 +24,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) UIColor *lineViewBackgroundColor;
 @end
 
-@interface FJFCurveGraphBackgroundViewStyle : NSObject
+@interface FJFHistogramBackgroundViewStyle : NSObject
 // lineViewHeight
 @property (nonatomic, assign) CGFloat  lineViewHeight;
 // leftEdgeSpacing
@@ -35,52 +35,47 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) CGFloat  verticalLabelWidth;
 // verticalViewSpacing 间距
 @property (nonatomic, assign) CGFloat  verticalViewSpacing;
-// horizontalLabelWidth
-@property (nonatomic, assign) CGFloat  horizontalLabelWidth;
 // labelToVerticalLineSpacing 垂直 分割线 和 label 间距
 @property (nonatomic, assign) CGFloat  labelToVerticalLineSpacing;
 // curveGraphViewTopEdgeSpacing 顶部 间距
-@property (nonatomic, assign) CGFloat  curveGraphViewTopEdgeSpacing;
+@property (nonatomic, assign) CGFloat  histogramViewTopEdgeSpacing;
 // curveGraphBackgroundViewWidth  宽度
-@property (nonatomic, assign) CGFloat  curveGraphBackgroundViewWidth;
+@property (nonatomic, assign) CGFloat  histogramBackgroundViewWidth;
 // verticalTextArray
 @property (nonatomic, strong) NSArray <NSString *> *verticalTextArray;
 // horizontalTextArray
 @property (nonatomic, strong) NSArray <NSString *> *horizontalTextArray;
-// horizontalLabelToCurveGraphViewSpacing 底部 label 间距
-@property (nonatomic, assign) CGFloat  horizontalLabelToCurveGraphViewSpacing;
+// horizontalLabelToHistogramViewSpacing 底部 label 间距
+@property (nonatomic, assign) CGFloat  horizontalLabelToHistogramViewSpacing;
 // hideVerticalFirstLabel 隐藏 垂直 第一个 属性
 @property (nonatomic, assign, getter=isHideVerticalFirstLabel) BOOL  hideVerticalFirstLabel;
 // controlsPropertyStyle 控件 基本 属性
-@property (nonatomic, strong) FJFCurveGraphBackgroundControlsProperty *controlsPropertyStyle;
+@property (nonatomic, strong) FJFHistogramBackgroundControlsProperty *controlsPropertyStyle;
 @end
 
 
-@interface FJFCurveGraphBackgroundView : UIView
+@interface FJFHistogramBackgroundView : UIView
 // verticalLabelArray
 @property (nonatomic, strong, readonly) NSArray <UILabel *> *verticalLabelArray;
 // horizontalLabelArray
 @property (nonatomic, strong, readonly) NSArray <UILabel *> *horizontalLabelArray;
 // curveGraphLineContainerView
-@property (nonatomic, strong, readonly) UIView *curveGraphLineContainerView;
+@property (nonatomic, strong, readonly) UIView *histogramLineContainerView;
 // viewStyle
-@property (nonatomic, strong, readonly) FJFCurveGraphBackgroundViewStyle *viewStyle;
+@property (nonatomic, strong, readonly) FJFHistogramBackgroundViewStyle *viewStyle;
 
 /// 更新 控件
 - (void)updateViewControls;
 
 /// 配置 参数
 /// @param backgroundViewStyle 配置 参数
-- (void)updateBackgroundViewStyle:(FJFCurveGraphBackgroundViewStyle *)backgroundViewStyle;
+- (void)updateBackgroundViewStyle:(FJFHistogramBackgroundViewStyle *)backgroundViewStyle;
 
 /// 初始化
 /// @param frame 位置
 /// @param viewStyle viewStyle
 - (instancetype)initWithFrame:(CGRect)frame
-                    viewStyle:(FJFCurveGraphBackgroundViewStyle *)viewStyle;
-
-
-
+                    viewStyle:(FJFHistogramBackgroundViewStyle *)viewStyle;
 @end
 
 NS_ASSUME_NONNULL_END

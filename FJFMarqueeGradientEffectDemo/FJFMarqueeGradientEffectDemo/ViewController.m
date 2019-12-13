@@ -88,9 +88,13 @@
                                 @"FJFMaskViewController": @"CALayer的Mask效果演示",
                                 @"FJFMarqueeViewController": @"跑马灯渐变效果",
                                 @"FJFCircleViewController" : @"检测效果图",
-                                @"FJFCurveGraphViewController" : @"曲线图",
                                 @"FJFGradualCircleViewController" : @"渐变圆环",
+                                @"FJFAnnulusViewController" : @"嵌套圆环",
+                                @"FJFCurveGraphViewController" : @"曲线图",
                                 @"FJFSegmentCircleViewController" : @"段圆环",
+                                @"FJFIndicatorTriangleBorderViewController" : @"带箭头边框图",
+                                @"FJFSegmentTitleViewController" : @"滚动标题",
+                                @"FJFHistogramViewController" : @"柱状图",
                                 };
     }
     return _viewControllerDict;
