@@ -88,6 +88,7 @@
     else if (viewBorderType == FJFViewBorderTypeTop) {  // 上半部分
         
         // 左边线
+      sevenPoint = CGPointMake(viewX, viewHeight);
       [path moveToPoint:sevenPoint];
       [path addLineToPoint:eightPoint];
       [path appendPath:fourCornorPath];
@@ -98,12 +99,14 @@
        [path appendPath:firstCornorPath];
        
        // 右边线
+       fourPoint = CGPointMake(viewWidth, viewHeight);
        [path addLineToPoint:threePoint];
        [path addLineToPoint:fourPoint];
        
     }
     else if(viewBorderType == FJFViewBorderTypeBottom){ // 下半部分
         // 右边线
+        threePoint = CGPointMake(viewWidth, viewY);
         [path moveToPoint:threePoint];
         [path addLineToPoint:fourPoint];
         [path appendPath:secondCornorPath];
@@ -114,6 +117,7 @@
         [path appendPath:threeCornorPath];
 
           // 左边线
+        eightPoint = CGPointMake(viewX, viewY);
         [path moveToPoint:sevenPoint];
         [path addLineToPoint:eightPoint];
     }
@@ -128,4 +132,6 @@
     
     return shapeLayer;
 }
+
+
 @end
