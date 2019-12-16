@@ -20,13 +20,13 @@
 		64A27FBD23A3D4220026C0BE /* FJFHistogramBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A27FB723A3D4220026C0BE /* FJFHistogramBackgroundView.m */; };
 		64A27FC423A3D43F0026C0BE /* FJFIndicatorTriangleBorderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A27FC023A3D43F0026C0BE /* FJFIndicatorTriangleBorderView.m */; };
 		64A27FC523A3D43F0026C0BE /* FJFIndicatorTriangleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A27FC223A3D43F0026C0BE /* FJFIndicatorTriangleView.m */; };
-		64A27FC923A3D44E0026C0BE /* FJFSegmentCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A27FC723A3D44E0026C0BE /* FJFSegmentCircleView.m */; };
 		64A27FCF23A3D4560026C0BE /* FJFSegmentTitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A27FCD23A3D4560026C0BE /* FJFSegmentTitleCell.m */; };
 		64A27FD023A3D4560026C0BE /* FJFSegmentTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A27FCE23A3D4560026C0BE /* FJFSegmentTitleView.m */; };
 		64A27FD323A3D46D0026C0BE /* FJFAnnulusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A27FD223A3D46D0026C0BE /* FJFAnnulusViewController.m */; };
 		64A27FD623A3D66D0026C0BE /* FJFHistogramViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A27FD523A3D66D0026C0BE /* FJFHistogramViewController.m */; };
 		64A27FD923A3D67A0026C0BE /* FJFIndicatorTriangleBorderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A27FD723A3D67A0026C0BE /* FJFIndicatorTriangleBorderViewController.m */; };
 		64A27FDC23A3DE900026C0BE /* FJFSegmentTitleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A27FDA23A3DE900026C0BE /* FJFSegmentTitleViewController.m */; };
+		64E4493423A75E1A001D8E15 /* FJFSegmentCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E4493223A75E1A001D8E15 /* FJFSegmentCircleView.m */; };
 		9A035A4D2325ED40001CFD3E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A035A4C2325ED40001CFD3E /* AppDelegate.m */; };
 		9A035A502325ED40001CFD3E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A035A4F2325ED40001CFD3E /* ViewController.m */; };
 		9A035A532325ED40001CFD3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A035A512325ED40001CFD3E /* Main.storyboard */; };
@@ -90,8 +90,6 @@
 		64A27FC023A3D43F0026C0BE /* FJFIndicatorTriangleBorderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFIndicatorTriangleBorderView.m; sourceTree = "<group>"; };
 		64A27FC223A3D43F0026C0BE /* FJFIndicatorTriangleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFIndicatorTriangleView.m; sourceTree = "<group>"; };
 		64A27FC323A3D43F0026C0BE /* FJFIndicatorTriangleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFIndicatorTriangleView.h; sourceTree = "<group>"; };
-		64A27FC723A3D44E0026C0BE /* FJFSegmentCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFSegmentCircleView.m; sourceTree = "<group>"; };
-		64A27FC823A3D44E0026C0BE /* FJFSegmentCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFSegmentCircleView.h; sourceTree = "<group>"; };
 		64A27FCB23A3D4560026C0BE /* FJFSegmentTitleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFSegmentTitleCell.h; sourceTree = "<group>"; };
 		64A27FCC23A3D4560026C0BE /* FJFSegmentTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFSegmentTitleView.h; sourceTree = "<group>"; };
 		64A27FCD23A3D4560026C0BE /* FJFSegmentTitleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFSegmentTitleCell.m; sourceTree = "<group>"; };
@@ -104,6 +102,8 @@
 		64A27FD823A3D67A0026C0BE /* FJFIndicatorTriangleBorderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFIndicatorTriangleBorderViewController.h; sourceTree = "<group>"; };
 		64A27FDA23A3DE900026C0BE /* FJFSegmentTitleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFSegmentTitleViewController.m; sourceTree = "<group>"; };
 		64A27FDB23A3DE900026C0BE /* FJFSegmentTitleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFSegmentTitleViewController.h; sourceTree = "<group>"; };
+		64E4493223A75E1A001D8E15 /* FJFSegmentCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFSegmentCircleView.m; sourceTree = "<group>"; };
+		64E4493323A75E1A001D8E15 /* FJFSegmentCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFSegmentCircleView.h; sourceTree = "<group>"; };
 		9A035A482325ED40001CFD3E /* FJFMarqueeGradientEffectDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FJFMarqueeGradientEffectDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A035A4B2325ED40001CFD3E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9A035A4C2325ED40001CFD3E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -228,16 +228,6 @@
 			path = FJFIndicatorTriangleView;
 			sourceTree = "<group>";
 		};
-		64A27FC623A3D44E0026C0BE /* FJFSegmentCircleView */ = {
-			isa = PBXGroup;
-			children = (
-				64A27FC823A3D44E0026C0BE /* FJFSegmentCircleView.h */,
-				64A27FC723A3D44E0026C0BE /* FJFSegmentCircleView.m */,
-			);
-			name = FJFSegmentCircleView;
-			path = "../../../../../../Documents/iOS demo/FJFShapeView/FJFSegmentCircleView";
-			sourceTree = "<group>";
-		};
 		64A27FCA23A3D4560026C0BE /* FJFSegmentTitleView */ = {
 			isa = PBXGroup;
 			children = (
@@ -247,6 +237,15 @@
 				64A27FCD23A3D4560026C0BE /* FJFSegmentTitleCell.m */,
 			);
 			path = FJFSegmentTitleView;
+			sourceTree = "<group>";
+		};
+		64E4493123A75E1A001D8E15 /* FJFSegmentCircleView */ = {
+			isa = PBXGroup;
+			children = (
+				64E4493223A75E1A001D8E15 /* FJFSegmentCircleView.m */,
+				64E4493323A75E1A001D8E15 /* FJFSegmentCircleView.h */,
+			);
+			path = FJFSegmentCircleView;
 			sourceTree = "<group>";
 		};
 		9A035A3F2325ED40001CFD3E = {
@@ -272,8 +271,8 @@
 		9A035A4A2325ED40001CFD3E /* FJFMarqueeGradientEffectDemo */ = {
 			isa = PBXGroup;
 			children = (
+				64E4493123A75E1A001D8E15 /* FJFSegmentCircleView */,
 				64A27FCA23A3D4560026C0BE /* FJFSegmentTitleView */,
-				64A27FC623A3D44E0026C0BE /* FJFSegmentCircleView */,
 				64A27FBE23A3D43F0026C0BE /* FJFIndicatorTriangleBorderView */,
 				64A27FB423A3D4220026C0BE /* FJFHistogramView */,
 				64A27FB023A3D4190026C0BE /* FJFGradualCircleView */,
@@ -506,7 +505,6 @@
 				64A27FBC23A3D4220026C0BE /* FJFHistogramContainerView.m in Sources */,
 				64060C8A239BF7BC00289376 /* FJFSegmentCircleViewController.m in Sources */,
 				9A035A502325ED40001CFD3E /* ViewController.m in Sources */,
-				64A27FC923A3D44E0026C0BE /* FJFSegmentCircleView.m in Sources */,
 				9A035ADD2325FB44001CFD3E /* FJFMaskViewController.m in Sources */,
 				64A27FAE23A3D4120026C0BE /* FJFCurveGraphBackgroundView.m in Sources */,
 				64A27FC423A3D43F0026C0BE /* FJFIndicatorTriangleBorderView.m in Sources */,
@@ -518,6 +516,7 @@
 				64A27FC523A3D43F0026C0BE /* FJFIndicatorTriangleView.m in Sources */,
 				9A0BE2B4232F80D7008B68F1 /* FJFShapeCircleViewStyle.m in Sources */,
 				64A27FD623A3D66D0026C0BE /* FJFHistogramViewController.m in Sources */,
+				64E4493423A75E1A001D8E15 /* FJFSegmentCircleView.m in Sources */,
 				64060C90239BF7D600289376 /* FJFCurveGraphViewController.m in Sources */,
 				64A27FA523A3D40A0026C0BE /* FJAnnulusView.m in Sources */,
 				9A0BE2B7232F81EB008B68F1 /* FJFCircleViewController.m in Sources */,
