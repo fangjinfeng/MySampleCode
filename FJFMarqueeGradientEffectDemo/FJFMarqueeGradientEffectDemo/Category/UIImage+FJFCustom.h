@@ -1,5 +1,5 @@
 //
-//  UIImage+XMCustom.h
+//  UIImage+FJFCustom.h
 //  FJFMarqueeGradientEffectDemo
 //
 //  Created by FJF on 2019/1/27.
@@ -11,10 +11,10 @@
 @interface UIImage (FJFCustom)
 
 typedef NS_ENUM(NSInteger, FJFGradientDirection) {
-    XMGradientDirectionTopToBottom = 0,    // 从上往下 渐变
-    XMGradientDirectionLeftToRight,        // 从左往右
-    XMGradientDirectionBottomToTop,      // 从下往上
-    XMGradientDirectionRightToLeft      // 从右往左
+    FJFGradientDirectionTopToBottom = 0,    // 从上往下 渐变
+    FJFGradientDirectionLeftToRight,        // 从左往右
+    FJFGradientDirectionBottomToTop,      // 从下往上
+    FJFGradientDirectionRightToLeft      // 从右往左
 };
 
 #pragma mark 根据颜色获取图片

@@ -1,5 +1,5 @@
 //
-//  UIImage+XMCustom.m
+//  UIImage+FJFCustom.m
 //  FJFMarqueeGradientEffectDemo
 //
 //  Created by FJF on 2019/1/27.
@@ -73,19 +73,19 @@
     CGPoint endPt =  CGPointMake(0.0, 0.0);
     
     switch (gradientType) {
-        case XMGradientDirectionTopToBottom:
+        case FJFGradientDirectionTopToBottom:
             startPt= CGPointMake(0.0, 0.0);
             endPt= CGPointMake(0.0, bounds.size.height);
             break;
-        case XMGradientDirectionLeftToRight:
+        case FJFGradientDirectionLeftToRight:
             startPt = CGPointMake(0.0, 0.0);
             endPt = CGPointMake(bounds.size.width, 0.0);
             break;
-        case XMGradientDirectionBottomToTop:
+        case FJFGradientDirectionBottomToTop:
             startPt = CGPointMake(0.0, bounds.size.height);
             endPt = CGPointMake(0.0, 0.0);
             break;
-        case XMGradientDirectionRightToLeft:
+        case FJFGradientDirectionRightToLeft:
             startPt = CGPointMake(bounds.size.width, 0.0);
             endPt = CGPointMake(0, 0.0);
             break;
@@ -113,19 +113,19 @@
     CGPoint endPt =  CGPointMake(0.0, 0.0);
     
     switch (gradientType) {
-        case XMGradientDirectionTopToBottom:
+        case FJFGradientDirectionTopToBottom:
             startPt= CGPointMake(0.0, 0.0);
             endPt= CGPointMake(0.0, 1.0f);
             break;
-        case XMGradientDirectionLeftToRight:
+        case FJFGradientDirectionLeftToRight:
             startPt = CGPointMake(0.0, 0.0);
             endPt = CGPointMake(1.0, 0.0);
             break;
-        case XMGradientDirectionBottomToTop:
+        case FJFGradientDirectionBottomToTop:
             startPt = CGPointMake(0.0, 1.0);
             endPt = CGPointMake(0.0, 0.0);
             break;
-        case XMGradientDirectionRightToLeft:
+        case FJFGradientDirectionRightToLeft:
             startPt = CGPointMake(1.0f, 0.0);
             endPt = CGPointMake(0, 0.0);
             break;

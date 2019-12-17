@@ -11,8 +11,8 @@
 #import "FJFGradualCurveGraphViewController.h"
 
 //MARK: - color
-#define XM_RGBColorAlpha(r, g, b, a)    [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)]
-#define XM_RGBColor(r, g, b)            XM_RGBColorAlpha(r, g, b, 1.0)
+#define FJF_RGBColorAlpha(r, g, b, a)    [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)]
+#define FJF_RGBColor(r, g, b)            FJF_RGBColorAlpha(r, g, b, 1.0)
 
 @interface FJFGradualCurveGraphViewController ()
 // curveGraphView
@@ -28,10 +28,10 @@
     self.curveGraphView = [[FJFGradualCurveGraphContainerView alloc] initWithFrame:CGRectMake(0, 150, [UIScreen mainScreen].bounds.size.width, 300)];
     
     CGFloat viewHeight = 80.0f;
-    UIImage *topImage = [UIImage fjf_gradientImageWithViewSize:CGSizeMake([UIScreen mainScreen].bounds.size.width, viewHeight) colorArray:@[XM_RGBColorAlpha(255, 65, 0, 0.0), XM_RGBColorAlpha(255, 65, 0, 0.5)] gradientType:XMGradientDirectionTopToBottom];
+    UIImage *topImage = [UIImage fjf_gradientImageWithViewSize:CGSizeMake([UIScreen mainScreen].bounds.size.width, viewHeight) colorArray:@[FJF_RGBColorAlpha(255, 65, 0, 0.0), FJF_RGBColorAlpha(255, 65, 0, 0.5)] gradientType:FJFGradientDirectionTopToBottom];
     self.curveGraphView.curveGraphViewStyle.topLayerFillColor = [UIColor colorWithPatternImage:topImage];
     
-    UIImage *bottomImage = [UIImage fjf_gradientImageWithViewSize:CGSizeMake([UIScreen mainScreen].bounds.size.width, viewHeight) colorArray:@[XM_RGBColorAlpha(60, 127, 255, 0.5), XM_RGBColorAlpha(60, 127, 255, 0.0)] gradientType:XMGradientDirectionTopToBottom];
+    UIImage *bottomImage = [UIImage fjf_gradientImageWithViewSize:CGSizeMake([UIScreen mainScreen].bounds.size.width, viewHeight) colorArray:@[FJF_RGBColorAlpha(60, 127, 255, 0.5), FJF_RGBColorAlpha(60, 127, 255, 0.0)] gradientType:FJFGradientDirectionTopToBottom];
     self.curveGraphView.curveGraphViewStyle.bottomLayerFillColor = [UIColor colorWithPatternImage:bottomImage];
     [self.curveGraphView updateViewControls];
     [self.view addSubview:self.curveGraphView];
@@ -134,10 +134,10 @@
     
     self.curveGraphView.curveGraphViewStyle.singleVerticalItemViewValue = 50;
     CGFloat viewHeight = ((self.curveGraphView.backgroundViewStyle.verticalTextArray.count - 1) / 2.0) * self.curveGraphView.curveGraphViewStyle.singleVerticalItemViewValue;
-    UIImage *topImage = [UIImage fjf_gradientImageWithViewSize:CGSizeMake([UIScreen mainScreen].bounds.size.width, viewHeight) colorArray:@[XM_RGBColorAlpha(255, 65, 0, 0.0), XM_RGBColorAlpha(255, 65, 0, 0.5)] gradientType:XMGradientDirectionTopToBottom];
+    UIImage *topImage = [UIImage fjf_gradientImageWithViewSize:CGSizeMake([UIScreen mainScreen].bounds.size.width, viewHeight) colorArray:@[FJF_RGBColorAlpha(255, 65, 0, 0.0), FJF_RGBColorAlpha(255, 65, 0, 0.5)] gradientType:FJFGradientDirectionTopToBottom];
     self.curveGraphView.curveGraphViewStyle.topLayerFillColor = [UIColor colorWithPatternImage:topImage];
 
-    UIImage *bottomImage = [UIImage fjf_gradientImageWithViewSize:CGSizeMake([UIScreen mainScreen].bounds.size.width, viewHeight) colorArray:@[XM_RGBColorAlpha(60, 127, 255, 0.5), XM_RGBColorAlpha(60, 127, 255, 0.0)] gradientType:XMGradientDirectionTopToBottom];
+    UIImage *bottomImage = [UIImage fjf_gradientImageWithViewSize:CGSizeMake([UIScreen mainScreen].bounds.size.width, viewHeight) colorArray:@[FJF_RGBColorAlpha(60, 127, 255, 0.5), FJF_RGBColorAlpha(60, 127, 255, 0.0)] gradientType:FJFGradientDirectionTopToBottom];
     self.curveGraphView.curveGraphViewStyle.bottomLayerFillColor = [UIColor colorWithPatternImage:bottomImage];
     
     
