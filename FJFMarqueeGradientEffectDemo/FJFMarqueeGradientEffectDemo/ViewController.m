@@ -95,6 +95,7 @@
                                 @"FJFIndicatorTriangleBorderViewController" : @"带箭头边框图",
                                 @"FJFSegmentTitleViewController" : @"滚动标题",
                                 @"FJFHistogramViewController" : @"柱状图",
+                                @"FJFGradualCurveGraphViewController" : @"渐变曲线",
                                 };
     }
     return _viewControllerDict;
