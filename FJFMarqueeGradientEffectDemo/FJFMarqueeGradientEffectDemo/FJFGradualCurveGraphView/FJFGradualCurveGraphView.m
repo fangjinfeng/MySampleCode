@@ -100,56 +100,6 @@
 
 
 
-@implementation FJFGradualCurveGraphMaskLineView
-
-#pragma mark - Life Circle
-
-- (instancetype)initWithFrame:(CGRect)frame {
-    if (self = [super initWithFrame:frame]) {
-        [self setupViewControls];
-    }
-    return self;
-}
-
-#pragma mark - Public Methos
-- (void)updateViewControlsWithIsTopView:(BOOL)isTopView
-                              lineWidth:(CGFloat)lineWidth
-                         lineLayerFrame:(CGRect)lineLayerFrame {
-    self.lineLayer.frame = self.bounds;
-    CGFloat lineMaskLayerX = 0;
-    CGFloat lineMaskLayerY = 0;
-    if (!isTopView) {
-        lineMaskLayerY = lineLayerFrame.origin.y;
-    }
-    CGFloat lineMaskLayerWidth = lineLayerFrame.size.width;
-    CGFloat lineMaskLayerHeight = self.frame.size.height - lineLayerFrame.size.height;
-    self.lineMaskLayer.frame = CGRectMake(lineMaskLayerX, lineMaskLayerY, lineMaskLayerWidth, lineMaskLayerHeight);
-    self.lineBackgroundMaskLayer.frame = CGRectMake(lineMaskLayerX, lineLayerFrame.origin.y, lineMaskLayerWidth, lineLayerFrame.size.height);
-}
-
-- (void)updateLineViewColor:(UIColor *)lineViewColor
-            backgroundColor:(UIColor *)backgroundColor {
-    self.lineLayer.backgroundColor = lineViewColor.CGColor;
-    self.lineMaskLayer.backgroundColor = [UIColor whiteColor].CGColor;
-    self.lineBackgroundMaskLayer.backgroundColor = [UIColor whiteColor].CGColor;
-    self.backgroundColor = [UIColor clearColor];
-}
-
-#pragma mark - Private Methods
-
-- (void)setupViewControls {
-    self.lineBackgroundMaskLayer = [CAShapeLayer layer];
-    self.lineLayer = [CAShapeLayer layer];
-    self.lineMaskLayer = [CAShapeLayer layer];
-    self.lineMaskLayer.frame = self.bounds;
-    
-    [self.layer addSublayer:self.lineBackgroundMaskLayer];
-    [self.layer addSublayer:self.lineLayer];
-    [self.layer addSublayer:self.lineMaskLayer];
-}
-
-@end
-
 @interface FJFGradualCurveGraphView()
 
 // topCurveLineLayer

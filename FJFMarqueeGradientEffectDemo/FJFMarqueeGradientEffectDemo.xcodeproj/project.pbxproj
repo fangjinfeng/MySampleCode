@@ -181,12 +181,12 @@
 		64A219A923A9216B00EB2A95 /* FJFGradualCurveGraphView */ = {
 			isa = PBXGroup;
 			children = (
-				64A219AA23A9216B00EB2A95 /* FJFGradualCurveGraphContainerView.m */,
-				64A219AB23A9216B00EB2A95 /* FJFGradualCurveGraphBackgroundView.m */,
+				64A219AF23A9216B00EB2A95 /* FJFGradualCurveGraphView.h */,
 				64A219AC23A9216B00EB2A95 /* FJFGradualCurveGraphView.m */,
 				64A219AD23A9216B00EB2A95 /* FJFGradualCurveGraphContainerView.h */,
+				64A219AA23A9216B00EB2A95 /* FJFGradualCurveGraphContainerView.m */,
 				64A219AE23A9216B00EB2A95 /* FJFGradualCurveGraphBackgroundView.h */,
-				64A219AF23A9216B00EB2A95 /* FJFGradualCurveGraphView.h */,
+				64A219AB23A9216B00EB2A95 /* FJFGradualCurveGraphBackgroundView.m */,
 			);
 			path = FJFGradualCurveGraphView;
 			sourceTree = "<group>";

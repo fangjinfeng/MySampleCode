@@ -66,31 +66,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
-@interface FJFGradualCurveGraphMaskLineView : UIView
-// lineLayer
-@property (nonatomic, strong) CAShapeLayer *lineLayer;
-
-// lineMaskLayer
-@property (nonatomic, strong) CAShapeLayer *lineMaskLayer;
-
-// lineBackgroundMaskLayer
-@property (nonatomic, strong) CAShapeLayer *lineBackgroundMaskLayer;
-
-/// 更新 控件 颜色
-/// @param lineViewColor 线条 颜色
-/// @param backgroundColor 背景 颜色
-- (void)updateLineViewColor:(UIColor *)lineViewColor
-            backgroundColor:(UIColor *)backgroundColor;
-
-/// 更新 控件
-/// @param isTopView 是否 位于 顶部
-/// @param lineWidth 线宽度
-/// @param lineLayerFrame 分割线 位置
-- (void)updateViewControlsWithIsTopView:(BOOL)isTopView
-                              lineWidth:(CGFloat)lineWidth
-                         lineLayerFrame:(CGRect)lineLayerFrame;
-@end
-
 
 @interface FJFGradualCurveGraphView : UIView
 
