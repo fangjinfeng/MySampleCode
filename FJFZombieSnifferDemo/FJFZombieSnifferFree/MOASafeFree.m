@@ -21,6 +21,7 @@ static Class sYHCatchIsa;
 static size_t sYHCatchSize;
 
 static void(* orig_free)(void *p);
+static CFMutableSetRef registeredClasses = nil;
 struct DSQueue* _unfreeQueue = NULL;//用来保存自己偷偷保留的内存:1这个队列要线程安全或者自己加锁;2这个队列内部应该尽量少申请和释放堆内存。
 int unfreeSize = 0;//用来记录我们偷偷保存的内存的大小
 #define MAX_STEAL_MEM_SIZE 1024*1024*100//最多存这么多内存，大于这个值就释放一部分
@@ -72,7 +73,8 @@ void safe_free(void* p){
             Class origClass= object_getClass(obj);
             // 判断是不是objc对象
             char *type = @encode(typeof(obj));
-            if (strcmp("@", type) == 0) {
+            if (strcmp("@", type) == 0 &&
+                 CFSetContainsValue(registeredClasses, origClass)) {
                 memset(obj, 0x55, memSiziee);
                 memcpy(obj, &sYHCatchIsa, sizeof(void*));//把我们自己的类的isa复制过去
                 object_setClass(obj, [MOACatcher class]);
@@ -89,6 +91,16 @@ void safe_free(void* p){
 }
 
 void loadCatchProxyClass() {
+    registeredClasses = CFSetCreateMutable(NULL, 0, NULL);
+
+    unsigned int count = 0;
+    Class *classes = objc_copyClassList(&count);
+    for (unsigned int i = 0; i < count; i++) {
+    CFSetAddValue(registeredClasses, (__bridge const void *)(classes[i]));
+    }
+    free(classes);
+    classes = NULL;
+    
     sYHCatchIsa = objc_getClass("MOACatcher");
     sYHCatchSize = class_getInstanceSize(sYHCatchIsa);
 }
