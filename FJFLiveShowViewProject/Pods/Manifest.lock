@@ -1,37 +1,16 @@
 PODS:
   - Masonry (1.1.0)
-  - Protobuf (3.12.0)
-  - SSZipArchive (2.2.2)
-  - SVGAPlayer (2.5.4):
-    - SVGAPlayer/Core (= 2.5.4)
-    - SVGAPlayer/ProtoFiles (= 2.5.4)
-  - SVGAPlayer/Core (2.5.4):
-    - SSZipArchive (>= 1.8.1)
-    - SVGAPlayer/ProtoFiles
-  - SVGAPlayer/ProtoFiles (2.5.4):
-    - Protobuf (~> 3.4)
-  - YYCache (1.0.4)
 
 DEPENDENCIES:
   - Masonry (~> 1.1.0)
-  - SVGAPlayer
-  - YYCache
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - Masonry
-    - Protobuf
-    - SSZipArchive
-    - SVGAPlayer
-    - YYCache
 
 SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  Protobuf: 2793fcd0622a00b546c60e7cbbcc493e043e9bb9
-  SSZipArchive: fa16b8cc4cdeceb698e5e5d9f67e9558532fbf23
-  SVGAPlayer: ca9c869316b468d995994c7fe82b9bd8645a0787
-  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
 
-PODFILE CHECKSUM: 7cbda96af951025a7bd8dd471b6be9e56d80a6d1
+PODFILE CHECKSUM: 8ad56a52e18e653d160347eeb2f3b5cb243a35d8
 
-COCOAPODS: 1.9.2
+COCOAPODS: 1.8.4
