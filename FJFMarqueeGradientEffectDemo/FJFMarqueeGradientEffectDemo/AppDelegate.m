@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "ViewController.h"
 #import "FJFMaskViewController.h"
+#import "FJFExpandLabelViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -19,7 +20,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    UINavigationController *tmpNav = [[UINavigationController alloc] initWithRootViewController:[[ViewController alloc] init]];
+    UINavigationController *tmpNav = [[UINavigationController alloc] initWithRootViewController:[[FJFExpandLabelViewController alloc] init]];
     self.window.rootViewController = tmpNav;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];

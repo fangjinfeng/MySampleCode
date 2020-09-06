@@ -1,0 +1,754 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A5FE5A724F39693008F29B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5FE5A624F39693008F29B6 /* AppDelegate.m */; };
+		9A5FE5AD24F39693008F29B6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5FE5AC24F39693008F29B6 /* ViewController.m */; };
+		9A5FE5B024F39693008F29B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A5FE5AE24F39693008F29B6 /* Main.storyboard */; };
+		9A5FE5B224F39695008F29B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A5FE5B124F39695008F29B6 /* Assets.xcassets */; };
+		9A5FE5B524F39695008F29B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A5FE5B324F39695008F29B6 /* LaunchScreen.storyboard */; };
+		9A5FE5B824F39695008F29B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5FE5B724F39695008F29B6 /* main.m */; };
+		9A5FE5C224F39695008F29B6 /* FJFLiveShowViewProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5FE5C124F39695008F29B6 /* FJFLiveShowViewProjectTests.m */; };
+		9A5FE5CD24F39696008F29B6 /* FJFLiveShowViewProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5FE5CC24F39695008F29B6 /* FJFLiveShowViewProjectUITests.m */; };
+		9A6A3CBA2501F02F0043B6DD /* gift_icon_02.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9A6A3CB62501F02F0043B6DD /* gift_icon_02.gif */; };
+		9A6A3CBB2501F02F0043B6DD /* gift_icon_03.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9A6A3CB72501F02F0043B6DD /* gift_icon_03.gif */; };
+		9A6A3CBC2501F02F0043B6DD /* gift_icon_01.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9A6A3CB82501F02F0043B6DD /* gift_icon_01.gif */; };
+		9A6A3CBD2501F02F0043B6DD /* gift_icon_04.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9A6A3CB92501F02F0043B6DD /* gift_icon_04.gif */; };
+		9A6A63FA2500E42000791C1A /* FJFLiveAnimationBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6A63F42500E42000791C1A /* FJFLiveAnimationBaseView.m */; };
+		9A6A63FB2500E42000791C1A /* FJFLiveAnimationContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6A63F52500E42000791C1A /* FJFLiveAnimationContainerView.m */; };
+		9A6A63FC2500E42000791C1A /* FJFLiveAnimationBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6A63F62500E42000791C1A /* FJFLiveAnimationBaseModel.m */; };
+		9A76B90C2503473600C9C783 /* NSObject+PerformTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A76B9082503473600C9C783 /* NSObject+PerformTimer.m */; };
+		9A76B90D2503473600C9C783 /* FJFGlobalTimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A76B9092503473600C9C783 /* FJFGlobalTimerManager.m */; };
+		9A988FD3250122FD00894875 /* FJFLiveGiftShowNumberView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A988FCF250122FD00894875 /* FJFLiveGiftShowNumberView.m */; };
+		9A988FDB2501266E00894875 /* FJFLiveGiftShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A988FDA2501266E00894875 /* FJFLiveGiftShowView.m */; };
+		9A988FDE2501267B00894875 /* FJFLiveGiftShowModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A988FDD2501267B00894875 /* FJFLiveGiftShowModel.m */; };
+		EEA8AD0937AF5782526CA4FF /* libPods-FJFLiveShowViewProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D583D492DB0E3FE0247A1F24 /* libPods-FJFLiveShowViewProject.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A5FE5BE24F39695008F29B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A5FE59A24F39693008F29B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A5FE5A124F39693008F29B6;
+			remoteInfo = FJFLiveShowViewProject;
+		};
+		9A5FE5C924F39695008F29B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A5FE59A24F39693008F29B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A5FE5A124F39693008F29B6;
+			remoteInfo = FJFLiveShowViewProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D7A650B9DCF4078C5249CC7 /* Pods-FJFLiveShowViewProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FJFLiveShowViewProject.debug.xcconfig"; path = "Target Support Files/Pods-FJFLiveShowViewProject/Pods-FJFLiveShowViewProject.debug.xcconfig"; sourceTree = "<group>"; };
+		98EBBC478F21F546676AF83A /* Pods-FJFLiveShowViewProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FJFLiveShowViewProject.release.xcconfig"; path = "Target Support Files/Pods-FJFLiveShowViewProject/Pods-FJFLiveShowViewProject.release.xcconfig"; sourceTree = "<group>"; };
+		9A5FE5A224F39693008F29B6 /* FJFLiveShowViewProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FJFLiveShowViewProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A5FE5A524F39693008F29B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9A5FE5A624F39693008F29B6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9A5FE5AB24F39693008F29B6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9A5FE5AC24F39693008F29B6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9A5FE5AF24F39693008F29B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A5FE5B124F39695008F29B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A5FE5B424F39695008F29B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A5FE5B624F39695008F29B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A5FE5B724F39695008F29B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9A5FE5BD24F39695008F29B6 /* FJFLiveShowViewProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FJFLiveShowViewProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A5FE5C124F39695008F29B6 /* FJFLiveShowViewProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJFLiveShowViewProjectTests.m; sourceTree = "<group>"; };
+		9A5FE5C324F39695008F29B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A5FE5C824F39695008F29B6 /* FJFLiveShowViewProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FJFLiveShowViewProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A5FE5CC24F39695008F29B6 /* FJFLiveShowViewProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJFLiveShowViewProjectUITests.m; sourceTree = "<group>"; };
+		9A5FE5CE24F39696008F29B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A6A3CB62501F02F0043B6DD /* gift_icon_02.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gift_icon_02.gif; sourceTree = "<group>"; };
+		9A6A3CB72501F02F0043B6DD /* gift_icon_03.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gift_icon_03.gif; sourceTree = "<group>"; };
+		9A6A3CB82501F02F0043B6DD /* gift_icon_01.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gift_icon_01.gif; sourceTree = "<group>"; };
+		9A6A3CB92501F02F0043B6DD /* gift_icon_04.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gift_icon_04.gif; sourceTree = "<group>"; };
+		9A6A63F02500E42000791C1A /* FJFLiveAnimationBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFLiveAnimationBaseView.h; sourceTree = "<group>"; };
+		9A6A63F12500E42000791C1A /* FJFLiveAnimationBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFLiveAnimationBaseModel.h; sourceTree = "<group>"; };
+		9A6A63F22500E42000791C1A /* FJFLiveAnimationContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFLiveAnimationContainerView.h; sourceTree = "<group>"; };
+		9A6A63F32500E42000791C1A /* FJFLiveAnimationBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFLiveAnimationBase.h; sourceTree = "<group>"; };
+		9A6A63F42500E42000791C1A /* FJFLiveAnimationBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFLiveAnimationBaseView.m; sourceTree = "<group>"; };
+		9A6A63F52500E42000791C1A /* FJFLiveAnimationContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFLiveAnimationContainerView.m; sourceTree = "<group>"; };
+		9A6A63F62500E42000791C1A /* FJFLiveAnimationBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFLiveAnimationBaseModel.m; sourceTree = "<group>"; };
+		9A76B9082503473600C9C783 /* NSObject+PerformTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+PerformTimer.m"; sourceTree = "<group>"; };
+		9A76B9092503473600C9C783 /* FJFGlobalTimerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFGlobalTimerManager.m; sourceTree = "<group>"; };
+		9A76B90A2503473600C9C783 /* NSObject+PerformTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+PerformTimer.h"; sourceTree = "<group>"; };
+		9A76B90B2503473600C9C783 /* FJFGlobalTimerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFGlobalTimerManager.h; sourceTree = "<group>"; };
+		9A988FCF250122FD00894875 /* FJFLiveGiftShowNumberView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFLiveGiftShowNumberView.m; sourceTree = "<group>"; };
+		9A988FD1250122FD00894875 /* FJFLiveGiftShowNumberView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFLiveGiftShowNumberView.h; sourceTree = "<group>"; };
+		9A988FD92501266D00894875 /* FJFLiveGiftShowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFLiveGiftShowView.h; sourceTree = "<group>"; };
+		9A988FDA2501266E00894875 /* FJFLiveGiftShowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFLiveGiftShowView.m; sourceTree = "<group>"; };
+		9A988FDC2501267A00894875 /* FJFLiveGiftShowModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFLiveGiftShowModel.h; sourceTree = "<group>"; };
+		9A988FDD2501267B00894875 /* FJFLiveGiftShowModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFLiveGiftShowModel.m; sourceTree = "<group>"; };
+		9A988FDF25012CFA00894875 /* FJFLiveDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FJFLiveDefine.h; sourceTree = "<group>"; };
+		D583D492DB0E3FE0247A1F24 /* libPods-FJFLiveShowViewProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FJFLiveShowViewProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A5FE59F24F39693008F29B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEA8AD0937AF5782526CA4FF /* libPods-FJFLiveShowViewProject.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A5FE5BA24F39695008F29B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A5FE5C524F39695008F29B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8DF0D4BBF7415234997EDBAC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D7A650B9DCF4078C5249CC7 /* Pods-FJFLiveShowViewProject.debug.xcconfig */,
+				98EBBC478F21F546676AF83A /* Pods-FJFLiveShowViewProject.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9A5FE59924F39693008F29B6 = {
+			isa = PBXGroup;
+			children = (
+				9A5FE5A424F39693008F29B6 /* FJFLiveShowViewProject */,
+				9A5FE5C024F39695008F29B6 /* FJFLiveShowViewProjectTests */,
+				9A5FE5CB24F39695008F29B6 /* FJFLiveShowViewProjectUITests */,
+				9A5FE5A324F39693008F29B6 /* Products */,
+				8DF0D4BBF7415234997EDBAC /* Pods */,
+				A429FD9521C5D6097D15CF7B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9A5FE5A324F39693008F29B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A5FE5A224F39693008F29B6 /* FJFLiveShowViewProject.app */,
+				9A5FE5BD24F39695008F29B6 /* FJFLiveShowViewProjectTests.xctest */,
+				9A5FE5C824F39695008F29B6 /* FJFLiveShowViewProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A5FE5A424F39693008F29B6 /* FJFLiveShowViewProject */ = {
+			isa = PBXGroup;
+			children = (
+				9A6A3CB42501F0170043B6DD /* Resource */,
+				9A6A63EE2500E42000791C1A /* XMLiveShowView */,
+				9A5FE5A524F39693008F29B6 /* AppDelegate.h */,
+				9A5FE5A624F39693008F29B6 /* AppDelegate.m */,
+				9A5FE5AB24F39693008F29B6 /* ViewController.h */,
+				9A5FE5AC24F39693008F29B6 /* ViewController.m */,
+				9A5FE5AE24F39693008F29B6 /* Main.storyboard */,
+				9A5FE5B124F39695008F29B6 /* Assets.xcassets */,
+				9A5FE5B324F39695008F29B6 /* LaunchScreen.storyboard */,
+				9A5FE5B624F39695008F29B6 /* Info.plist */,
+				9A5FE5B724F39695008F29B6 /* main.m */,
+			);
+			path = FJFLiveShowViewProject;
+			sourceTree = "<group>";
+		};
+		9A5FE5C024F39695008F29B6 /* FJFLiveShowViewProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A5FE5C124F39695008F29B6 /* FJFLiveShowViewProjectTests.m */,
+				9A5FE5C324F39695008F29B6 /* Info.plist */,
+			);
+			path = FJFLiveShowViewProjectTests;
+			sourceTree = "<group>";
+		};
+		9A5FE5CB24F39695008F29B6 /* FJFLiveShowViewProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9A5FE5CC24F39695008F29B6 /* FJFLiveShowViewProjectUITests.m */,
+				9A5FE5CE24F39696008F29B6 /* Info.plist */,
+			);
+			path = FJFLiveShowViewProjectUITests;
+			sourceTree = "<group>";
+		};
+		9A6A3CB42501F0170043B6DD /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				9A76B9072503473600C9C783 /* GlobalTimer */,
+				9A6A3CB52501F02F0043B6DD /* GiftGif */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		9A6A3CB52501F02F0043B6DD /* GiftGif */ = {
+			isa = PBXGroup;
+			children = (
+				9A6A3CB62501F02F0043B6DD /* gift_icon_02.gif */,
+				9A6A3CB72501F02F0043B6DD /* gift_icon_03.gif */,
+				9A6A3CB82501F02F0043B6DD /* gift_icon_01.gif */,
+				9A6A3CB92501F02F0043B6DD /* gift_icon_04.gif */,
+			);
+			path = GiftGif;
+			sourceTree = "<group>";
+		};
+		9A6A63EE2500E42000791C1A /* XMLiveShowView */ = {
+			isa = PBXGroup;
+			children = (
+				9A988FCE250122FD00894875 /* XMLiveGiftShowView */,
+				9A6A63EF2500E42000791C1A /* XMLiveAnimationBase */,
+			);
+			path = XMLiveShowView;
+			sourceTree = "<group>";
+		};
+		9A6A63EF2500E42000791C1A /* XMLiveAnimationBase */ = {
+			isa = PBXGroup;
+			children = (
+				9A6A63F32500E42000791C1A /* FJFLiveAnimationBase.h */,
+				9A6A63F02500E42000791C1A /* FJFLiveAnimationBaseView.h */,
+				9A6A63F42500E42000791C1A /* FJFLiveAnimationBaseView.m */,
+				9A6A63F12500E42000791C1A /* FJFLiveAnimationBaseModel.h */,
+				9A6A63F62500E42000791C1A /* FJFLiveAnimationBaseModel.m */,
+				9A6A63F22500E42000791C1A /* FJFLiveAnimationContainerView.h */,
+				9A6A63F52500E42000791C1A /* FJFLiveAnimationContainerView.m */,
+			);
+			path = XMLiveAnimationBase;
+			sourceTree = "<group>";
+		};
+		9A76B9072503473600C9C783 /* GlobalTimer */ = {
+			isa = PBXGroup;
+			children = (
+				9A76B90B2503473600C9C783 /* FJFGlobalTimerManager.h */,
+				9A76B9092503473600C9C783 /* FJFGlobalTimerManager.m */,
+				9A76B90A2503473600C9C783 /* NSObject+PerformTimer.h */,
+				9A76B9082503473600C9C783 /* NSObject+PerformTimer.m */,
+			);
+			path = GlobalTimer;
+			sourceTree = "<group>";
+		};
+		9A988FCE250122FD00894875 /* XMLiveGiftShowView */ = {
+			isa = PBXGroup;
+			children = (
+				9A988FDF25012CFA00894875 /* FJFLiveDefine.h */,
+				9A988FDC2501267A00894875 /* FJFLiveGiftShowModel.h */,
+				9A988FDD2501267B00894875 /* FJFLiveGiftShowModel.m */,
+				9A988FD92501266D00894875 /* FJFLiveGiftShowView.h */,
+				9A988FDA2501266E00894875 /* FJFLiveGiftShowView.m */,
+				9A988FD1250122FD00894875 /* FJFLiveGiftShowNumberView.h */,
+				9A988FCF250122FD00894875 /* FJFLiveGiftShowNumberView.m */,
+			);
+			path = XMLiveGiftShowView;
+			sourceTree = "<group>";
+		};
+		A429FD9521C5D6097D15CF7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D583D492DB0E3FE0247A1F24 /* libPods-FJFLiveShowViewProject.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A5FE5A124F39693008F29B6 /* FJFLiveShowViewProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A5FE5D124F39696008F29B6 /* Build configuration list for PBXNativeTarget "FJFLiveShowViewProject" */;
+			buildPhases = (
+				7F97F7718560E9FF82FCF2B9 /* [CP] Check Pods Manifest.lock */,
+				9A5FE59E24F39693008F29B6 /* Sources */,
+				9A5FE59F24F39693008F29B6 /* Frameworks */,
+				9A5FE5A024F39693008F29B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FJFLiveShowViewProject;
+			productName = FJFLiveShowViewProject;
+			productReference = 9A5FE5A224F39693008F29B6 /* FJFLiveShowViewProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A5FE5BC24F39695008F29B6 /* FJFLiveShowViewProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A5FE5D424F39696008F29B6 /* Build configuration list for PBXNativeTarget "FJFLiveShowViewProjectTests" */;
+			buildPhases = (
+				9A5FE5B924F39695008F29B6 /* Sources */,
+				9A5FE5BA24F39695008F29B6 /* Frameworks */,
+				9A5FE5BB24F39695008F29B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A5FE5BF24F39695008F29B6 /* PBXTargetDependency */,
+			);
+			name = FJFLiveShowViewProjectTests;
+			productName = FJFLiveShowViewProjectTests;
+			productReference = 9A5FE5BD24F39695008F29B6 /* FJFLiveShowViewProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9A5FE5C724F39695008F29B6 /* FJFLiveShowViewProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A5FE5D724F39696008F29B6 /* Build configuration list for PBXNativeTarget "FJFLiveShowViewProjectUITests" */;
+			buildPhases = (
+				9A5FE5C424F39695008F29B6 /* Sources */,
+				9A5FE5C524F39695008F29B6 /* Frameworks */,
+				9A5FE5C624F39695008F29B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A5FE5CA24F39695008F29B6 /* PBXTargetDependency */,
+			);
+			name = FJFLiveShowViewProjectUITests;
+			productName = FJFLiveShowViewProjectUITests;
+			productReference = 9A5FE5C824F39695008F29B6 /* FJFLiveShowViewProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A5FE59A24F39693008F29B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = macmini;
+				TargetAttributes = {
+					9A5FE5A124F39693008F29B6 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					9A5FE5BC24F39695008F29B6 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 9A5FE5A124F39693008F29B6;
+					};
+					9A5FE5C724F39695008F29B6 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 9A5FE5A124F39693008F29B6;
+					};
+				};
+			};
+			buildConfigurationList = 9A5FE59D24F39693008F29B6 /* Build configuration list for PBXProject "FJFLiveShowViewProject" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A5FE59924F39693008F29B6;
+			productRefGroup = 9A5FE5A324F39693008F29B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A5FE5A124F39693008F29B6 /* FJFLiveShowViewProject */,
+				9A5FE5BC24F39695008F29B6 /* FJFLiveShowViewProjectTests */,
+				9A5FE5C724F39695008F29B6 /* FJFLiveShowViewProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A5FE5A024F39693008F29B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A5FE5B524F39695008F29B6 /* LaunchScreen.storyboard in Resources */,
+				9A6A3CBB2501F02F0043B6DD /* gift_icon_03.gif in Resources */,
+				9A6A3CBC2501F02F0043B6DD /* gift_icon_01.gif in Resources */,
+				9A5FE5B224F39695008F29B6 /* Assets.xcassets in Resources */,
+				9A5FE5B024F39693008F29B6 /* Main.storyboard in Resources */,
+				9A6A3CBD2501F02F0043B6DD /* gift_icon_04.gif in Resources */,
+				9A6A3CBA2501F02F0043B6DD /* gift_icon_02.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A5FE5BB24F39695008F29B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A5FE5C624F39695008F29B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7F97F7718560E9FF82FCF2B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FJFLiveShowViewProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A5FE59E24F39693008F29B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A988FDE2501267B00894875 /* FJFLiveGiftShowModel.m in Sources */,
+				9A76B90C2503473600C9C783 /* NSObject+PerformTimer.m in Sources */,
+				9A76B90D2503473600C9C783 /* FJFGlobalTimerManager.m in Sources */,
+				9A988FDB2501266E00894875 /* FJFLiveGiftShowView.m in Sources */,
+				9A5FE5AD24F39693008F29B6 /* ViewController.m in Sources */,
+				9A5FE5A724F39693008F29B6 /* AppDelegate.m in Sources */,
+				9A988FD3250122FD00894875 /* FJFLiveGiftShowNumberView.m in Sources */,
+				9A6A63FB2500E42000791C1A /* FJFLiveAnimationContainerView.m in Sources */,
+				9A6A63FC2500E42000791C1A /* FJFLiveAnimationBaseModel.m in Sources */,
+				9A6A63FA2500E42000791C1A /* FJFLiveAnimationBaseView.m in Sources */,
+				9A5FE5B824F39695008F29B6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A5FE5B924F39695008F29B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A5FE5C224F39695008F29B6 /* FJFLiveShowViewProjectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A5FE5C424F39695008F29B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A5FE5CD24F39696008F29B6 /* FJFLiveShowViewProjectUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A5FE5BF24F39695008F29B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A5FE5A124F39693008F29B6 /* FJFLiveShowViewProject */;
+			targetProxy = 9A5FE5BE24F39695008F29B6 /* PBXContainerItemProxy */;
+		};
+		9A5FE5CA24F39695008F29B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A5FE5A124F39693008F29B6 /* FJFLiveShowViewProject */;
+			targetProxy = 9A5FE5C924F39695008F29B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A5FE5AE24F39693008F29B6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A5FE5AF24F39693008F29B6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A5FE5B324F39695008F29B6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A5FE5B424F39695008F29B6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A5FE5CF24F39696008F29B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9A5FE5D024F39696008F29B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A5FE5D224F39696008F29B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D7A650B9DCF4078C5249CC7 /* Pods-FJFLiveShowViewProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SDMS3W5X5V;
+				INFOPLIST_FILE = FJFLiveShowViewProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FJF.FJFLiveShowViewProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A5FE5D324F39696008F29B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98EBBC478F21F546676AF83A /* Pods-FJFLiveShowViewProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SDMS3W5X5V;
+				INFOPLIST_FILE = FJFLiveShowViewProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FJF.FJFLiveShowViewProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9A5FE5D524F39696008F29B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SDMS3W5X5V;
+				INFOPLIST_FILE = FJFLiveShowViewProjectTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FJF.FJFLiveShowViewProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FJFLiveShowViewProject.app/FJFLiveShowViewProject";
+			};
+			name = Debug;
+		};
+		9A5FE5D624F39696008F29B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SDMS3W5X5V;
+				INFOPLIST_FILE = FJFLiveShowViewProjectTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FJF.FJFLiveShowViewProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FJFLiveShowViewProject.app/FJFLiveShowViewProject";
+			};
+			name = Release;
+		};
+		9A5FE5D824F39696008F29B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SDMS3W5X5V;
+				INFOPLIST_FILE = FJFLiveShowViewProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FJF.FJFLiveShowViewProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FJFLiveShowViewProject;
+			};
+			name = Debug;
+		};
+		9A5FE5D924F39696008F29B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SDMS3W5X5V;
+				INFOPLIST_FILE = FJFLiveShowViewProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FJF.FJFLiveShowViewProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FJFLiveShowViewProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A5FE59D24F39693008F29B6 /* Build configuration list for PBXProject "FJFLiveShowViewProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A5FE5CF24F39696008F29B6 /* Debug */,
+				9A5FE5D024F39696008F29B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A5FE5D124F39696008F29B6 /* Build configuration list for PBXNativeTarget "FJFLiveShowViewProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A5FE5D224F39696008F29B6 /* Debug */,
+				9A5FE5D324F39696008F29B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A5FE5D424F39696008F29B6 /* Build configuration list for PBXNativeTarget "FJFLiveShowViewProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A5FE5D524F39696008F29B6 /* Debug */,
+				9A5FE5D624F39696008F29B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A5FE5D724F39696008F29B6 /* Build configuration list for PBXNativeTarget "FJFLiveShowViewProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A5FE5D824F39696008F29B6 /* Debug */,
+				9A5FE5D924F39696008F29B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A5FE59A24F39693008F29B6 /* Project object */;
+}
