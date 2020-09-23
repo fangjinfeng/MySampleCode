@@ -8,21 +8,17 @@
 
 // tool
 #import "FJFLiveDefine.h"
-#import "NSObject+PerformTimer.h"
-// model
-#import "FJFLiveGiftShowModel.h"
-// view
-#import "FJFLiveGiftShowView.h"
-#import "FJFLiveAnimationContainerView.h"
 // vc
 #import "ViewController.h"
 
 
-@interface ViewController ()
-// timer
-@property (nonatomic, strong) NSTimer *timer;
-// giftContainerView
-@property (nonatomic, strong) FJFLiveAnimationContainerView *giftContainerView;
+@interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
+// tableView
+@property (nonatomic, strong) UITableView   *tableView;
+// controllerNameArray
+@property (nonatomic, strong) NSArray <NSString *>*controllerNameArray;
+// controllerTitleArray
+@property (nonatomic, strong) NSArray <NSString *>*controllerTitleArray;
 @end
 
 @implementation ViewController
@@ -35,158 +31,85 @@
     self.edgesForExtendedLayout = UIRectEdgeNone;
     self.view.backgroundColor = [UIColor whiteColor];
     
-    [self layoutViewControls];
-    [self addGiftShowContainerView];
-}
-
-#pragma mark - Response Event
-- (void)mySameGiftButtonClicked:(UIButton *)sender {
-    sender.tag ++;
-    FJFLiveGiftShowModel *tmpModel = [[FJFLiveGiftShowModel alloc] init];
-    tmpModel.firstPriority = YES;
-    tmpModel.sendName = @"我";
-    tmpModel.giftName = @"棒棒哒";
-    tmpModel.headImageName = @"icon5";
-    tmpModel.giftImageName = @"gift_icon_01.gif";
-    tmpModel.backImageName = @"xm_anchor_gift_normal_icon";
-    tmpModel.animationUniqueKey = @"发到开发降低了封禁历史地方接口拉束带结发乐山大佛";
-    tmpModel.currentNumber = sender.tag;
-    [self.giftContainerView addLiveShowModel:tmpModel];
-    [sender fjf_stopCountDown];
-    [sender fjf_registerWithRemainingTime:2 timerCallBack:^(id  _Nonnull receiver, NSInteger remainingTime, BOOL * _Nonnull isStop) {
-        sender.tag = 0;
-    }];
-}
-
-- (void)myDifferentGiftButtonClicked:(UIButton *)sender {
-    FJFLiveGiftShowModel *tmpModel = [[FJFLiveGiftShowModel alloc] init];
-    tmpModel.firstPriority = YES;
-    tmpModel.sendName = @"我";
-    tmpModel.giftName = [self sendGiftName];
-    tmpModel.headImageName = [self giftAvatarImageName];
-    tmpModel.giftImageName = [self giftImageName];
-    tmpModel.backImageName = @"xm_anchor_gift_normal_icon";
-    [self.giftContainerView addLiveShowModel:tmpModel];
-}
-
-
-- (void)otherSameGiftButtonClicked:(UIButton *)sender {
-    sender.tag ++;
-    FJFLiveGiftShowModel *tmpModel = [[FJFLiveGiftShowModel alloc] init];
-    tmpModel.backImageName = @"xm_anchor_gift_knight_icon";
-    tmpModel.sendName = @"李明";
-    tmpModel.giftName = @"棒棒哒";
-    tmpModel.headImageName = @"icon1";
-    tmpModel.giftImageName = @"gift_icon_02.gif";
-    tmpModel.backImageName = @"xm_anchor_gift_normal_icon";
-    tmpModel.currentNumber = sender.tag;
-    tmpModel.animationUniqueKey = @"就了开发的发动机理发卡似懂非懂";
-    [self.giftContainerView addLiveShowModel:tmpModel];
-    [sender fjf_stopCountDown];
-    [sender fjf_registerWithRemainingTime:2 timerCallBack:^(id  _Nonnull receiver, NSInteger remainingTime, BOOL * _Nonnull isStop) {
-        sender.tag = 0;
+    [self.view addSubview:self.tableView];
+    [self.tableView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.edges.equalTo(self.view);
     }];
 }
 
 
-- (void)otherDifferentGiftButtonClicked:(UIButton *)sender {
-    FJFLiveGiftShowModel *tmpModel = [[FJFLiveGiftShowModel alloc] init];
-    tmpModel.backImageName = @"xm_anchor_gift_knight_icon";
-    tmpModel.sendName = [self giftSendName];
-    tmpModel.giftName = [self sendGiftName];
-    tmpModel.headImageName = [self giftAvatarImageName];
-    tmpModel.giftImageName = [self giftImageName];
-    [self.giftContainerView addLiveShowModel:tmpModel];
+#pragma mark - System Delegate
+
+#pragma mark - UITableView DataSource
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    return 1;
 }
 
-#pragma mark - Private Methods
-- (void)layoutViewControls {
-    
-    CGFloat offsetY = self.view.frame.size.height - NavigationBarHeight() - TabbarHeight() - 100;
-    UIButton *firstButton = [self giftSendButtonWithTitle:@"我-相同礼物" selector:@selector(mySameGiftButtonClicked:)];
-    firstButton.frame = CGRectMake(60, offsetY, 120, 50.0);
-    [self.view addSubview:firstButton];
-    
-    UIButton *secondButton = [self giftSendButtonWithTitle:@"他-相同礼物" selector:@selector(otherSameGiftButtonClicked:)];
-    secondButton.frame = CGRectMake(200, offsetY, 120, 50.0);
-    [self.view addSubview:secondButton];
-    
-    offsetY += 60;
-    UIButton *threeButton = [self giftSendButtonWithTitle:@"我-不同礼物" selector:@selector(myDifferentGiftButtonClicked:)];
-    threeButton.frame = CGRectMake(60, offsetY, 120, 50.0);
-    [self.view addSubview:threeButton];
-    
-    UIButton *fourButton = [self giftSendButtonWithTitle:@"他-不同礼物" selector:@selector(otherDifferentGiftButtonClicked:)];
-    fourButton.frame = CGRectMake(200, offsetY, 120, 50.0);
-    [self.view addSubview:fourButton];
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return self.controllerNameArray.count;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    static NSString *cellId = @"cellId";
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellId];
+    if (cell == nil) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellId];
+        cell.selectionStyle = UITableViewCellSelectionStyleNone;
+        cell.backgroundColor = [UIColor colorWithRed:arc4random_uniform(256.0)/256.0f green:arc4random_uniform(256)/256.0f blue:arc4random_uniform(256)/256.0f alpha:1.0f];
+    }
+    cell.textLabel.text = self.controllerTitleArray[indexPath.row];
+    return cell;
+}
+
+#pragma mark - UITableView Delegate
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return 100;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    NSString *className = self.controllerNameArray[indexPath.row];
+    [self.navigationController pushViewController:[[NSClassFromString(className) alloc] init] animated:YES];
 }
 
 
-- (void)addGiftShowContainerView {
-    FJFLiveAnimationViewStyle *tmpViewStyle = [[FJFLiveAnimationViewStyle alloc] init];
-    FJFLiveAnimationContainerView *tmpView = [[FJFLiveAnimationContainerView alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 0.01) viewStyle:tmpViewStyle];
-    tmpView.liveViewBlock = ^FJFLiveAnimationBaseView * _Nonnull{
-        return [[FJFLiveGiftShowView alloc] init];
-    };
-    [self.view addSubview:tmpView];
-    self.giftContainerView = tmpView;
+#pragma mark - Gettter Methods
+// tableView
+- (UITableView *)tableView {
+    if (!_tableView) {
+        _tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width , [UIScreen mainScreen].bounds.size.height) style:UITableViewStylePlain];
+        _tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+        _tableView.dataSource = self;
+        _tableView.delegate = self;
+        _tableView.keyboardDismissMode = UIScrollViewKeyboardDismissModeOnDrag;
+        if (@available(iOS 11.0, *)) {
+            _tableView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
+        }
+    }
+    return _tableView;
 }
 
-#pragma mark - Getter Methods
-
-// 生成 发送 按键
-- (UIButton *)giftSendButtonWithTitle:(NSString *)title selector:(SEL)selector{
-    UIButton *tmpButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    [tmpButton addTarget:self action:selector forControlEvents:UIControlEventTouchUpInside];
-    [tmpButton setTitle:title forState:UIControlStateNormal];
-    [tmpButton setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
-    tmpButton.backgroundColor = [[UIColor redColor] colorWithAlphaComponent:0.2];
-    return tmpButton;
+// controllerNameArray
+- (NSArray <NSString *> *)controllerNameArray {
+    if (!_controllerNameArray) {
+        _controllerNameArray = @[
+                                 @"FJFGiftViewController",
+                                 @"FJFMarqueeViewController",
+                                ];
+    }
+    return _controllerNameArray;
 }
 
-- (NSString *)giftSendName {
-    NSArray *nameArray = [self giftSendNameArray];
-    NSInteger tmpIndex = [self getRandomNumber:0 to:(nameArray.count - 1)];
-    return nameArray[tmpIndex];
-}
-
-- (NSString *)sendGiftName {
-    NSArray *nameArray = [self giftNameArray];
-    NSInteger tmpIndex = [self getRandomNumber:0 to:(nameArray.count - 1)];
-    return nameArray[tmpIndex];
-}
-
-- (NSString *)giftAvatarImageName {
-    NSInteger tmpIndex = [self getRandomNumber:0 to:28];
-    return [NSString stringWithFormat:@"icon%ld", tmpIndex];
-}
-
-- (NSString *)giftImageName {
-    NSInteger tmpIndex = [self getRandomNumber:1 to:4];
-    return [NSString stringWithFormat:@"gift_icon_%02ld.gif", tmpIndex];
-}
-
-- (NSArray *)giftSendNameArray {
-   return   @[@"李刚",
-              @"大明",
-              @"东哥",
-              @"大鹏",
-              @"天明",
-              @"朱雀",
-              @"玄武",
-              @"渊明",
-            ];
-}
-
-- (NSArray *)giftNameArray {
-   return   @[@"开心一笑",
-              @"棒棒哒",
-              @"满分",
-              @"牛逼大发",
-            ];
-}
-
--(NSInteger)getRandomNumber:(NSInteger)from to:(NSInteger)to {
-    return (NSInteger)(from + (arc4random() % (to - from + 1)));
+// controllerNameArray
+- (NSArray <NSString *> *)controllerTitleArray {
+    if (!_controllerTitleArray) {
+        _controllerTitleArray = @[
+                                 @"礼物赠送",
+                                 @"跑马灯",
+                                ];
+    }
+    return _controllerTitleArray;
 }
 @end

@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <Foundation/Foundation.h>
+
+@class FJFLiveAnimationBaseModel;
+
+typedef void(^animationViewTouchedAction)(__weak FJFLiveAnimationBaseModel * _Nullable baseModel, __weak UIView * _Nullable animationView);
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -18,6 +21,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) BOOL  firstPriority;
 // 唯一key animationUniqueKey
 @property (nonatomic, copy) NSString *animationUniqueKey;
+/// 视图 点击 回调 viewTouchedAction
+@property (nonatomic, copy, nullable) animationViewTouchedAction viewTouchedAction;
 @end
 
 NS_ASSUME_NONNULL_END

@@ -9,8 +9,8 @@
 
 #import "FJFLiveAnimationContainerView.h"
 
-#define xm_live_animation_signal(sema) dispatch_semaphore_signal(sema);
-#define xm_live_animation_wait(sema) dispatch_semaphore_wait(sema, DISPATCH_TIME_FOREVER);
+#define fjf_live_animation_signal(sema) dispatch_semaphore_signal(sema);
+#define fjf_live_animation_wait(sema) dispatch_semaphore_wait(sema, DISPATCH_TIME_FOREVER);
 
 @implementation FJFLiveAnimationViewStyle
 #pragma mark - Life Circle
@@ -68,6 +68,12 @@
            self.lock = dispatch_semaphore_create(1);
        }
        return self;
+}
+
+#pragma mark - Override Methods
+- (UIView *)hitTest:(CGPoint)point withEvent:(UIEvent *)event {
+    [self responseContainerViewHitTestWithPoint:point];
+     return [super hitTest:point withEvent:event];
 }
 
 #pragma mark - Public Methods
@@ -170,16 +176,20 @@
     // 出现的动画
     if (_viewStyle.appearModel == FJFLiveAnimationAppearModeLeft ||
         _viewStyle.appearModel == FJFLiveAnimationAppearModeRight) {
-        showView.isAppearAnimation = YES;
-        [UIView animateWithDuration:self.viewStyle.appearAnimationTime delay:self.viewStyle.appearAnimationDeayTime usingSpringWithDamping:self.viewStyle.appearAnimationDamping initialSpringVelocity:self.viewStyle.appearAnimationVelocity options:UIViewAnimationOptionCurveEaseIn animations:^{
-            CGRect f = showView.frame;
-            f.origin.x = 0;
-            showView.frame = f;
-        } completion:^(BOOL finished) {
-           if (finished) {
-             showView.isAppearAnimation = NO;
-            }
-        }];
+        if (self.appearAnimationBlock) {
+           self.appearAnimationBlock(self, showView, _viewStyle);
+        } else {
+            showView.isAppearAnimation = YES;
+           [UIView animateWithDuration:self.viewStyle.appearAnimationTime delay:self.viewStyle.appearAnimationDeayTime usingSpringWithDamping:self.viewStyle.appearAnimationDamping initialSpringVelocity:self.viewStyle.appearAnimationVelocity options:UIViewAnimationOptionCurveEaseIn animations:^{
+               CGRect f = showView.frame;
+               f.origin.x = 0;
+               showView.frame = f;
+           } completion:^(BOOL finished) {
+               if (finished) {
+                showView.isAppearAnimation = NO;
+               }
+           }];
+        }
     } else {
         CGRect f = showView.frame;
         f.origin.x = 0;
@@ -247,7 +257,7 @@
 
 
 - (void)sortShowArr{
-     xm_live_animation_wait(self.lock);
+     fjf_live_animation_wait(self.lock);
     //排序 最小的时间在第一个
     NSArray * sortArr = [self.showViewMarry sortedArrayUsingComparator:^NSComparisonResult(FJFLiveAnimationBaseView * obj1, FJFLiveAnimationBaseView * obj2) {
         NSComparisonResult result = [[NSNumber numberWithBool:obj2.liveModel.firstPriority] compare:[NSNumber numberWithBool:obj1.liveModel.firstPriority]];
@@ -257,14 +267,12 @@
         return result;
     }];
     self.showViewMarry = [NSMutableArray arrayWithArray:sortArr];
-    
     NSArray *waitSortArray = [self.waitShowMarry sortedArrayUsingComparator:^NSComparisonResult(FJFLiveAnimationBaseModel  *obj1, FJFLiveAnimationBaseModel  *obj2) {
         return [[NSNumber numberWithBool:obj2.firstPriority] compare:[NSNumber numberWithBool:obj1.firstPriority]];
     }];
     self.waitShowMarry = [NSMutableArray arrayWithArray:waitSortArray];
-    xm_live_animation_signal(self.lock);
+    fjf_live_animation_signal(self.lock);
 }
-
 
 - (void)updateDataSouceArrayWhenRemove {
     if (self.waitShowMarry.count) {
@@ -273,6 +281,22 @@
         if ([self isShowViewArrayContainLiveModel:baseModel]) {
             [self removeFromWaitDataWithLiveModel:baseModel];
         }
+    }
+}
+
+
+// 响应 显示 显示 点击 事件
+- (void)responseContainerViewHitTestWithPoint:(CGPoint)point {
+    NSArray *animatingCells = self.showViewMarry;
+    NSInteger count = animatingCells.count;
+    for (int i = 0; i < count; i++) {
+      FJFLiveAnimationBaseView *barrageCell = [animatingCells objectAtIndex:i];
+      if ([barrageCell.layer.presentationLayer hitTest:point]) {
+          if (barrageCell.liveModel.viewTouchedAction) {
+              barrageCell.liveModel.viewTouchedAction(barrageCell.liveModel, barrageCell);
+          }
+          break;
+      }
     }
 }
 
@@ -368,25 +392,25 @@
 
 // 从显示 数据源 移除 数据
 - (void)removeFromShowViewDataWithLiveView:(FJFLiveAnimationBaseView *)liveView {
-    xm_live_animation_wait(self.lock);
+    fjf_live_animation_wait(self.lock);
     //从数组移除
     [self.showViewMarry removeObject:liveView];
     //从字典移除
     [self.showViewMdict removeObjectForKey:liveView.liveModel.animationUniqueKey];
-    xm_live_animation_signal(self.lock);
+    fjf_live_animation_signal(self.lock);
 }
 
 
 // 从显示数据源 添加 数据
 - (void)addToShowViewDataWithLiveView:(FJFLiveAnimationBaseView *)liveView {
-    xm_live_animation_wait(self.lock);
+    fjf_live_animation_wait(self.lock);
     if (liveView.liveModel.firstPriority) {
         [self.showViewMarry insertObject:liveView atIndex:0];
     } else {
         [self.showViewMarry addObject:liveView];
     }
     [self.showViewMdict setValue:liveView forKey:liveView.liveModel.animationUniqueKey];
-    xm_live_animation_signal(self.lock);
+    fjf_live_animation_signal(self.lock);
 }
 
 #pragma mark - 等待数据源 操作
@@ -415,21 +439,21 @@
 
 // 从等待 数据源 移除 数据
 - (void)removeFromWaitDataWithLiveModel:(FJFLiveAnimationBaseModel *)liveModel {
-    xm_live_animation_wait(self.lock);
+    fjf_live_animation_wait(self.lock);
     //从数组移除
     [self.waitShowMarry removeObject:liveModel];
-    xm_live_animation_signal(self.lock);
+    fjf_live_animation_signal(self.lock);
 }
 
 // 从等待数据源 添加 数据
 - (void)addFromWaitDataWithLiveModel:(FJFLiveAnimationBaseModel *)liveModel {
-    xm_live_animation_wait(self.lock);
+    fjf_live_animation_wait(self.lock);
     if (liveModel.firstPriority) {
         [self.waitShowMarry insertObject:liveModel atIndex:0];
     } else {
         [self.waitShowMarry addObject:liveModel];
     }
-    xm_live_animation_signal(self.lock);
+    fjf_live_animation_signal(self.lock);
 }
 
 

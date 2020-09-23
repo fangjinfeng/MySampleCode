@@ -25,7 +25,6 @@ typedef FJFLiveAnimationBaseView* _Nonnull (^FJFLiveAnimationViewBlock)(void);
 @property(nonatomic, assign) CGFloat appearAnimationDamping;
 // 出现时动画 初始速度
 @property(nonatomic, assign) CGFloat appearAnimationVelocity;
-
 // 添加模式 addModel
 @property (nonatomic, assign) FJFLiveAnimationAddMode  addModel;
 // 出现模式 appearModel
@@ -57,6 +56,8 @@ typedef FJFLiveAnimationBaseView* _Nonnull (^FJFLiveAnimationViewBlock)(void);
 // liveViewBlock
 @property (nonatomic, copy) FJFLiveAnimationViewBlock liveViewBlock;
 
+/// 动画 回调
+@property (nonatomic, copy) void (^appearAnimationBlock)(FJFLiveAnimationContainerView *containerView, FJFLiveAnimationBaseView *showView, FJFLiveAnimationViewStyle *viewStyle);
 
 /// 添加 显示 模型
 /// @param showModel 显示 模型

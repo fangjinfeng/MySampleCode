@@ -19,6 +19,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic ,assign) NSInteger index;
 // 超时移除时长
 @property (nonatomic, assign) NSInteger kTimeOut;
+// 视图尺寸
+@property (nonatomic, assign) CGSize  baseViewSize;
 // 移除动画时长
 @property (nonatomic, assign) CGFloat kRemoveAnimationTime;
 // 数字改变动画时长

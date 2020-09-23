@@ -37,6 +37,31 @@
     [self startTimer];
 }
 
+- (void)sizeToFit {
+    CGFloat height = 0.0;
+    CGFloat width = 0.0;
+    for (CALayer *sublayer in self.layer.sublayers) {
+        CGFloat maxY = CGRectGetMaxY(sublayer.frame);
+        if (maxY > height) {
+            height = maxY;
+        }
+        CGFloat maxX = CGRectGetMaxX(sublayer.frame);
+        if (maxX > width) {
+            width = maxX;
+        }
+    }
+    
+    if (width == 0 || height == 0) {
+        CGImageRef content = (__bridge CGImageRef)self.layer.contents;
+        if (content) {
+            UIImage *image = [UIImage imageWithCGImage:content];
+            width = image.size.width/[UIScreen mainScreen].scale;
+            height = image.size.height/[UIScreen mainScreen].scale;
+        }
+    }
+    self.baseViewSize = CGSizeMake(width, height);
+}
+
 - (void)resetTimer {
     self.liveTimerForSecond = 0;
 }

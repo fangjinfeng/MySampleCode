@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		640C890E251B62C000403DA1 /* FJFLiveMarqueeBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 640C88F3251B62C000403DA1 /* FJFLiveMarqueeBaseView.m */; };
+		640C890F251B62C000403DA1 /* FJFLiveMarqueeBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 640C88F5251B62C000403DA1 /* FJFLiveMarqueeBaseModel.m */; };
+		640C8910251B62C000403DA1 /* FJFLiveMarqueeContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 640C88F6251B62C000403DA1 /* FJFLiveMarqueeContainerView.m */; };
+		640C8911251B62C000403DA1 /* FJFGiftMarqueeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 640C88FB251B62C000403DA1 /* FJFGiftMarqueeView.m */; };
+		640C8912251B62C000403DA1 /* FJFGiftMarqueeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 640C88FC251B62C000403DA1 /* FJFGiftMarqueeModel.m */; };
+		640C8913251B62C000403DA1 /* FJFLiveAnimationBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 640C8900251B62C000403DA1 /* FJFLiveAnimationBaseModel.m */; };
+		640C8914251B62C000403DA1 /* FJFLiveAnimationBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 640C8902251B62C000403DA1 /* FJFLiveAnimationBaseView.m */; };
+		640C8915251B62C000403DA1 /* FJFLiveAnimationContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 640C8904251B62C000403DA1 /* FJFLiveAnimationContainerView.m */; };
+		640C8916251B62C000403DA1 /* FJFLiveGiftShowNumberView.m in Sources */ = {isa = PBXBuildFile; fileRef = 640C8907251B62C000403DA1 /* FJFLiveGiftShowNumberView.m */; };
+		640C8917251B62C000403DA1 /* FJFLiveGiftShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 640C8908251B62C000403DA1 /* FJFLiveGiftShowView.m */; };
+		640C8918251B62C000403DA1 /* FJFLiveGiftShowModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 640C890D251B62C000403DA1 /* FJFLiveGiftShowModel.m */; };
+		640C8924251B62E200403DA1 /* NSObject+PerformTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 640C891A251B62E200403DA1 /* NSObject+PerformTimer.m */; };
+		640C8925251B62E200403DA1 /* FJFGlobalTimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 640C891B251B62E200403DA1 /* FJFGlobalTimerManager.m */; };
+		640C8926251B62E200403DA1 /* gift_icon_02.gif in Resources */ = {isa = PBXBuildFile; fileRef = 640C8920251B62E200403DA1 /* gift_icon_02.gif */; };
+		640C8927251B62E200403DA1 /* gift_icon_03.gif in Resources */ = {isa = PBXBuildFile; fileRef = 640C8921251B62E200403DA1 /* gift_icon_03.gif */; };
+		640C8928251B62E200403DA1 /* gift_icon_01.gif in Resources */ = {isa = PBXBuildFile; fileRef = 640C8922251B62E200403DA1 /* gift_icon_01.gif */; };
+		640C8929251B62E200403DA1 /* gift_icon_04.gif in Resources */ = {isa = PBXBuildFile; fileRef = 640C8923251B62E200403DA1 /* gift_icon_04.gif */; };
+		640C892E251B62EF00403DA1 /* FJFGiftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 640C892A251B62EF00403DA1 /* FJFGiftViewController.m */; };
+		640C892F251B62EF00403DA1 /* FJFMarqueeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 640C892D251B62EF00403DA1 /* FJFMarqueeViewController.m */; };
 		9A5FE5A724F39693008F29B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5FE5A624F39693008F29B6 /* AppDelegate.m */; };
 		9A5FE5AD24F39693008F29B6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5FE5AC24F39693008F29B6 /* ViewController.m */; };
 		9A5FE5B024F39693008F29B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A5FE5AE24F39693008F29B6 /* Main.storyboard */; };
@@ -15,18 +34,6 @@
 		9A5FE5B824F39695008F29B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5FE5B724F39695008F29B6 /* main.m */; };
 		9A5FE5C224F39695008F29B6 /* FJFLiveShowViewProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5FE5C124F39695008F29B6 /* FJFLiveShowViewProjectTests.m */; };
 		9A5FE5CD24F39696008F29B6 /* FJFLiveShowViewProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5FE5CC24F39695008F29B6 /* FJFLiveShowViewProjectUITests.m */; };
-		9A6A3CBA2501F02F0043B6DD /* gift_icon_02.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9A6A3CB62501F02F0043B6DD /* gift_icon_02.gif */; };
-		9A6A3CBB2501F02F0043B6DD /* gift_icon_03.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9A6A3CB72501F02F0043B6DD /* gift_icon_03.gif */; };
-		9A6A3CBC2501F02F0043B6DD /* gift_icon_01.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9A6A3CB82501F02F0043B6DD /* gift_icon_01.gif */; };
-		9A6A3CBD2501F02F0043B6DD /* gift_icon_04.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9A6A3CB92501F02F0043B6DD /* gift_icon_04.gif */; };
-		9A6A63FA2500E42000791C1A /* FJFLiveAnimationBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6A63F42500E42000791C1A /* FJFLiveAnimationBaseView.m */; };
-		9A6A63FB2500E42000791C1A /* FJFLiveAnimationContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6A63F52500E42000791C1A /* FJFLiveAnimationContainerView.m */; };
-		9A6A63FC2500E42000791C1A /* FJFLiveAnimationBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6A63F62500E42000791C1A /* FJFLiveAnimationBaseModel.m */; };
-		9A76B90C2503473600C9C783 /* NSObject+PerformTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A76B9082503473600C9C783 /* NSObject+PerformTimer.m */; };
-		9A76B90D2503473600C9C783 /* FJFGlobalTimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A76B9092503473600C9C783 /* FJFGlobalTimerManager.m */; };
-		9A988FD3250122FD00894875 /* FJFLiveGiftShowNumberView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A988FCF250122FD00894875 /* FJFLiveGiftShowNumberView.m */; };
-		9A988FDB2501266E00894875 /* FJFLiveGiftShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A988FDA2501266E00894875 /* FJFLiveGiftShowView.m */; };
-		9A988FDE2501267B00894875 /* FJFLiveGiftShowModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A988FDD2501267B00894875 /* FJFLiveGiftShowModel.m */; };
 		EEA8AD0937AF5782526CA4FF /* libPods-FJFLiveShowViewProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D583D492DB0E3FE0247A1F24 /* libPods-FJFLiveShowViewProject.a */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +56,43 @@
 
 /* Begin PBXFileReference section */
 		3D7A650B9DCF4078C5249CC7 /* Pods-FJFLiveShowViewProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FJFLiveShowViewProject.debug.xcconfig"; path = "Target Support Files/Pods-FJFLiveShowViewProject/Pods-FJFLiveShowViewProject.debug.xcconfig"; sourceTree = "<group>"; };
+		640C88F1251B62C000403DA1 /* FJFLiveMarqueeContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFLiveMarqueeContainerView.h; sourceTree = "<group>"; };
+		640C88F2251B62C000403DA1 /* FJFLiveMarqueeBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFLiveMarqueeBaseModel.h; sourceTree = "<group>"; };
+		640C88F3251B62C000403DA1 /* FJFLiveMarqueeBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFLiveMarqueeBaseView.m; sourceTree = "<group>"; };
+		640C88F4251B62C000403DA1 /* FJFLiveMarqueeBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFLiveMarqueeBase.h; sourceTree = "<group>"; };
+		640C88F5251B62C000403DA1 /* FJFLiveMarqueeBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFLiveMarqueeBaseModel.m; sourceTree = "<group>"; };
+		640C88F6251B62C000403DA1 /* FJFLiveMarqueeContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFLiveMarqueeContainerView.m; sourceTree = "<group>"; };
+		640C88F7251B62C000403DA1 /* FJFLiveMarqueeBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFLiveMarqueeBaseView.h; sourceTree = "<group>"; };
+		640C88F9251B62C000403DA1 /* FJFGiftMarqueeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFGiftMarqueeView.h; sourceTree = "<group>"; };
+		640C88FA251B62C000403DA1 /* FJFGiftMarqueeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFGiftMarqueeModel.h; sourceTree = "<group>"; };
+		640C88FB251B62C000403DA1 /* FJFGiftMarqueeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFGiftMarqueeView.m; sourceTree = "<group>"; };
+		640C88FC251B62C000403DA1 /* FJFGiftMarqueeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFGiftMarqueeModel.m; sourceTree = "<group>"; };
+		640C88FF251B62C000403DA1 /* FJFLiveAnimationBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFLiveAnimationBaseView.h; sourceTree = "<group>"; };
+		640C8900251B62C000403DA1 /* FJFLiveAnimationBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFLiveAnimationBaseModel.m; sourceTree = "<group>"; };
+		640C8901251B62C000403DA1 /* FJFLiveAnimationContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFLiveAnimationContainerView.h; sourceTree = "<group>"; };
+		640C8902251B62C000403DA1 /* FJFLiveAnimationBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFLiveAnimationBaseView.m; sourceTree = "<group>"; };
+		640C8903251B62C000403DA1 /* FJFLiveAnimationBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFLiveAnimationBase.h; sourceTree = "<group>"; };
+		640C8904251B62C000403DA1 /* FJFLiveAnimationContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFLiveAnimationContainerView.m; sourceTree = "<group>"; };
+		640C8905251B62C000403DA1 /* FJFLiveAnimationBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFLiveAnimationBaseModel.h; sourceTree = "<group>"; };
+		640C8907251B62C000403DA1 /* FJFLiveGiftShowNumberView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFLiveGiftShowNumberView.m; sourceTree = "<group>"; };
+		640C8908251B62C000403DA1 /* FJFLiveGiftShowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFLiveGiftShowView.m; sourceTree = "<group>"; };
+		640C8909251B62C000403DA1 /* FJFLiveDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFLiveDefine.h; sourceTree = "<group>"; };
+		640C890A251B62C000403DA1 /* FJFLiveGiftShowModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFLiveGiftShowModel.h; sourceTree = "<group>"; };
+		640C890B251B62C000403DA1 /* FJFLiveGiftShowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFLiveGiftShowView.h; sourceTree = "<group>"; };
+		640C890C251B62C000403DA1 /* FJFLiveGiftShowNumberView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFLiveGiftShowNumberView.h; sourceTree = "<group>"; };
+		640C890D251B62C000403DA1 /* FJFLiveGiftShowModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFLiveGiftShowModel.m; sourceTree = "<group>"; };
+		640C891A251B62E200403DA1 /* NSObject+PerformTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+PerformTimer.m"; sourceTree = "<group>"; };
+		640C891B251B62E200403DA1 /* FJFGlobalTimerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFGlobalTimerManager.m; sourceTree = "<group>"; };
+		640C891C251B62E200403DA1 /* NSObject+PerformTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+PerformTimer.h"; sourceTree = "<group>"; };
+		640C891D251B62E200403DA1 /* FJFGlobalTimerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFGlobalTimerManager.h; sourceTree = "<group>"; };
+		640C8920251B62E200403DA1 /* gift_icon_02.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gift_icon_02.gif; sourceTree = "<group>"; };
+		640C8921251B62E200403DA1 /* gift_icon_03.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gift_icon_03.gif; sourceTree = "<group>"; };
+		640C8922251B62E200403DA1 /* gift_icon_01.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gift_icon_01.gif; sourceTree = "<group>"; };
+		640C8923251B62E200403DA1 /* gift_icon_04.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gift_icon_04.gif; sourceTree = "<group>"; };
+		640C892A251B62EF00403DA1 /* FJFGiftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFGiftViewController.m; sourceTree = "<group>"; };
+		640C892B251B62EF00403DA1 /* FJFMarqueeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFMarqueeViewController.h; sourceTree = "<group>"; };
+		640C892C251B62EF00403DA1 /* FJFGiftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFGiftViewController.h; sourceTree = "<group>"; };
+		640C892D251B62EF00403DA1 /* FJFMarqueeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFMarqueeViewController.m; sourceTree = "<group>"; };
 		98EBBC478F21F546676AF83A /* Pods-FJFLiveShowViewProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FJFLiveShowViewProject.release.xcconfig"; path = "Target Support Files/Pods-FJFLiveShowViewProject/Pods-FJFLiveShowViewProject.release.xcconfig"; sourceTree = "<group>"; };
 		9A5FE5A224F39693008F29B6 /* FJFLiveShowViewProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FJFLiveShowViewProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A5FE5A524F39693008F29B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -66,28 +110,6 @@
 		9A5FE5C824F39695008F29B6 /* FJFLiveShowViewProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FJFLiveShowViewProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A5FE5CC24F39695008F29B6 /* FJFLiveShowViewProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJFLiveShowViewProjectUITests.m; sourceTree = "<group>"; };
 		9A5FE5CE24F39696008F29B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9A6A3CB62501F02F0043B6DD /* gift_icon_02.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gift_icon_02.gif; sourceTree = "<group>"; };
-		9A6A3CB72501F02F0043B6DD /* gift_icon_03.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gift_icon_03.gif; sourceTree = "<group>"; };
-		9A6A3CB82501F02F0043B6DD /* gift_icon_01.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gift_icon_01.gif; sourceTree = "<group>"; };
-		9A6A3CB92501F02F0043B6DD /* gift_icon_04.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gift_icon_04.gif; sourceTree = "<group>"; };
-		9A6A63F02500E42000791C1A /* FJFLiveAnimationBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFLiveAnimationBaseView.h; sourceTree = "<group>"; };
-		9A6A63F12500E42000791C1A /* FJFLiveAnimationBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFLiveAnimationBaseModel.h; sourceTree = "<group>"; };
-		9A6A63F22500E42000791C1A /* FJFLiveAnimationContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFLiveAnimationContainerView.h; sourceTree = "<group>"; };
-		9A6A63F32500E42000791C1A /* FJFLiveAnimationBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFLiveAnimationBase.h; sourceTree = "<group>"; };
-		9A6A63F42500E42000791C1A /* FJFLiveAnimationBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFLiveAnimationBaseView.m; sourceTree = "<group>"; };
-		9A6A63F52500E42000791C1A /* FJFLiveAnimationContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFLiveAnimationContainerView.m; sourceTree = "<group>"; };
-		9A6A63F62500E42000791C1A /* FJFLiveAnimationBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFLiveAnimationBaseModel.m; sourceTree = "<group>"; };
-		9A76B9082503473600C9C783 /* NSObject+PerformTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+PerformTimer.m"; sourceTree = "<group>"; };
-		9A76B9092503473600C9C783 /* FJFGlobalTimerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFGlobalTimerManager.m; sourceTree = "<group>"; };
-		9A76B90A2503473600C9C783 /* NSObject+PerformTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+PerformTimer.h"; sourceTree = "<group>"; };
-		9A76B90B2503473600C9C783 /* FJFGlobalTimerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFGlobalTimerManager.h; sourceTree = "<group>"; };
-		9A988FCF250122FD00894875 /* FJFLiveGiftShowNumberView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFLiveGiftShowNumberView.m; sourceTree = "<group>"; };
-		9A988FD1250122FD00894875 /* FJFLiveGiftShowNumberView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFLiveGiftShowNumberView.h; sourceTree = "<group>"; };
-		9A988FD92501266D00894875 /* FJFLiveGiftShowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFLiveGiftShowView.h; sourceTree = "<group>"; };
-		9A988FDA2501266E00894875 /* FJFLiveGiftShowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFLiveGiftShowView.m; sourceTree = "<group>"; };
-		9A988FDC2501267A00894875 /* FJFLiveGiftShowModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFLiveGiftShowModel.h; sourceTree = "<group>"; };
-		9A988FDD2501267B00894875 /* FJFLiveGiftShowModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFLiveGiftShowModel.m; sourceTree = "<group>"; };
-		9A988FDF25012CFA00894875 /* FJFLiveDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FJFLiveDefine.h; sourceTree = "<group>"; };
 		D583D492DB0E3FE0247A1F24 /* libPods-FJFLiveShowViewProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FJFLiveShowViewProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -117,6 +139,107 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		640C88EF251B62C000403DA1 /* FJFLiveMarqueeView */ = {
+			isa = PBXGroup;
+			children = (
+				640C88F0251B62C000403DA1 /* FJFLiveMarqueeBase */,
+				640C88F8251B62C000403DA1 /* FJFMaqueeShowView */,
+			);
+			path = FJFLiveMarqueeView;
+			sourceTree = "<group>";
+		};
+		640C88F0251B62C000403DA1 /* FJFLiveMarqueeBase */ = {
+			isa = PBXGroup;
+			children = (
+				640C88F4251B62C000403DA1 /* FJFLiveMarqueeBase.h */,
+				640C88F7251B62C000403DA1 /* FJFLiveMarqueeBaseView.h */,
+				640C88F3251B62C000403DA1 /* FJFLiveMarqueeBaseView.m */,
+				640C88F2251B62C000403DA1 /* FJFLiveMarqueeBaseModel.h */,
+				640C88F5251B62C000403DA1 /* FJFLiveMarqueeBaseModel.m */,
+				640C88F1251B62C000403DA1 /* FJFLiveMarqueeContainerView.h */,
+				640C88F6251B62C000403DA1 /* FJFLiveMarqueeContainerView.m */,
+			);
+			path = FJFLiveMarqueeBase;
+			sourceTree = "<group>";
+		};
+		640C88F8251B62C000403DA1 /* FJFMaqueeShowView */ = {
+			isa = PBXGroup;
+			children = (
+				640C88F9251B62C000403DA1 /* FJFGiftMarqueeView.h */,
+				640C88FB251B62C000403DA1 /* FJFGiftMarqueeView.m */,
+				640C88FA251B62C000403DA1 /* FJFGiftMarqueeModel.h */,
+				640C88FC251B62C000403DA1 /* FJFGiftMarqueeModel.m */,
+			);
+			path = FJFMaqueeShowView;
+			sourceTree = "<group>";
+		};
+		640C88FD251B62C000403DA1 /* FJFLiveShowView */ = {
+			isa = PBXGroup;
+			children = (
+				640C88FE251B62C000403DA1 /* FJFLiveAnimationBase */,
+				640C8906251B62C000403DA1 /* FJFLiveGiftShowView */,
+			);
+			path = FJFLiveShowView;
+			sourceTree = "<group>";
+		};
+		640C88FE251B62C000403DA1 /* FJFLiveAnimationBase */ = {
+			isa = PBXGroup;
+			children = (
+				640C8903251B62C000403DA1 /* FJFLiveAnimationBase.h */,
+				640C88FF251B62C000403DA1 /* FJFLiveAnimationBaseView.h */,
+				640C8902251B62C000403DA1 /* FJFLiveAnimationBaseView.m */,
+				640C8905251B62C000403DA1 /* FJFLiveAnimationBaseModel.h */,
+				640C8900251B62C000403DA1 /* FJFLiveAnimationBaseModel.m */,
+				640C8901251B62C000403DA1 /* FJFLiveAnimationContainerView.h */,
+				640C8904251B62C000403DA1 /* FJFLiveAnimationContainerView.m */,
+			);
+			path = FJFLiveAnimationBase;
+			sourceTree = "<group>";
+		};
+		640C8906251B62C000403DA1 /* FJFLiveGiftShowView */ = {
+			isa = PBXGroup;
+			children = (
+				640C8909251B62C000403DA1 /* FJFLiveDefine.h */,
+				640C890B251B62C000403DA1 /* FJFLiveGiftShowView.h */,
+				640C8908251B62C000403DA1 /* FJFLiveGiftShowView.m */,
+				640C890A251B62C000403DA1 /* FJFLiveGiftShowModel.h */,
+				640C890D251B62C000403DA1 /* FJFLiveGiftShowModel.m */,
+				640C890C251B62C000403DA1 /* FJFLiveGiftShowNumberView.h */,
+				640C8907251B62C000403DA1 /* FJFLiveGiftShowNumberView.m */,
+			);
+			path = FJFLiveGiftShowView;
+			sourceTree = "<group>";
+		};
+		640C8919251B62E200403DA1 /* GlobalTimer */ = {
+			isa = PBXGroup;
+			children = (
+				640C891C251B62E200403DA1 /* NSObject+PerformTimer.h */,
+				640C891A251B62E200403DA1 /* NSObject+PerformTimer.m */,
+				640C891D251B62E200403DA1 /* FJFGlobalTimerManager.h */,
+				640C891B251B62E200403DA1 /* FJFGlobalTimerManager.m */,
+			);
+			path = GlobalTimer;
+			sourceTree = "<group>";
+		};
+		640C891E251B62E200403DA1 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				640C891F251B62E200403DA1 /* GiftGif */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		640C891F251B62E200403DA1 /* GiftGif */ = {
+			isa = PBXGroup;
+			children = (
+				640C8920251B62E200403DA1 /* gift_icon_02.gif */,
+				640C8921251B62E200403DA1 /* gift_icon_03.gif */,
+				640C8922251B62E200403DA1 /* gift_icon_01.gif */,
+				640C8923251B62E200403DA1 /* gift_icon_04.gif */,
+			);
+			path = GiftGif;
+			sourceTree = "<group>";
+		};
 		8DF0D4BBF7415234997EDBAC /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -151,12 +274,18 @@
 		9A5FE5A424F39693008F29B6 /* FJFLiveShowViewProject */ = {
 			isa = PBXGroup;
 			children = (
-				9A6A3CB42501F0170043B6DD /* Resource */,
-				9A6A63EE2500E42000791C1A /* XMLiveShowView */,
+				640C8919251B62E200403DA1 /* GlobalTimer */,
+				640C891E251B62E200403DA1 /* Resource */,
+				640C88EF251B62C000403DA1 /* FJFLiveMarqueeView */,
+				640C88FD251B62C000403DA1 /* FJFLiveShowView */,
 				9A5FE5A524F39693008F29B6 /* AppDelegate.h */,
 				9A5FE5A624F39693008F29B6 /* AppDelegate.m */,
 				9A5FE5AB24F39693008F29B6 /* ViewController.h */,
 				9A5FE5AC24F39693008F29B6 /* ViewController.m */,
+				640C892C251B62EF00403DA1 /* FJFGiftViewController.h */,
+				640C892A251B62EF00403DA1 /* FJFGiftViewController.m */,
+				640C892B251B62EF00403DA1 /* FJFMarqueeViewController.h */,
+				640C892D251B62EF00403DA1 /* FJFMarqueeViewController.m */,
 				9A5FE5AE24F39693008F29B6 /* Main.storyboard */,
 				9A5FE5B124F39695008F29B6 /* Assets.xcassets */,
 				9A5FE5B324F39695008F29B6 /* LaunchScreen.storyboard */,
@@ -182,74 +311,6 @@
 				9A5FE5CE24F39696008F29B6 /* Info.plist */,
 			);
 			path = FJFLiveShowViewProjectUITests;
-			sourceTree = "<group>";
-		};
-		9A6A3CB42501F0170043B6DD /* Resource */ = {
-			isa = PBXGroup;
-			children = (
-				9A76B9072503473600C9C783 /* GlobalTimer */,
-				9A6A3CB52501F02F0043B6DD /* GiftGif */,
-			);
-			path = Resource;
-			sourceTree = "<group>";
-		};
-		9A6A3CB52501F02F0043B6DD /* GiftGif */ = {
-			isa = PBXGroup;
-			children = (
-				9A6A3CB62501F02F0043B6DD /* gift_icon_02.gif */,
-				9A6A3CB72501F02F0043B6DD /* gift_icon_03.gif */,
-				9A6A3CB82501F02F0043B6DD /* gift_icon_01.gif */,
-				9A6A3CB92501F02F0043B6DD /* gift_icon_04.gif */,
-			);
-			path = GiftGif;
-			sourceTree = "<group>";
-		};
-		9A6A63EE2500E42000791C1A /* XMLiveShowView */ = {
-			isa = PBXGroup;
-			children = (
-				9A988FCE250122FD00894875 /* XMLiveGiftShowView */,
-				9A6A63EF2500E42000791C1A /* XMLiveAnimationBase */,
-			);
-			path = XMLiveShowView;
-			sourceTree = "<group>";
-		};
-		9A6A63EF2500E42000791C1A /* XMLiveAnimationBase */ = {
-			isa = PBXGroup;
-			children = (
-				9A6A63F32500E42000791C1A /* FJFLiveAnimationBase.h */,
-				9A6A63F02500E42000791C1A /* FJFLiveAnimationBaseView.h */,
-				9A6A63F42500E42000791C1A /* FJFLiveAnimationBaseView.m */,
-				9A6A63F12500E42000791C1A /* FJFLiveAnimationBaseModel.h */,
-				9A6A63F62500E42000791C1A /* FJFLiveAnimationBaseModel.m */,
-				9A6A63F22500E42000791C1A /* FJFLiveAnimationContainerView.h */,
-				9A6A63F52500E42000791C1A /* FJFLiveAnimationContainerView.m */,
-			);
-			path = XMLiveAnimationBase;
-			sourceTree = "<group>";
-		};
-		9A76B9072503473600C9C783 /* GlobalTimer */ = {
-			isa = PBXGroup;
-			children = (
-				9A76B90B2503473600C9C783 /* FJFGlobalTimerManager.h */,
-				9A76B9092503473600C9C783 /* FJFGlobalTimerManager.m */,
-				9A76B90A2503473600C9C783 /* NSObject+PerformTimer.h */,
-				9A76B9082503473600C9C783 /* NSObject+PerformTimer.m */,
-			);
-			path = GlobalTimer;
-			sourceTree = "<group>";
-		};
-		9A988FCE250122FD00894875 /* XMLiveGiftShowView */ = {
-			isa = PBXGroup;
-			children = (
-				9A988FDF25012CFA00894875 /* FJFLiveDefine.h */,
-				9A988FDC2501267A00894875 /* FJFLiveGiftShowModel.h */,
-				9A988FDD2501267B00894875 /* FJFLiveGiftShowModel.m */,
-				9A988FD92501266D00894875 /* FJFLiveGiftShowView.h */,
-				9A988FDA2501266E00894875 /* FJFLiveGiftShowView.m */,
-				9A988FD1250122FD00894875 /* FJFLiveGiftShowNumberView.h */,
-				9A988FCF250122FD00894875 /* FJFLiveGiftShowNumberView.m */,
-			);
-			path = XMLiveGiftShowView;
 			sourceTree = "<group>";
 		};
 		A429FD9521C5D6097D15CF7B /* Frameworks */ = {
@@ -365,12 +426,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A5FE5B524F39695008F29B6 /* LaunchScreen.storyboard in Resources */,
-				9A6A3CBB2501F02F0043B6DD /* gift_icon_03.gif in Resources */,
-				9A6A3CBC2501F02F0043B6DD /* gift_icon_01.gif in Resources */,
+				640C8927251B62E200403DA1 /* gift_icon_03.gif in Resources */,
+				640C8928251B62E200403DA1 /* gift_icon_01.gif in Resources */,
 				9A5FE5B224F39695008F29B6 /* Assets.xcassets in Resources */,
 				9A5FE5B024F39693008F29B6 /* Main.storyboard in Resources */,
-				9A6A3CBD2501F02F0043B6DD /* gift_icon_04.gif in Resources */,
-				9A6A3CBA2501F02F0043B6DD /* gift_icon_02.gif in Resources */,
+				640C8929251B62E200403DA1 /* gift_icon_04.gif in Resources */,
+				640C8926251B62E200403DA1 /* gift_icon_02.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,17 +481,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A988FDE2501267B00894875 /* FJFLiveGiftShowModel.m in Sources */,
-				9A76B90C2503473600C9C783 /* NSObject+PerformTimer.m in Sources */,
-				9A76B90D2503473600C9C783 /* FJFGlobalTimerManager.m in Sources */,
-				9A988FDB2501266E00894875 /* FJFLiveGiftShowView.m in Sources */,
+				640C8913251B62C000403DA1 /* FJFLiveAnimationBaseModel.m in Sources */,
+				640C8917251B62C000403DA1 /* FJFLiveGiftShowView.m in Sources */,
+				640C890F251B62C000403DA1 /* FJFLiveMarqueeBaseModel.m in Sources */,
+				640C8918251B62C000403DA1 /* FJFLiveGiftShowModel.m in Sources */,
+				640C8912251B62C000403DA1 /* FJFGiftMarqueeModel.m in Sources */,
+				640C8925251B62E200403DA1 /* FJFGlobalTimerManager.m in Sources */,
+				640C8914251B62C000403DA1 /* FJFLiveAnimationBaseView.m in Sources */,
 				9A5FE5AD24F39693008F29B6 /* ViewController.m in Sources */,
+				640C8910251B62C000403DA1 /* FJFLiveMarqueeContainerView.m in Sources */,
+				640C892E251B62EF00403DA1 /* FJFGiftViewController.m in Sources */,
 				9A5FE5A724F39693008F29B6 /* AppDelegate.m in Sources */,
-				9A988FD3250122FD00894875 /* FJFLiveGiftShowNumberView.m in Sources */,
-				9A6A63FB2500E42000791C1A /* FJFLiveAnimationContainerView.m in Sources */,
-				9A6A63FC2500E42000791C1A /* FJFLiveAnimationBaseModel.m in Sources */,
-				9A6A63FA2500E42000791C1A /* FJFLiveAnimationBaseView.m in Sources */,
+				640C8911251B62C000403DA1 /* FJFGiftMarqueeView.m in Sources */,
 				9A5FE5B824F39695008F29B6 /* main.m in Sources */,
+				640C8924251B62E200403DA1 /* NSObject+PerformTimer.m in Sources */,
+				640C892F251B62EF00403DA1 /* FJFMarqueeViewController.m in Sources */,
+				640C890E251B62C000403DA1 /* FJFLiveMarqueeBaseView.m in Sources */,
+				640C8915251B62C000403DA1 /* FJFLiveAnimationContainerView.m in Sources */,
+				640C8916251B62C000403DA1 /* FJFLiveGiftShowNumberView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
