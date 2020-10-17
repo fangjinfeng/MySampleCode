@@ -251,7 +251,7 @@ static CGFloat const kGiftLabelFont = 11;//送出礼物寄语  字体大小
     if (!_backIV) {
         _backIV = [self creatIV];
         _backIV.contentMode = UIViewContentModeScaleAspectFill;
-        _backIV.image = [UIImage imageNamed:@"xm_anchor_gift_special_normal_icon"];
+        _backIV.image = [UIImage imageNamed:@"fjf_anchor_gift_special_normal_icon"];
     }
     return _backIV;
 }
