@@ -374,6 +374,7 @@
 // 挤出 正在显示 view
 - (void)squeezeOutShowLiveView {
     NSInteger tmpIndex = [self squeezeOutLiveViewIndex];
+    tmpIndex = [self correctShowDataIndexWithCurrentIndex:tmpIndex];
     if(tmpIndex < self.showViewMarry.count) {
         FJFLiveAnimationBaseView *outView = self.showViewMarry[tmpIndex];
         if ([self isHiddenFromTopWithOutIndex:tmpIndex]) {
@@ -385,7 +386,8 @@
 
 // 判断 是否 超过 最大 显示 限制
 - (void)judgeIsBeyondMaxShowLiveViewCountWithLiveView:(FJFLiveAnimationBaseView *)liveView {
-    if (self.showViewMarry.count + self.waitShowMarry.count > self.viewStyle.maxShowLiveViewCount) {
+    NSInteger showCount = [self correctShowDataIndexWithCurrentIndex:self.showViewMarry.count];
+    if (showCount > self.viewStyle.maxShowLiveViewCount) {
         [self squeezeOutShowLiveView];
     }
 }
