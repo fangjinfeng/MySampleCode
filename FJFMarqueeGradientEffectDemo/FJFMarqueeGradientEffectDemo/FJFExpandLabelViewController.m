@@ -33,6 +33,7 @@
     FJFExpandLabel *tmpLabel = [[FJFExpandLabel alloc] initWithFrame:CGRectMake(60, 150, 200, 200)];
     [tmpLabel updateLabelWithExpandLabelStyle:tmpLabelStyle];
     tmpLabel.numberOfLines = 0;
+    tmpLabel.userInteractionEnabled = YES;
     tmpLabel.lineBreakMode = NSLineBreakByCharWrapping;
     [self.view addSubview:tmpLabel];
     

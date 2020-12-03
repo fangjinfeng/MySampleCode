@@ -81,9 +81,8 @@
 @end
 
 @interface FJFExpandLabel()
-// expandButton
-@property (nonatomic, strong) UIButton *expandButton;
-
+// expandFrame
+@property (nonatomic, assign) CGRect expandFrame;
 // expandLabelStyle
 @property (nonatomic, strong) FJFExpandLabelStyle *expandLabelStyle;
 @end
@@ -91,42 +90,13 @@
 @implementation FJFExpandLabel
 #pragma mark - Life Circle
 
-- (instancetype)initWithFrame:(CGRect)frame {
-    if (self = [super initWithFrame:frame]) {
-        [self setupViewControls];
-    }
-    return self;
-}
-
-
 #pragma mark - Public Methods
 - (void)updateLabelWithExpandLabelStyle:(FJFExpandLabelStyle *)expandLabelStyle {
     self.expandLabelStyle = expandLabelStyle;
     NSAttributedString *tmpAttributedText = [FJFExpandLabelTool generateShowContentWithExpandLabelStyle:expandLabelStyle];
     self.attributedText = tmpAttributedText;
     
-    switch (expandLabelStyle.labelShowType) {
-            // 正常 显示
-        case FJFExpandLabelShowTypeNormal:
-            self.expandButton.hidden = YES;
-            break;
-            // 显示 展开 收起
-        case FJFExpandLabelShowTypeExpandAndPickup:
-            self.expandButton.hidden = NO;
-            break;
-            // 只显示 展开(没有收起)
-        case FJFExpandLabelShowTypeOnlyExpand:
-            if (expandLabelStyle.expandStatus) {
-                 self.expandButton.hidden = YES;
-            } else {
-                 self.expandButton.hidden = NO;
-            }
-            break;
-            
-        default:
-            break;
-    }
-    
+
     CGFloat expandButtonX = expandLabelStyle.assignLineWidth;
     if (expandLabelStyle.labelShowType == FJFExpandLabelShowTypeExpandAndPickup &&
         expandLabelStyle.expandStatus) {
@@ -138,39 +108,19 @@
     CGFloat expandButtonY = (self.frame.size.height - expandLabelStyle.assignLineHeight) / 2.0f + (expandLabelStyle.assignLineHeight - expandLabelStyle.expandLabelHeight);
     CGFloat expandButtonWidth = expandLabelStyle.expandLabelWidth;
     CGFloat expandButtonHeight = expandLabelStyle.expandLabelHeight;
-    self.expandButton.frame = CGRectMake(expandButtonX, expandButtonY, expandButtonWidth, expandButtonHeight);
-    [self bringSubviewToFront:self.expandButton];
+    self.expandFrame = CGRectMake(expandButtonX, expandButtonY, expandButtonWidth, expandButtonHeight);
 }
 
 
-#pragma mark - Private Methods
-
-- (void)setupViewControls {
-    self.userInteractionEnabled = YES;
-    self.lineBreakMode = NSLineBreakByCharWrapping;
-    [self addSubview:self.expandButton];
-}
-
-
-#pragma mark - Response Event
-- (void)expandButtonClicked:(UIButton *)sender {
-    [self.expandLabelStyle updateExpandStatus:!self.expandLabelStyle.expandStatus];
-    [self updateLabelWithExpandLabelStyle:self.expandLabelStyle];
-    if (self.expandLabelTapBlock) {
-        self.expandLabelTapBlock(self.expandLabelStyle.expandStatus);
+#pragma mark - Override Method
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    CGPoint touchPoint = [[touches anyObject] locationInView:self];
+    if (CGRectContainsPoint(self.expandFrame, touchPoint)) {
+        [self.expandLabelStyle updateExpandStatus:!self.expandLabelStyle.expandStatus];
+        [self updateLabelWithExpandLabelStyle:self.expandLabelStyle];
+        if (self.expandLabelTapBlock) {
+            self.expandLabelTapBlock(self.expandLabelStyle.expandStatus);
+        }
     }
 }
-
-
-#pragma mark - Setter / Getter
-// expandButton
-- (UIButton *)expandButton {
-    if (!_expandButton) {
-        _expandButton = [[UIButton alloc] init];
-        [_expandButton addTarget:self action:@selector(expandButtonClicked:) forControlEvents:UIControlEventTouchUpInside];
-        _expandButton.hidden = YES;
-    }
-    return _expandButton;
-}
-
 @end
