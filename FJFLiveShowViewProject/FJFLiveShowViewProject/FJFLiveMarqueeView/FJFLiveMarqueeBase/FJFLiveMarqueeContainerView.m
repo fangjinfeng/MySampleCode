@@ -193,9 +193,7 @@
                f.origin.x = offsetX;
                showView.frame = f;
            } completion:^(BOOL finished) {
-               if (finished) {
-                   [self removeCurrentShowViewWithShowView:showView];
-               }
+               [self removeCurrentShowViewWithShowView:showView];
            }];
         }
     } else {

@@ -171,9 +171,7 @@ static CGFloat const kGiftLabelFont = 11;//送出礼物寄语  字体大小
     [UIView animateWithDuration:self.kNumberAnimationTime animations:^{
         self.numberView.transform = CGAffineTransformMakeScale(1.5, 1.5);
     } completion:^(BOOL finished) {
-        if (finished) {
-            self.numberView.transform = CGAffineTransformIdentity;
-        }
+        self.numberView.transform = CGAffineTransformIdentity;
     }];
 }
 

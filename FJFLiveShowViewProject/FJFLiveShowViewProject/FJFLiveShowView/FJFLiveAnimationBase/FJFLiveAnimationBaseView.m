@@ -113,13 +113,11 @@
         [UIView animateWithDuration:self.kRemoveAnimationTime delay:self.kNumberAnimationTime options:UIViewAnimationOptionCurveEaseIn animations:^{
             self.transform = CGAffineTransformTranslate(self.transform, xChanged, yChanged);
         } completion:^(BOOL finished) {
-            if (finished) {
-                self.isLeavingAnimation = NO;
-                if (self.animationViewShowTimeOut) {
-                    self.animationViewShowTimeOut(self);
-                }
-                [self removeFromSuperview];
+            self.isLeavingAnimation = NO;
+            if (self.animationViewShowTimeOut) {
+                self.animationViewShowTimeOut(self);
             }
+            [self removeFromSuperview];
         }];
     }
     [self stopTimer];

@@ -172,9 +172,7 @@
         
     }
     completion:^(BOOL finished) {
-        if (finished) {
-            [marqueeContainerView removeCurrentShowViewWithShowView:marqueeShowView];
-        }
+        [marqueeContainerView removeCurrentShowViewWithShowView:marqueeShowView];
     }];
 }
 
