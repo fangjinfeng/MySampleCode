@@ -100,7 +100,7 @@ static CGFloat const kGiftLabelFont = 11;//送出礼物寄语  字体大小
     if (self.showNumberMarray.count > 0) {
         NSNumber *tmpNewNumber = self.showNumberMarray.firstObject;
         [self updateNumberWithNewNumber:tmpNewNumber.integerValue needOverlayNumber:NO];
-        [self.showNumberMarray removeObject:tmpNewNumber];
+        [self.showNumberMarray removeObjectAtIndex:0];
     }
 }
 
