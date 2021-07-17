@@ -3,12 +3,10 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6410130C2245026E00CD3376 /* FJFFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6410130A2245026E00CD3376 /* FJFFirstViewController.m */; };
-		6410130F2245028600CD3376 /* FJBaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6410130D2245028500CD3376 /* FJBaseTableView.m */; };
 		6440FCC42235F47D004D916A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6440FCC32235F47D004D916A /* AppDelegate.m */; };
 		6440FCC72235F47D004D916A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6440FCC62235F47D004D916A /* ViewController.m */; };
 		6440FCCA2235F47D004D916A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6440FCC82235F47D004D916A /* Main.storyboard */; };
@@ -17,10 +15,22 @@
 		6440FCD22235F47F004D916A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6440FCD12235F47F004D916A /* main.m */; };
 		6440FCDC2235F47F004D916A /* FJFBlogProjectDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6440FCDB2235F47F004D916A /* FJFBlogProjectDemoTests.m */; };
 		6440FCE72235F47F004D916A /* FJFBlogProjectDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6440FCE62235F47F004D916A /* FJFBlogProjectDemoUITests.m */; };
-		6440FCF62235F4A5004D916A /* ic_red_box@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6440FCF42235F4A5004D916A /* ic_red_box@3x.png */; };
-		6440FCF72235F4A5004D916A /* ic_red_box@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6440FCF52235F4A5004D916A /* ic_red_box@2x.png */; };
-		6460234D224A453A001CE24D /* FJFTopContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6460234C224A453A001CE24D /* FJFTopContainerView.m */; };
-		64602350224A488C001CE24D /* UIView+FJFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 6460234F224A488B001CE24D /* UIView+FJFrame.m */; };
+		64F4CAFC26A28C8000836313 /* FJFAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F4CADB26A28C8000836313 /* FJFAnimationViewController.m */; };
+		64F4CAFD26A28C8000836313 /* NSString+MethodTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F4CADF26A28C8000836313 /* NSString+MethodTool.m */; };
+		64F4CAFE26A28C8000836313 /* FJFUrlEncodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F4CAE026A28C8000836313 /* FJFUrlEncodeViewController.m */; };
+		64F4CAFF26A28C8000836313 /* UIView+FJFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F4CAE326A28C8000836313 /* UIView+FJFrame.m */; };
+		64F4CB0026A28C8000836313 /* FJBaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F4CAE626A28C8000836313 /* FJBaseTableView.m */; };
+		64F4CB0126A28C8000836313 /* FJFFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F4CAE826A28C8000836313 /* FJFFirstViewController.m */; };
+		64F4CB0226A28C8000836313 /* FJFTopContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F4CAEA26A28C8000836313 /* FJFTopContainerView.m */; };
+		64F4CB0326A28C8000836313 /* FJFTableSubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F4CAED26A28C8000836313 /* FJFTableSubViewController.m */; };
+		64F4CB0426A28C8000836313 /* FJFLazyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F4CAF026A28C8000836313 /* FJFLazyTableViewController.m */; };
+		64F4CB0526A28C8000836313 /* FJFChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F4CAF126A28C8000836313 /* FJFChatViewController.m */; };
+		64F4CB0626A28C8000836313 /* FJFHtmlHelpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F4CAF326A28C8000836313 /* FJFHtmlHelpTool.m */; };
+		64F4CB0726A28C8000836313 /* FJFWebViewHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F4CAF726A28C8000836313 /* FJFWebViewHeaderView.m */; };
+		64F4CB0826A28C8000836313 /* FJFWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F4CAF826A28C8000836313 /* FJFWebViewController.m */; };
+		64F4CB0926A28C8000836313 /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = 64F4CAFA26A28C8000836313 /* test.html */; };
+		64F4CB0A26A28C8000836313 /* info_banner_placehold_icon@3x.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 64F4CAFB26A28C8000836313 /* info_banner_placehold_icon@3x.jpeg */; };
+		7A3B4E13E77097EBD0243639 /* libPods-FJFBlogProjectDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18AF585D2156E9D1B8DAC9C7 /* libPods-FJFBlogProjectDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,10 +51,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6410130A2245026E00CD3376 /* FJFFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFFirstViewController.m; sourceTree = "<group>"; };
-		6410130B2245026E00CD3376 /* FJFFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFFirstViewController.h; sourceTree = "<group>"; };
-		6410130D2245028500CD3376 /* FJBaseTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJBaseTableView.m; sourceTree = "<group>"; };
-		6410130E2245028600CD3376 /* FJBaseTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJBaseTableView.h; sourceTree = "<group>"; };
+		18AF585D2156E9D1B8DAC9C7 /* libPods-FJFBlogProjectDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FJFBlogProjectDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6440FCBF2235F47D004D916A /* FJFBlogProjectDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FJFBlogProjectDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6440FCC22235F47D004D916A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6440FCC32235F47D004D916A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -61,12 +68,36 @@
 		6440FCE22235F47F004D916A /* FJFBlogProjectDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FJFBlogProjectDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6440FCE62235F47F004D916A /* FJFBlogProjectDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJFBlogProjectDemoUITests.m; sourceTree = "<group>"; };
 		6440FCE82235F47F004D916A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6440FCF42235F4A5004D916A /* ic_red_box@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_red_box@3x.png"; sourceTree = "<group>"; };
-		6440FCF52235F4A5004D916A /* ic_red_box@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_red_box@2x.png"; sourceTree = "<group>"; };
-		6460234B224A453A001CE24D /* FJFTopContainerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FJFTopContainerView.h; sourceTree = "<group>"; };
-		6460234C224A453A001CE24D /* FJFTopContainerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJFTopContainerView.m; sourceTree = "<group>"; };
-		6460234E224A488B001CE24D /* UIView+FJFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FJFrame.h"; sourceTree = "<group>"; };
-		6460234F224A488B001CE24D /* UIView+FJFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FJFrame.m"; sourceTree = "<group>"; };
+		64F4CADB26A28C8000836313 /* FJFAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFAnimationViewController.m; sourceTree = "<group>"; };
+		64F4CADC26A28C8000836313 /* FJFAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFAnimationViewController.h; sourceTree = "<group>"; };
+		64F4CADE26A28C8000836313 /* FJFUrlEncodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFUrlEncodeViewController.h; sourceTree = "<group>"; };
+		64F4CADF26A28C8000836313 /* NSString+MethodTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MethodTool.m"; sourceTree = "<group>"; };
+		64F4CAE026A28C8000836313 /* FJFUrlEncodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFUrlEncodeViewController.m; sourceTree = "<group>"; };
+		64F4CAE126A28C8000836313 /* NSString+MethodTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MethodTool.h"; sourceTree = "<group>"; };
+		64F4CAE326A28C8000836313 /* UIView+FJFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FJFrame.m"; sourceTree = "<group>"; };
+		64F4CAE426A28C8000836313 /* FJFFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFFirstViewController.h; sourceTree = "<group>"; };
+		64F4CAE526A28C8000836313 /* FJFTopContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFTopContainerView.h; sourceTree = "<group>"; };
+		64F4CAE626A28C8000836313 /* FJBaseTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJBaseTableView.m; sourceTree = "<group>"; };
+		64F4CAE726A28C8000836313 /* UIView+FJFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FJFrame.h"; sourceTree = "<group>"; };
+		64F4CAE826A28C8000836313 /* FJFFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFFirstViewController.m; sourceTree = "<group>"; };
+		64F4CAE926A28C8000836313 /* FJBaseTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJBaseTableView.h; sourceTree = "<group>"; };
+		64F4CAEA26A28C8000836313 /* FJFTopContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFTopContainerView.m; sourceTree = "<group>"; };
+		64F4CAEC26A28C8000836313 /* FJFLazyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFLazyTableViewController.h; sourceTree = "<group>"; };
+		64F4CAED26A28C8000836313 /* FJFTableSubViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFTableSubViewController.m; sourceTree = "<group>"; };
+		64F4CAEE26A28C8000836313 /* FJFChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFChatViewController.h; sourceTree = "<group>"; };
+		64F4CAEF26A28C8000836313 /* FJFTableSubViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFTableSubViewController.h; sourceTree = "<group>"; };
+		64F4CAF026A28C8000836313 /* FJFLazyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFLazyTableViewController.m; sourceTree = "<group>"; };
+		64F4CAF126A28C8000836313 /* FJFChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFChatViewController.m; sourceTree = "<group>"; };
+		64F4CAF326A28C8000836313 /* FJFHtmlHelpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFHtmlHelpTool.m; sourceTree = "<group>"; };
+		64F4CAF426A28C8000836313 /* FJFWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFWebViewController.h; sourceTree = "<group>"; };
+		64F4CAF526A28C8000836313 /* FJFWebViewHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFWebViewHeaderView.h; sourceTree = "<group>"; };
+		64F4CAF626A28C8000836313 /* FJFHtmlHelpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFHtmlHelpTool.h; sourceTree = "<group>"; };
+		64F4CAF726A28C8000836313 /* FJFWebViewHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFWebViewHeaderView.m; sourceTree = "<group>"; };
+		64F4CAF826A28C8000836313 /* FJFWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFWebViewController.m; sourceTree = "<group>"; };
+		64F4CAFA26A28C8000836313 /* test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
+		64F4CAFB26A28C8000836313 /* info_banner_placehold_icon@3x.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "info_banner_placehold_icon@3x.jpeg"; sourceTree = "<group>"; };
+		A4B73B463EB810BC212A68E6 /* Pods-FJFBlogProjectDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FJFBlogProjectDemo.release.xcconfig"; path = "Target Support Files/Pods-FJFBlogProjectDemo/Pods-FJFBlogProjectDemo.release.xcconfig"; sourceTree = "<group>"; };
+		C7532C8086B87A01CC3CDE19 /* Pods-FJFBlogProjectDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FJFBlogProjectDemo.debug.xcconfig"; path = "Target Support Files/Pods-FJFBlogProjectDemo/Pods-FJFBlogProjectDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A3B4E13E77097EBD0243639 /* libPods-FJFBlogProjectDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +126,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		46D45F38A0A02DC88420853F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18AF585D2156E9D1B8DAC9C7 /* libPods-FJFBlogProjectDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		496940964B5662034FA2141E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C7532C8086B87A01CC3CDE19 /* Pods-FJFBlogProjectDemo.debug.xcconfig */,
+				A4B73B463EB810BC212A68E6 /* Pods-FJFBlogProjectDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		6440FCB62235F47D004D916A = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +150,8 @@
 				6440FCDA2235F47F004D916A /* FJFBlogProjectDemoTests */,
 				6440FCE52235F47F004D916A /* FJFBlogProjectDemoUITests */,
 				6440FCC02235F47D004D916A /* Products */,
+				496940964B5662034FA2141E /* Pods */,
+				46D45F38A0A02DC88420853F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -117,20 +168,11 @@
 		6440FCC12235F47D004D916A /* FJFBlogProjectDemo */ = {
 			isa = PBXGroup;
 			children = (
+				64F4CAD926A28C8000836313 /* FJFBlogDemo */,
 				6440FCC22235F47D004D916A /* AppDelegate.h */,
 				6440FCC32235F47D004D916A /* AppDelegate.m */,
 				6440FCC52235F47D004D916A /* ViewController.h */,
 				6440FCC62235F47D004D916A /* ViewController.m */,
-				6410130E2245028600CD3376 /* FJBaseTableView.h */,
-				6410130D2245028500CD3376 /* FJBaseTableView.m */,
-				6460234E224A488B001CE24D /* UIView+FJFrame.h */,
-				6460234F224A488B001CE24D /* UIView+FJFrame.m */,
-				6460234B224A453A001CE24D /* FJFTopContainerView.h */,
-				6460234C224A453A001CE24D /* FJFTopContainerView.m */,
-				6410130B2245026E00CD3376 /* FJFFirstViewController.h */,
-				6410130A2245026E00CD3376 /* FJFFirstViewController.m */,
-				6440FCF52235F4A5004D916A /* ic_red_box@2x.png */,
-				6440FCF42235F4A5004D916A /* ic_red_box@3x.png */,
 				6440FCC82235F47D004D916A /* Main.storyboard */,
 				6440FCCB2235F47F004D916A /* Assets.xcassets */,
 				6440FCCD2235F47F004D916A /* LaunchScreen.storyboard */,
@@ -158,6 +200,89 @@
 			path = FJFBlogProjectDemoUITests;
 			sourceTree = "<group>";
 		};
+		64F4CAD926A28C8000836313 /* FJFBlogDemo */ = {
+			isa = PBXGroup;
+			children = (
+				64F4CADA26A28C8000836313 /* FJFAnimationDemo */,
+				64F4CADD26A28C8000836313 /* FJFUrlEncodingDemo */,
+				64F4CAE226A28C8000836313 /* TabScrollDemo */,
+				64F4CAEB26A28C8000836313 /* FJFLazyTableViewDemo */,
+				64F4CAF226A28C8000836313 /* FJFHtmlPrimaryDemo */,
+			);
+			path = FJFBlogDemo;
+			sourceTree = "<group>";
+		};
+		64F4CADA26A28C8000836313 /* FJFAnimationDemo */ = {
+			isa = PBXGroup;
+			children = (
+				64F4CADC26A28C8000836313 /* FJFAnimationViewController.h */,
+				64F4CADB26A28C8000836313 /* FJFAnimationViewController.m */,
+			);
+			path = FJFAnimationDemo;
+			sourceTree = "<group>";
+		};
+		64F4CADD26A28C8000836313 /* FJFUrlEncodingDemo */ = {
+			isa = PBXGroup;
+			children = (
+				64F4CADE26A28C8000836313 /* FJFUrlEncodeViewController.h */,
+				64F4CAE026A28C8000836313 /* FJFUrlEncodeViewController.m */,
+				64F4CAE126A28C8000836313 /* NSString+MethodTool.h */,
+				64F4CADF26A28C8000836313 /* NSString+MethodTool.m */,
+			);
+			path = FJFUrlEncodingDemo;
+			sourceTree = "<group>";
+		};
+		64F4CAE226A28C8000836313 /* TabScrollDemo */ = {
+			isa = PBXGroup;
+			children = (
+				64F4CAE726A28C8000836313 /* UIView+FJFrame.h */,
+				64F4CAE326A28C8000836313 /* UIView+FJFrame.m */,
+				64F4CAE926A28C8000836313 /* FJBaseTableView.h */,
+				64F4CAE626A28C8000836313 /* FJBaseTableView.m */,
+				64F4CAE526A28C8000836313 /* FJFTopContainerView.h */,
+				64F4CAEA26A28C8000836313 /* FJFTopContainerView.m */,
+				64F4CAE426A28C8000836313 /* FJFFirstViewController.h */,
+				64F4CAE826A28C8000836313 /* FJFFirstViewController.m */,
+			);
+			path = TabScrollDemo;
+			sourceTree = "<group>";
+		};
+		64F4CAEB26A28C8000836313 /* FJFLazyTableViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				64F4CAED26A28C8000836313 /* FJFTableSubViewController.m */,
+				64F4CAEF26A28C8000836313 /* FJFTableSubViewController.h */,
+				64F4CAEE26A28C8000836313 /* FJFChatViewController.h */,
+				64F4CAF126A28C8000836313 /* FJFChatViewController.m */,
+				64F4CAEC26A28C8000836313 /* FJFLazyTableViewController.h */,
+				64F4CAF026A28C8000836313 /* FJFLazyTableViewController.m */,
+			);
+			path = FJFLazyTableViewDemo;
+			sourceTree = "<group>";
+		};
+		64F4CAF226A28C8000836313 /* FJFHtmlPrimaryDemo */ = {
+			isa = PBXGroup;
+			children = (
+				64F4CAF626A28C8000836313 /* FJFHtmlHelpTool.h */,
+				64F4CAF326A28C8000836313 /* FJFHtmlHelpTool.m */,
+				64F4CAF426A28C8000836313 /* FJFWebViewController.h */,
+				64F4CAF826A28C8000836313 /* FJFWebViewController.m */,
+				64F4CAF526A28C8000836313 /* FJFWebViewHeaderView.h */,
+				64F4CAF726A28C8000836313 /* FJFWebViewHeaderView.m */,
+				64F4CAF926A28C8000836313 /* Resource */,
+			);
+			path = FJFHtmlPrimaryDemo;
+			sourceTree = "<group>";
+		};
+		64F4CAF926A28C8000836313 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				64F4CAFA26A28C8000836313 /* test.html */,
+				64F4CAFB26A28C8000836313 /* info_banner_placehold_icon@3x.jpeg */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -165,9 +290,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6440FCEB2235F47F004D916A /* Build configuration list for PBXNativeTarget "FJFBlogProjectDemo" */;
 			buildPhases = (
+				33AA852A45D0868EF3B65801 /* [CP] Check Pods Manifest.lock */,
 				6440FCBB2235F47D004D916A /* Sources */,
 				6440FCBC2235F47D004D916A /* Frameworks */,
 				6440FCBD2235F47D004D916A /* Resources */,
+				608D0003E9E0C530B03E7818 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -261,10 +388,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64F4CB0926A28C8000836313 /* test.html in Resources */,
+				64F4CB0A26A28C8000836313 /* info_banner_placehold_icon@3x.jpeg in Resources */,
 				6440FCCF2235F47F004D916A /* LaunchScreen.storyboard in Resources */,
-				6440FCF62235F4A5004D916A /* ic_red_box@3x.png in Resources */,
 				6440FCCC2235F47F004D916A /* Assets.xcassets in Resources */,
-				6440FCF72235F4A5004D916A /* ic_red_box@2x.png in Resources */,
 				6440FCCA2235F47D004D916A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,18 +412,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		33AA852A45D0868EF3B65801 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FJFBlogProjectDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		608D0003E9E0C530B03E7818 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FJFBlogProjectDemo/Pods-FJFBlogProjectDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FJFBlogProjectDemo/Pods-FJFBlogProjectDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FJFBlogProjectDemo/Pods-FJFBlogProjectDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6440FCBB2235F47D004D916A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6410130C2245026E00CD3376 /* FJFFirstViewController.m in Sources */,
-				64602350224A488C001CE24D /* UIView+FJFrame.m in Sources */,
+				64F4CAFC26A28C8000836313 /* FJFAnimationViewController.m in Sources */,
+				64F4CB0126A28C8000836313 /* FJFFirstViewController.m in Sources */,
+				64F4CAFF26A28C8000836313 /* UIView+FJFrame.m in Sources */,
+				64F4CB0026A28C8000836313 /* FJBaseTableView.m in Sources */,
+				64F4CB0826A28C8000836313 /* FJFWebViewController.m in Sources */,
+				64F4CB0626A28C8000836313 /* FJFHtmlHelpTool.m in Sources */,
+				64F4CB0426A28C8000836313 /* FJFLazyTableViewController.m in Sources */,
+				64F4CAFE26A28C8000836313 /* FJFUrlEncodeViewController.m in Sources */,
+				64F4CAFD26A28C8000836313 /* NSString+MethodTool.m in Sources */,
+				64F4CB0526A28C8000836313 /* FJFChatViewController.m in Sources */,
 				6440FCC72235F47D004D916A /* ViewController.m in Sources */,
+				64F4CB0326A28C8000836313 /* FJFTableSubViewController.m in Sources */,
 				6440FCD22235F47F004D916A /* main.m in Sources */,
-				6460234D224A453A001CE24D /* FJFTopContainerView.m in Sources */,
-				6410130F2245028600CD3376 /* FJBaseTableView.m in Sources */,
+				64F4CB0726A28C8000836313 /* FJFWebViewHeaderView.m in Sources */,
 				6440FCC42235F47D004D916A /* AppDelegate.m in Sources */,
+				64F4CB0226A28C8000836313 /* FJFTopContainerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,6 +643,7 @@
 		};
 		6440FCEC2235F47F004D916A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7532C8086B87A01CC3CDE19 /* Pods-FJFBlogProjectDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -483,6 +662,7 @@
 		};
 		6440FCED2235F47F004D916A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4B73B463EB810BC212A68E6 /* Pods-FJFBlogProjectDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

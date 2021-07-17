@@ -1,0 +1,1 @@
+../../../YBImageBrowser/YBImageBrowser/Protocol/YBIBDataProtocol.h

@@ -2,13 +2,12 @@
 //  AppDelegate.m
 //  FJFBlogProjectDemo
 //
-//  Created by 方金峰 on 2019/3/11.
-//  Copyright © 2019年 方金峰. All rights reserved.
+//  Created by macmini on 2019/3/11.
+//  Copyright © 2019年 macmini. All rights reserved.
 //
 
 #import "AppDelegate.h"
 #import "ViewController.h"
-#import "FJFFirstViewController.h"
 
 @interface AppDelegate ()
 
@@ -20,7 +19,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    UINavigationController *tmpNav = [[UINavigationController alloc] initWithRootViewController:[[FJFFirstViewController alloc] init]];
+    UINavigationController *tmpNav = [[UINavigationController alloc] initWithRootViewController:[[ViewController alloc] init]];
     self.window.rootViewController = tmpNav;
     [self.window makeKeyAndVisible];
     self.window.backgroundColor = [UIColor whiteColor];

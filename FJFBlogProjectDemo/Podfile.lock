@@ -1,0 +1,38 @@
+PODS:
+  - JXCategoryView (1.5.5)
+  - Masonry (1.1.0)
+  - SDWebImage (5.9.5):
+    - SDWebImage/Core (= 5.9.5)
+  - SDWebImage/Core (5.9.5)
+  - YBImageBrowser (3.0.9):
+    - YBImageBrowser/Core (= 3.0.9)
+  - YBImageBrowser/Core (3.0.9):
+    - SDWebImage (>= 5.0.0)
+    - YYImage
+  - YYImage (1.0.4):
+    - YYImage/Core (= 1.0.4)
+  - YYImage/Core (1.0.4)
+
+DEPENDENCIES:
+  - JXCategoryView (= 1.5.5)
+  - Masonry (~> 1.1.0)
+  - YBImageBrowser
+
+SPEC REPOS:
+  trunk:
+    - JXCategoryView
+    - Masonry
+    - SDWebImage
+    - YBImageBrowser
+    - YYImage
+
+SPEC CHECKSUMS:
+  JXCategoryView: 0293fcb356f10a5c2e679dac0a1a5f1899ee0c87
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SDWebImage: 0b2ba0d56479bf6a45ecddbfd5558bea93150d25
+  YBImageBrowser: 7ecc8bf33ffa5f3b94c397c29b4f3638dd37f527
+  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
+
+PODFILE CHECKSUM: 2dee32f0d106f133f1b7c36d21e47bd6b956c208
+
+COCOAPODS: 1.8.4

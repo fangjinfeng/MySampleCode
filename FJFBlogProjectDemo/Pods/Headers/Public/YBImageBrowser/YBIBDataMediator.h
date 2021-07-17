@@ -1,0 +1,1 @@
+../../../YBImageBrowser/YBImageBrowser/Base/YBIBDataMediator.h

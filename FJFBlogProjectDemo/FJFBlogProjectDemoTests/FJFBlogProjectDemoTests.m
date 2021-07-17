@@ -2,8 +2,8 @@
 //  FJFBlogProjectDemoTests.m
 //  FJFBlogProjectDemoTests
 //
-//  Created by 方金峰 on 2019/3/11.
-//  Copyright © 2019年 方金峰. All rights reserved.
+//  Created by macmini on 2019/3/11.
+//  Copyright © 2019年 macmini. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
