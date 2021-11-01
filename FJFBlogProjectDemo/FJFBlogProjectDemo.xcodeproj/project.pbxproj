@@ -31,6 +31,18 @@
 		64F4CB0926A28C8000836313 /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = 64F4CAFA26A28C8000836313 /* test.html */; };
 		64F4CB0A26A28C8000836313 /* info_banner_placehold_icon@3x.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 64F4CAFB26A28C8000836313 /* info_banner_placehold_icon@3x.jpeg */; };
 		7A3B4E13E77097EBD0243639 /* libPods-FJFBlogProjectDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18AF585D2156E9D1B8DAC9C7 /* libPods-FJFBlogProjectDemo.a */; };
+		8A95606A2730257700AA7295 /* FJFTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9560632730257700AA7295 /* FJFTextView.m */; };
+		8A95606B2730257700AA7295 /* FJFTextInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9560642730257700AA7295 /* FJFTextInputViewController.m */; };
+		8A95606C2730257700AA7295 /* NSString+FJFTextInputStringType.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9560662730257700AA7295 /* NSString+FJFTextInputStringType.m */; };
+		8A95606D2730257700AA7295 /* FJFTextInputIntercepter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9560672730257700AA7295 /* FJFTextInputIntercepter.m */; };
+		8A95607A2730259400AA7295 /* test.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8A95606F2730259400AA7295 /* test.gif */; };
+		8A95607B2730259400AA7295 /* UIImageView+SDImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9560722730259400AA7295 /* UIImageView+SDImage.m */; };
+		8A95607C2730259400AA7295 /* UIImage+DownSample.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9560732730259400AA7295 /* UIImage+DownSample.m */; };
+		8A95607D2730259400AA7295 /* FJFImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9560752730259400AA7295 /* FJFImageTableViewCell.m */; };
+		8A95607E2730259400AA7295 /* map_icon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8A9560762730259400AA7295 /* map_icon.jpeg */; };
+		8A95607F2730259400AA7295 /* FJFImageLoadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9560772730259400AA7295 /* FJFImageLoadViewController.m */; };
+		8A956085273025A900AA7295 /* FJFPermanentThreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A956081273025A900AA7295 /* FJFPermanentThreadViewController.m */; };
+		8A956086273025A900AA7295 /* FJFPermanentThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A956084273025A900AA7295 /* FJFPermanentThread.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,6 +108,28 @@
 		64F4CAF826A28C8000836313 /* FJFWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFWebViewController.m; sourceTree = "<group>"; };
 		64F4CAFA26A28C8000836313 /* test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
 		64F4CAFB26A28C8000836313 /* info_banner_placehold_icon@3x.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "info_banner_placehold_icon@3x.jpeg"; sourceTree = "<group>"; };
+		8A9560602730257700AA7295 /* FJFTextInputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFTextInputViewController.h; sourceTree = "<group>"; };
+		8A9560622730257700AA7295 /* FJFTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFTextView.h; sourceTree = "<group>"; };
+		8A9560632730257700AA7295 /* FJFTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFTextView.m; sourceTree = "<group>"; };
+		8A9560642730257700AA7295 /* FJFTextInputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFTextInputViewController.m; sourceTree = "<group>"; };
+		8A9560662730257700AA7295 /* NSString+FJFTextInputStringType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FJFTextInputStringType.m"; sourceTree = "<group>"; };
+		8A9560672730257700AA7295 /* FJFTextInputIntercepter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFTextInputIntercepter.m; sourceTree = "<group>"; };
+		8A9560682730257700AA7295 /* FJFTextInputIntercepter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFTextInputIntercepter.h; sourceTree = "<group>"; };
+		8A9560692730257700AA7295 /* NSString+FJFTextInputStringType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FJFTextInputStringType.h"; sourceTree = "<group>"; };
+		8A95606F2730259400AA7295 /* test.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = test.gif; sourceTree = "<group>"; };
+		8A9560712730259400AA7295 /* UIImage+DownSample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+DownSample.h"; sourceTree = "<group>"; };
+		8A9560722730259400AA7295 /* UIImageView+SDImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+SDImage.m"; sourceTree = "<group>"; };
+		8A9560732730259400AA7295 /* UIImage+DownSample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DownSample.m"; sourceTree = "<group>"; };
+		8A9560742730259400AA7295 /* UIImageView+SDImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+SDImage.h"; sourceTree = "<group>"; };
+		8A9560752730259400AA7295 /* FJFImageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFImageTableViewCell.m; sourceTree = "<group>"; };
+		8A9560762730259400AA7295 /* map_icon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = map_icon.jpeg; sourceTree = "<group>"; };
+		8A9560772730259400AA7295 /* FJFImageLoadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFImageLoadViewController.m; sourceTree = "<group>"; };
+		8A9560782730259400AA7295 /* FJFImageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFImageTableViewCell.h; sourceTree = "<group>"; };
+		8A9560792730259400AA7295 /* FJFImageLoadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFImageLoadViewController.h; sourceTree = "<group>"; };
+		8A956081273025A900AA7295 /* FJFPermanentThreadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFPermanentThreadViewController.m; sourceTree = "<group>"; };
+		8A956082273025A900AA7295 /* FJFPermanentThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFPermanentThread.h; sourceTree = "<group>"; };
+		8A956083273025A900AA7295 /* FJFPermanentThreadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFPermanentThreadViewController.h; sourceTree = "<group>"; };
+		8A956084273025A900AA7295 /* FJFPermanentThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFPermanentThread.m; sourceTree = "<group>"; };
 		A4B73B463EB810BC212A68E6 /* Pods-FJFBlogProjectDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FJFBlogProjectDemo.release.xcconfig"; path = "Target Support Files/Pods-FJFBlogProjectDemo/Pods-FJFBlogProjectDemo.release.xcconfig"; sourceTree = "<group>"; };
 		C7532C8086B87A01CC3CDE19 /* Pods-FJFBlogProjectDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FJFBlogProjectDemo.debug.xcconfig"; path = "Target Support Files/Pods-FJFBlogProjectDemo/Pods-FJFBlogProjectDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -203,6 +237,9 @@
 		64F4CAD926A28C8000836313 /* FJFBlogDemo */ = {
 			isa = PBXGroup;
 			children = (
+				8A956080273025A900AA7295 /* FJFPermanentThreadDemo */,
+				8A95606E2730259400AA7295 /* FJFImageLoadDemo */,
+				8A95605F2730257700AA7295 /* FJFTextInputInterceptorDemo */,
 				64F4CADA26A28C8000836313 /* FJFAnimationDemo */,
 				64F4CADD26A28C8000836313 /* FJFUrlEncodingDemo */,
 				64F4CAE226A28C8000836313 /* TabScrollDemo */,
@@ -281,6 +318,73 @@
 				64F4CAFB26A28C8000836313 /* info_banner_placehold_icon@3x.jpeg */,
 			);
 			path = Resource;
+			sourceTree = "<group>";
+		};
+		8A95605F2730257700AA7295 /* FJFTextInputInterceptorDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8A9560612730257700AA7295 /* FJFTextView */,
+				8A9560652730257700AA7295 /* FJFTextInputIntercepter */,
+				8A9560602730257700AA7295 /* FJFTextInputViewController.h */,
+				8A9560642730257700AA7295 /* FJFTextInputViewController.m */,
+			);
+			path = FJFTextInputInterceptorDemo;
+			sourceTree = "<group>";
+		};
+		8A9560612730257700AA7295 /* FJFTextView */ = {
+			isa = PBXGroup;
+			children = (
+				8A9560622730257700AA7295 /* FJFTextView.h */,
+				8A9560632730257700AA7295 /* FJFTextView.m */,
+			);
+			path = FJFTextView;
+			sourceTree = "<group>";
+		};
+		8A9560652730257700AA7295 /* FJFTextInputIntercepter */ = {
+			isa = PBXGroup;
+			children = (
+				8A9560682730257700AA7295 /* FJFTextInputIntercepter.h */,
+				8A9560672730257700AA7295 /* FJFTextInputIntercepter.m */,
+				8A9560692730257700AA7295 /* NSString+FJFTextInputStringType.h */,
+				8A9560662730257700AA7295 /* NSString+FJFTextInputStringType.m */,
+			);
+			path = FJFTextInputIntercepter;
+			sourceTree = "<group>";
+		};
+		8A95606E2730259400AA7295 /* FJFImageLoadDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8A95606F2730259400AA7295 /* test.gif */,
+				8A9560762730259400AA7295 /* map_icon.jpeg */,
+				8A9560702730259400AA7295 /* Category */,
+				8A9560782730259400AA7295 /* FJFImageTableViewCell.h */,
+				8A9560752730259400AA7295 /* FJFImageTableViewCell.m */,
+				8A9560792730259400AA7295 /* FJFImageLoadViewController.h */,
+				8A9560772730259400AA7295 /* FJFImageLoadViewController.m */,
+			);
+			path = FJFImageLoadDemo;
+			sourceTree = "<group>";
+		};
+		8A9560702730259400AA7295 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				8A9560722730259400AA7295 /* UIImageView+SDImage.m */,
+				8A9560712730259400AA7295 /* UIImage+DownSample.h */,
+				8A9560732730259400AA7295 /* UIImage+DownSample.m */,
+				8A9560742730259400AA7295 /* UIImageView+SDImage.h */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		8A956080273025A900AA7295 /* FJFPermanentThreadDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8A956082273025A900AA7295 /* FJFPermanentThread.h */,
+				8A956084273025A900AA7295 /* FJFPermanentThread.m */,
+				8A956083273025A900AA7295 /* FJFPermanentThreadViewController.h */,
+				8A956081273025A900AA7295 /* FJFPermanentThreadViewController.m */,
+			);
+			path = FJFPermanentThreadDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -388,10 +492,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A95607E2730259400AA7295 /* map_icon.jpeg in Resources */,
 				64F4CB0926A28C8000836313 /* test.html in Resources */,
 				64F4CB0A26A28C8000836313 /* info_banner_placehold_icon@3x.jpeg in Resources */,
 				6440FCCF2235F47F004D916A /* LaunchScreen.storyboard in Resources */,
 				6440FCCC2235F47F004D916A /* Assets.xcassets in Resources */,
+				8A95607A2730259400AA7295 /* test.gif in Resources */,
 				6440FCCA2235F47D004D916A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -459,10 +565,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A95606D2730257700AA7295 /* FJFTextInputIntercepter.m in Sources */,
 				64F4CAFC26A28C8000836313 /* FJFAnimationViewController.m in Sources */,
 				64F4CB0126A28C8000836313 /* FJFFirstViewController.m in Sources */,
+				8A956086273025A900AA7295 /* FJFPermanentThread.m in Sources */,
+				8A95606A2730257700AA7295 /* FJFTextView.m in Sources */,
 				64F4CAFF26A28C8000836313 /* UIView+FJFrame.m in Sources */,
 				64F4CB0026A28C8000836313 /* FJBaseTableView.m in Sources */,
+				8A95606C2730257700AA7295 /* NSString+FJFTextInputStringType.m in Sources */,
 				64F4CB0826A28C8000836313 /* FJFWebViewController.m in Sources */,
 				64F4CB0626A28C8000836313 /* FJFHtmlHelpTool.m in Sources */,
 				64F4CB0426A28C8000836313 /* FJFLazyTableViewController.m in Sources */,
@@ -471,10 +581,16 @@
 				64F4CB0526A28C8000836313 /* FJFChatViewController.m in Sources */,
 				6440FCC72235F47D004D916A /* ViewController.m in Sources */,
 				64F4CB0326A28C8000836313 /* FJFTableSubViewController.m in Sources */,
+				8A95607F2730259400AA7295 /* FJFImageLoadViewController.m in Sources */,
 				6440FCD22235F47F004D916A /* main.m in Sources */,
 				64F4CB0726A28C8000836313 /* FJFWebViewHeaderView.m in Sources */,
+				8A95607D2730259400AA7295 /* FJFImageTableViewCell.m in Sources */,
+				8A95607C2730259400AA7295 /* UIImage+DownSample.m in Sources */,
 				6440FCC42235F47D004D916A /* AppDelegate.m in Sources */,
+				8A95607B2730259400AA7295 /* UIImageView+SDImage.m in Sources */,
 				64F4CB0226A28C8000836313 /* FJFTopContainerView.m in Sources */,
+				8A956085273025A900AA7295 /* FJFPermanentThreadViewController.m in Sources */,
+				8A95606B2730257700AA7295 /* FJFTextInputViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

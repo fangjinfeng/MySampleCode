@@ -92,6 +92,9 @@
                                 @"FJFWebViewController": @"iOS关于html图片原生加载逻辑处理",
                                 @"FJFUrlEncodeViewController": @"iOS关于字符串处理逻辑",
                                 @"FJFFirstViewController": @"仿高德路线规划滑动效果",
+                                @"FJFImageLoadViewController": @"高清图片加载优化",
+                                @"FJFPermanentThreadViewController": @"常驻线程",
+                                @"FJFTextInputViewController": @"输入框拦截器"
                                 };
     }
     return _viewControllerDict;
