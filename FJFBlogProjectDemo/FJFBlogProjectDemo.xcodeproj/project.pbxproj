@@ -15,6 +15,9 @@
 		6440FCD22235F47F004D916A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6440FCD12235F47F004D916A /* main.m */; };
 		6440FCDC2235F47F004D916A /* FJFBlogProjectDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6440FCDB2235F47F004D916A /* FJFBlogProjectDemoTests.m */; };
 		6440FCE72235F47F004D916A /* FJFBlogProjectDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6440FCE62235F47F004D916A /* FJFBlogProjectDemoUITests.m */; };
+		645B73072753E56600076612 /* FJFZombileProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 645B73032753E56600076612 /* FJFZombileProxy.m */; };
+		645B73082753E56600076612 /* FJFZombileSniffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 645B73042753E56600076612 /* FJFZombileSniffer.m */; };
+		645B73092753E56600076612 /* FJFZombileSnifferViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 645B73052753E56600076612 /* FJFZombileSnifferViewController.m */; };
 		64F4CAFC26A28C8000836313 /* FJFAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F4CADB26A28C8000836313 /* FJFAnimationViewController.m */; };
 		64F4CAFD26A28C8000836313 /* NSString+MethodTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F4CADF26A28C8000836313 /* NSString+MethodTool.m */; };
 		64F4CAFE26A28C8000836313 /* FJFUrlEncodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F4CAE026A28C8000836313 /* FJFUrlEncodeViewController.m */; };
@@ -80,6 +83,12 @@
 		6440FCE22235F47F004D916A /* FJFBlogProjectDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FJFBlogProjectDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6440FCE62235F47F004D916A /* FJFBlogProjectDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJFBlogProjectDemoUITests.m; sourceTree = "<group>"; };
 		6440FCE82235F47F004D916A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		645B72FF2753E56600076612 /* FJFZombileSnifferViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFZombileSnifferViewController.h; sourceTree = "<group>"; };
+		645B73012753E56600076612 /* FJFZombileProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFZombileProxy.h; sourceTree = "<group>"; };
+		645B73022753E56600076612 /* FJFZombileSniffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFZombileSniffer.h; sourceTree = "<group>"; };
+		645B73032753E56600076612 /* FJFZombileProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFZombileProxy.m; sourceTree = "<group>"; };
+		645B73042753E56600076612 /* FJFZombileSniffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFZombileSniffer.m; sourceTree = "<group>"; };
+		645B73052753E56600076612 /* FJFZombileSnifferViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFZombileSnifferViewController.m; sourceTree = "<group>"; };
 		64F4CADB26A28C8000836313 /* FJFAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFAnimationViewController.m; sourceTree = "<group>"; };
 		64F4CADC26A28C8000836313 /* FJFAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFAnimationViewController.h; sourceTree = "<group>"; };
 		64F4CADE26A28C8000836313 /* FJFUrlEncodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFUrlEncodeViewController.h; sourceTree = "<group>"; };
@@ -234,9 +243,31 @@
 			path = FJFBlogProjectDemoUITests;
 			sourceTree = "<group>";
 		};
+		645B72FD2753E56600076612 /* FJFZombileSnifferDemo */ = {
+			isa = PBXGroup;
+			children = (
+				645B73002753E56600076612 /* FJFZombileSniffer */,
+				645B72FF2753E56600076612 /* FJFZombileSnifferViewController.h */,
+				645B73052753E56600076612 /* FJFZombileSnifferViewController.m */,
+			);
+			path = FJFZombileSnifferDemo;
+			sourceTree = "<group>";
+		};
+		645B73002753E56600076612 /* FJFZombileSniffer */ = {
+			isa = PBXGroup;
+			children = (
+				645B73012753E56600076612 /* FJFZombileProxy.h */,
+				645B73022753E56600076612 /* FJFZombileSniffer.h */,
+				645B73032753E56600076612 /* FJFZombileProxy.m */,
+				645B73042753E56600076612 /* FJFZombileSniffer.m */,
+			);
+			path = FJFZombileSniffer;
+			sourceTree = "<group>";
+		};
 		64F4CAD926A28C8000836313 /* FJFBlogDemo */ = {
 			isa = PBXGroup;
 			children = (
+				645B72FD2753E56600076612 /* FJFZombileSnifferDemo */,
 				8A956080273025A900AA7295 /* FJFPermanentThreadDemo */,
 				8A95606E2730259400AA7295 /* FJFImageLoadDemo */,
 				8A95605F2730257700AA7295 /* FJFTextInputInterceptorDemo */,
@@ -565,6 +596,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				645B73072753E56600076612 /* FJFZombileProxy.m in Sources */,
 				8A95606D2730257700AA7295 /* FJFTextInputIntercepter.m in Sources */,
 				64F4CAFC26A28C8000836313 /* FJFAnimationViewController.m in Sources */,
 				64F4CB0126A28C8000836313 /* FJFFirstViewController.m in Sources */,
@@ -586,11 +618,13 @@
 				64F4CB0726A28C8000836313 /* FJFWebViewHeaderView.m in Sources */,
 				8A95607D2730259400AA7295 /* FJFImageTableViewCell.m in Sources */,
 				8A95607C2730259400AA7295 /* UIImage+DownSample.m in Sources */,
+				645B73092753E56600076612 /* FJFZombileSnifferViewController.m in Sources */,
 				6440FCC42235F47D004D916A /* AppDelegate.m in Sources */,
 				8A95607B2730259400AA7295 /* UIImageView+SDImage.m in Sources */,
 				64F4CB0226A28C8000836313 /* FJFTopContainerView.m in Sources */,
 				8A956085273025A900AA7295 /* FJFPermanentThreadViewController.m in Sources */,
 				8A95606B2730257700AA7295 /* FJFTextInputViewController.m in Sources */,
+				645B73082753E56600076612 /* FJFZombileSniffer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
