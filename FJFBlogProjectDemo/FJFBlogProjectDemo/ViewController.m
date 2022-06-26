@@ -94,7 +94,13 @@
                                 @"FJFFirstViewController": @"仿高德路线规划滑动效果",
                                 @"FJFImageLoadViewController": @"高清图片加载优化",
                                 @"FJFPermanentThreadViewController": @"常驻线程",
-                                @"FJFTextInputViewController": @"输入框拦截器"
+                                @"FJFTextInputViewController": @"输入框拦截器",
+                                @"FJFDateFormaterViewController": @"DateFormater耗时探究",
+                                @"FJFButtonClickedViewController": @"Button的target为nil探究",
+                                @"FJFCatonHandleViewController": @"runloop空闲处理耗时操作",
+                                @"FJFGreyStyleModuleVC": @"界面黑白色探索",
+                                @"FJFTimerViewController": @"定时器进入后台不暂停",
+                                
                                 };
     }
     return _viewControllerDict;

@@ -43,6 +43,25 @@
 		8A95607F2730259400AA7295 /* FJFImageLoadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9560772730259400AA7295 /* FJFImageLoadViewController.m */; };
 		8A956085273025A900AA7295 /* FJFPermanentThreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A956081273025A900AA7295 /* FJFPermanentThreadViewController.m */; };
 		8A956086273025A900AA7295 /* FJFPermanentThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A956084273025A900AA7295 /* FJFPermanentThread.m */; };
+		8AD49F6F286837D8009BF0DC /* UIImageView+FJFGreyImageview.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD49F49286837D8009BF0DC /* UIImageView+FJFGreyImageview.m */; };
+		8AD49F70286837D8009BF0DC /* NSObject+FJFSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD49F4C286837D8009BF0DC /* NSObject+FJFSwizzle.m */; };
+		8AD49F71286837D8009BF0DC /* UILabel+FJFGrey.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD49F4F286837D8009BF0DC /* UILabel+FJFGrey.m */; };
+		8AD49F72286837D8009BF0DC /* CAShapeLayer+FJFGrey.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD49F51286837D8009BF0DC /* CAShapeLayer+FJFGrey.m */; };
+		8AD49F73286837D8009BF0DC /* UIColor+FJFGreyColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD49F52286837D8009BF0DC /* UIColor+FJFGreyColor.m */; };
+		8AD49F74286837D8009BF0DC /* FJFGreyHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD49F54286837D8009BF0DC /* FJFGreyHelper.m */; };
+		8AD49F75286837D8009BF0DC /* WKWebView+FJFGrey.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD49F55286837D8009BF0DC /* WKWebView+FJFGrey.m */; };
+		8AD49F76286837D8009BF0DC /* UIImage+FJFGreyImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD49F57286837D8009BF0DC /* UIImage+FJFGreyImage.m */; };
+		8AD49F77286837D8009BF0DC /* FJFGreyStyleModuleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD49F59286837D8009BF0DC /* FJFGreyStyleModuleVC.m */; };
+		8AD49F78286837D8009BF0DC /* order_findCar.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8AD49F5B286837D8009BF0DC /* order_findCar.gif */; };
+		8AD49F79286837D8009BF0DC /* FJFTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD49F5D286837D8009BF0DC /* FJFTestView.m */; };
+		8AD49F7A286837D8009BF0DC /* FJFButtonClickedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD49F5F286837D8009BF0DC /* FJFButtonClickedViewController.m */; };
+		8AD49F7B286837D8009BF0DC /* FJFTestWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD49F61286837D8009BF0DC /* FJFTestWindow.m */; };
+		8AD49F7C286837D8009BF0DC /* FJFTestButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD49F62286837D8009BF0DC /* FJFTestButton.m */; };
+		8AD49F7D286837D8009BF0DC /* UIApplication+FJFSendAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD49F66286837D8009BF0DC /* UIApplication+FJFSendAction.m */; };
+		8AD49F7E286837D8009BF0DC /* FJFCatonHandleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD49F69286837D8009BF0DC /* FJFCatonHandleViewController.m */; };
+		8AD49F7F286837D8009BF0DC /* FJFCatonHandleTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD49F6B286837D8009BF0DC /* FJFCatonHandleTool.m */; };
+		8AD49F80286837D8009BF0DC /* FJFDateFormaterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD49F6D286837D8009BF0DC /* FJFDateFormaterViewController.m */; };
+		8AD49F842868392A009BF0DC /* FJFTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD49F822868392A009BF0DC /* FJFTimerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -130,6 +149,43 @@
 		8A956082273025A900AA7295 /* FJFPermanentThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFPermanentThread.h; sourceTree = "<group>"; };
 		8A956083273025A900AA7295 /* FJFPermanentThreadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFPermanentThreadViewController.h; sourceTree = "<group>"; };
 		8A956084273025A900AA7295 /* FJFPermanentThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFPermanentThread.m; sourceTree = "<group>"; };
+		8AD49F47286837D8009BF0DC /* FJFGreyStyleModuleVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFGreyStyleModuleVC.h; sourceTree = "<group>"; };
+		8AD49F49286837D8009BF0DC /* UIImageView+FJFGreyImageview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+FJFGreyImageview.m"; sourceTree = "<group>"; };
+		8AD49F4A286837D8009BF0DC /* UIColor+FJFGreyColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+FJFGreyColor.h"; sourceTree = "<group>"; };
+		8AD49F4B286837D8009BF0DC /* CAShapeLayer+FJFGrey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAShapeLayer+FJFGrey.h"; sourceTree = "<group>"; };
+		8AD49F4C286837D8009BF0DC /* NSObject+FJFSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+FJFSwizzle.m"; sourceTree = "<group>"; };
+		8AD49F4D286837D8009BF0DC /* WKWebView+FJFGrey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WKWebView+FJFGrey.h"; sourceTree = "<group>"; };
+		8AD49F4E286837D8009BF0DC /* FJFGreyHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFGreyHelper.h; sourceTree = "<group>"; };
+		8AD49F4F286837D8009BF0DC /* UILabel+FJFGrey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+FJFGrey.m"; sourceTree = "<group>"; };
+		8AD49F50286837D8009BF0DC /* UIImage+FJFGreyImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FJFGreyImage.h"; sourceTree = "<group>"; };
+		8AD49F51286837D8009BF0DC /* CAShapeLayer+FJFGrey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAShapeLayer+FJFGrey.m"; sourceTree = "<group>"; };
+		8AD49F52286837D8009BF0DC /* UIColor+FJFGreyColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FJFGreyColor.m"; sourceTree = "<group>"; };
+		8AD49F53286837D8009BF0DC /* UIImageView+FJFGreyImageview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+FJFGreyImageview.h"; sourceTree = "<group>"; };
+		8AD49F54286837D8009BF0DC /* FJFGreyHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFGreyHelper.m; sourceTree = "<group>"; };
+		8AD49F55286837D8009BF0DC /* WKWebView+FJFGrey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WKWebView+FJFGrey.m"; sourceTree = "<group>"; };
+		8AD49F56286837D8009BF0DC /* NSObject+FJFSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+FJFSwizzle.h"; sourceTree = "<group>"; };
+		8AD49F57286837D8009BF0DC /* UIImage+FJFGreyImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FJFGreyImage.m"; sourceTree = "<group>"; };
+		8AD49F58286837D8009BF0DC /* UILabel+FJFGrey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+FJFGrey.h"; sourceTree = "<group>"; };
+		8AD49F59286837D8009BF0DC /* FJFGreyStyleModuleVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFGreyStyleModuleVC.m; sourceTree = "<group>"; };
+		8AD49F5B286837D8009BF0DC /* order_findCar.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = order_findCar.gif; sourceTree = "<group>"; };
+		8AD49F5D286837D8009BF0DC /* FJFTestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFTestView.m; sourceTree = "<group>"; };
+		8AD49F5E286837D8009BF0DC /* FJFTestButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFTestButton.h; sourceTree = "<group>"; };
+		8AD49F5F286837D8009BF0DC /* FJFButtonClickedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFButtonClickedViewController.m; sourceTree = "<group>"; };
+		8AD49F60286837D8009BF0DC /* UIApplication+FJFSendAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+FJFSendAction.h"; sourceTree = "<group>"; };
+		8AD49F61286837D8009BF0DC /* FJFTestWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFTestWindow.m; sourceTree = "<group>"; };
+		8AD49F62286837D8009BF0DC /* FJFTestButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFTestButton.m; sourceTree = "<group>"; };
+		8AD49F63286837D8009BF0DC /* FJFTestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFTestView.h; sourceTree = "<group>"; };
+		8AD49F64286837D8009BF0DC /* FJFButtonClickedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFButtonClickedViewController.h; sourceTree = "<group>"; };
+		8AD49F65286837D8009BF0DC /* FJFTestWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFTestWindow.h; sourceTree = "<group>"; };
+		8AD49F66286837D8009BF0DC /* UIApplication+FJFSendAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+FJFSendAction.m"; sourceTree = "<group>"; };
+		8AD49F68286837D8009BF0DC /* FJFCatonHandleTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFCatonHandleTool.h; sourceTree = "<group>"; };
+		8AD49F69286837D8009BF0DC /* FJFCatonHandleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFCatonHandleViewController.m; sourceTree = "<group>"; };
+		8AD49F6A286837D8009BF0DC /* FJFCatonHandleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFCatonHandleViewController.h; sourceTree = "<group>"; };
+		8AD49F6B286837D8009BF0DC /* FJFCatonHandleTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFCatonHandleTool.m; sourceTree = "<group>"; };
+		8AD49F6D286837D8009BF0DC /* FJFDateFormaterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFDateFormaterViewController.m; sourceTree = "<group>"; };
+		8AD49F6E286837D8009BF0DC /* FJFDateFormaterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFDateFormaterViewController.h; sourceTree = "<group>"; };
+		8AD49F822868392A009BF0DC /* FJFTimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFTimerViewController.m; sourceTree = "<group>"; };
+		8AD49F832868392A009BF0DC /* FJFTimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFTimerViewController.h; sourceTree = "<group>"; };
 		A4B73B463EB810BC212A68E6 /* Pods-FJFBlogProjectDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FJFBlogProjectDemo.release.xcconfig"; path = "Target Support Files/Pods-FJFBlogProjectDemo/Pods-FJFBlogProjectDemo.release.xcconfig"; sourceTree = "<group>"; };
 		C7532C8086B87A01CC3CDE19 /* Pods-FJFBlogProjectDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FJFBlogProjectDemo.debug.xcconfig"; path = "Target Support Files/Pods-FJFBlogProjectDemo/Pods-FJFBlogProjectDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -237,6 +293,11 @@
 		64F4CAD926A28C8000836313 /* FJFBlogDemo */ = {
 			isa = PBXGroup;
 			children = (
+				8AD49F8128683929009BF0DC /* FJFTimerBackgroundDemo */,
+				8AD49F5C286837D8009BF0DC /* FJFButtonClickedDemo */,
+				8AD49F67286837D8009BF0DC /* FJFCatonHandleDemo */,
+				8AD49F6C286837D8009BF0DC /* FJFDateFormaterDemo */,
+				8AD49F46286837D8009BF0DC /* FJFGreyStyleModuleDemo */,
 				8A956080273025A900AA7295 /* FJFPermanentThreadDemo */,
 				8A95606E2730259400AA7295 /* FJFImageLoadDemo */,
 				8A95605F2730257700AA7295 /* FJFTextInputInterceptorDemo */,
@@ -387,6 +448,94 @@
 			path = FJFPermanentThreadDemo;
 			sourceTree = "<group>";
 		};
+		8AD49F46286837D8009BF0DC /* FJFGreyStyleModuleDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8AD49F47286837D8009BF0DC /* FJFGreyStyleModuleVC.h */,
+				8AD49F59286837D8009BF0DC /* FJFGreyStyleModuleVC.m */,
+				8AD49F48286837D8009BF0DC /* FJFGreyCategory */,
+				8AD49F5A286837D8009BF0DC /* Resource */,
+			);
+			path = FJFGreyStyleModuleDemo;
+			sourceTree = "<group>";
+		};
+		8AD49F48286837D8009BF0DC /* FJFGreyCategory */ = {
+			isa = PBXGroup;
+			children = (
+				8AD49F4E286837D8009BF0DC /* FJFGreyHelper.h */,
+				8AD49F54286837D8009BF0DC /* FJFGreyHelper.m */,
+				8AD49F4A286837D8009BF0DC /* UIColor+FJFGreyColor.h */,
+				8AD49F52286837D8009BF0DC /* UIColor+FJFGreyColor.m */,
+				8AD49F4B286837D8009BF0DC /* CAShapeLayer+FJFGrey.h */,
+				8AD49F51286837D8009BF0DC /* CAShapeLayer+FJFGrey.m */,
+				8AD49F58286837D8009BF0DC /* UILabel+FJFGrey.h */,
+				8AD49F4F286837D8009BF0DC /* UILabel+FJFGrey.m */,
+				8AD49F50286837D8009BF0DC /* UIImage+FJFGreyImage.h */,
+				8AD49F57286837D8009BF0DC /* UIImage+FJFGreyImage.m */,
+				8AD49F53286837D8009BF0DC /* UIImageView+FJFGreyImageview.h */,
+				8AD49F49286837D8009BF0DC /* UIImageView+FJFGreyImageview.m */,
+				8AD49F55286837D8009BF0DC /* WKWebView+FJFGrey.m */,
+				8AD49F4D286837D8009BF0DC /* WKWebView+FJFGrey.h */,
+				8AD49F56286837D8009BF0DC /* NSObject+FJFSwizzle.h */,
+				8AD49F4C286837D8009BF0DC /* NSObject+FJFSwizzle.m */,
+			);
+			path = FJFGreyCategory;
+			sourceTree = "<group>";
+		};
+		8AD49F5A286837D8009BF0DC /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				8AD49F5B286837D8009BF0DC /* order_findCar.gif */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		8AD49F5C286837D8009BF0DC /* FJFButtonClickedDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8AD49F63286837D8009BF0DC /* FJFTestView.h */,
+				8AD49F5D286837D8009BF0DC /* FJFTestView.m */,
+				8AD49F5E286837D8009BF0DC /* FJFTestButton.h */,
+				8AD49F62286837D8009BF0DC /* FJFTestButton.m */,
+				8AD49F65286837D8009BF0DC /* FJFTestWindow.h */,
+				8AD49F61286837D8009BF0DC /* FJFTestWindow.m */,
+				8AD49F64286837D8009BF0DC /* FJFButtonClickedViewController.h */,
+				8AD49F5F286837D8009BF0DC /* FJFButtonClickedViewController.m */,
+				8AD49F60286837D8009BF0DC /* UIApplication+FJFSendAction.h */,
+				8AD49F66286837D8009BF0DC /* UIApplication+FJFSendAction.m */,
+			);
+			path = FJFButtonClickedDemo;
+			sourceTree = "<group>";
+		};
+		8AD49F67286837D8009BF0DC /* FJFCatonHandleDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8AD49F68286837D8009BF0DC /* FJFCatonHandleTool.h */,
+				8AD49F6B286837D8009BF0DC /* FJFCatonHandleTool.m */,
+				8AD49F6A286837D8009BF0DC /* FJFCatonHandleViewController.h */,
+				8AD49F69286837D8009BF0DC /* FJFCatonHandleViewController.m */,
+			);
+			path = FJFCatonHandleDemo;
+			sourceTree = "<group>";
+		};
+		8AD49F6C286837D8009BF0DC /* FJFDateFormaterDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8AD49F6E286837D8009BF0DC /* FJFDateFormaterViewController.h */,
+				8AD49F6D286837D8009BF0DC /* FJFDateFormaterViewController.m */,
+			);
+			path = FJFDateFormaterDemo;
+			sourceTree = "<group>";
+		};
+		8AD49F8128683929009BF0DC /* FJFTimerBackgroundDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8AD49F832868392A009BF0DC /* FJFTimerViewController.h */,
+				8AD49F822868392A009BF0DC /* FJFTimerViewController.m */,
+			);
+			path = FJFTimerBackgroundDemo;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -499,6 +648,7 @@
 				6440FCCC2235F47F004D916A /* Assets.xcassets in Resources */,
 				8A95607A2730259400AA7295 /* test.gif in Resources */,
 				6440FCCA2235F47D004D916A /* Main.storyboard in Resources */,
+				8AD49F78286837D8009BF0DC /* order_findCar.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -565,11 +715,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AD49F71286837D8009BF0DC /* UILabel+FJFGrey.m in Sources */,
 				8A95606D2730257700AA7295 /* FJFTextInputIntercepter.m in Sources */,
+				8AD49F7B286837D8009BF0DC /* FJFTestWindow.m in Sources */,
 				64F4CAFC26A28C8000836313 /* FJFAnimationViewController.m in Sources */,
+				8AD49F7A286837D8009BF0DC /* FJFButtonClickedViewController.m in Sources */,
+				8AD49F76286837D8009BF0DC /* UIImage+FJFGreyImage.m in Sources */,
 				64F4CB0126A28C8000836313 /* FJFFirstViewController.m in Sources */,
 				8A956086273025A900AA7295 /* FJFPermanentThread.m in Sources */,
 				8A95606A2730257700AA7295 /* FJFTextView.m in Sources */,
+				8AD49F70286837D8009BF0DC /* NSObject+FJFSwizzle.m in Sources */,
+				8AD49F75286837D8009BF0DC /* WKWebView+FJFGrey.m in Sources */,
+				8AD49F80286837D8009BF0DC /* FJFDateFormaterViewController.m in Sources */,
+				8AD49F7D286837D8009BF0DC /* UIApplication+FJFSendAction.m in Sources */,
+				8AD49F842868392A009BF0DC /* FJFTimerViewController.m in Sources */,
 				64F4CAFF26A28C8000836313 /* UIView+FJFrame.m in Sources */,
 				64F4CB0026A28C8000836313 /* FJBaseTableView.m in Sources */,
 				8A95606C2730257700AA7295 /* NSString+FJFTextInputStringType.m in Sources */,
@@ -580,17 +739,26 @@
 				64F4CAFD26A28C8000836313 /* NSString+MethodTool.m in Sources */,
 				64F4CB0526A28C8000836313 /* FJFChatViewController.m in Sources */,
 				6440FCC72235F47D004D916A /* ViewController.m in Sources */,
+				8AD49F72286837D8009BF0DC /* CAShapeLayer+FJFGrey.m in Sources */,
 				64F4CB0326A28C8000836313 /* FJFTableSubViewController.m in Sources */,
 				8A95607F2730259400AA7295 /* FJFImageLoadViewController.m in Sources */,
 				6440FCD22235F47F004D916A /* main.m in Sources */,
 				64F4CB0726A28C8000836313 /* FJFWebViewHeaderView.m in Sources */,
 				8A95607D2730259400AA7295 /* FJFImageTableViewCell.m in Sources */,
+				8AD49F79286837D8009BF0DC /* FJFTestView.m in Sources */,
+				8AD49F74286837D8009BF0DC /* FJFGreyHelper.m in Sources */,
 				8A95607C2730259400AA7295 /* UIImage+DownSample.m in Sources */,
 				6440FCC42235F47D004D916A /* AppDelegate.m in Sources */,
+				8AD49F6F286837D8009BF0DC /* UIImageView+FJFGreyImageview.m in Sources */,
+				8AD49F77286837D8009BF0DC /* FJFGreyStyleModuleVC.m in Sources */,
 				8A95607B2730259400AA7295 /* UIImageView+SDImage.m in Sources */,
 				64F4CB0226A28C8000836313 /* FJFTopContainerView.m in Sources */,
 				8A956085273025A900AA7295 /* FJFPermanentThreadViewController.m in Sources */,
+				8AD49F73286837D8009BF0DC /* UIColor+FJFGreyColor.m in Sources */,
+				8AD49F7F286837D8009BF0DC /* FJFCatonHandleTool.m in Sources */,
+				8AD49F7C286837D8009BF0DC /* FJFTestButton.m in Sources */,
 				8A95606B2730257700AA7295 /* FJFTextInputViewController.m in Sources */,
+				8AD49F7E286837D8009BF0DC /* FJFCatonHandleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
