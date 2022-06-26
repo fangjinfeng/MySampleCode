@@ -65,6 +65,9 @@
 		8AD49F7F286837D8009BF0DC /* FJFCatonHandleTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD49F6B286837D8009BF0DC /* FJFCatonHandleTool.m */; };
 		8AD49F80286837D8009BF0DC /* FJFDateFormaterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD49F6D286837D8009BF0DC /* FJFDateFormaterViewController.m */; };
 		8AD49F842868392A009BF0DC /* FJFTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD49F822868392A009BF0DC /* FJFTimerViewController.m */; };
+		8AD49F8A28684C9C009BF0DC /* FJFTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD49F8828684C9C009BF0DC /* FJFTableViewCell.m */; };
+		8AD49F8B28684C9C009BF0DC /* FJFTableViewCellController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD49F8928684C9C009BF0DC /* FJFTableViewCellController.m */; };
+		8AD49F8F28684CC1009BF0DC /* FJFAvailableMemoryVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD49F8D28684CC1009BF0DC /* FJFAvailableMemoryVc.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -195,6 +198,12 @@
 		8AD49F6E286837D8009BF0DC /* FJFDateFormaterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFDateFormaterViewController.h; sourceTree = "<group>"; };
 		8AD49F822868392A009BF0DC /* FJFTimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFTimerViewController.m; sourceTree = "<group>"; };
 		8AD49F832868392A009BF0DC /* FJFTimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFTimerViewController.h; sourceTree = "<group>"; };
+		8AD49F8628684C9C009BF0DC /* FJFTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFTableViewCell.h; sourceTree = "<group>"; };
+		8AD49F8728684C9C009BF0DC /* FJFTableViewCellController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFTableViewCellController.h; sourceTree = "<group>"; };
+		8AD49F8828684C9C009BF0DC /* FJFTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFTableViewCell.m; sourceTree = "<group>"; };
+		8AD49F8928684C9C009BF0DC /* FJFTableViewCellController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFTableViewCellController.m; sourceTree = "<group>"; };
+		8AD49F8D28684CC1009BF0DC /* FJFAvailableMemoryVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFAvailableMemoryVc.m; sourceTree = "<group>"; };
+		8AD49F8E28684CC1009BF0DC /* FJFAvailableMemoryVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFAvailableMemoryVc.h; sourceTree = "<group>"; };
 		A4B73B463EB810BC212A68E6 /* Pods-FJFBlogProjectDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FJFBlogProjectDemo.release.xcconfig"; path = "Target Support Files/Pods-FJFBlogProjectDemo/Pods-FJFBlogProjectDemo.release.xcconfig"; sourceTree = "<group>"; };
 		C7532C8086B87A01CC3CDE19 /* Pods-FJFBlogProjectDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FJFBlogProjectDemo.debug.xcconfig"; path = "Target Support Files/Pods-FJFBlogProjectDemo/Pods-FJFBlogProjectDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -323,6 +332,8 @@
 		64F4CAD926A28C8000836313 /* FJFBlogDemo */ = {
 			isa = PBXGroup;
 			children = (
+				8AD49F8C28684CC1009BF0DC /* FJFAvailableMemoryDemo */,
+				8AD49F8528684C9C009BF0DC /* FJFTableViewCellDemo */,
 				8AD49F8128683929009BF0DC /* FJFTimerBackgroundDemo */,
 				8AD49F5C286837D8009BF0DC /* FJFButtonClickedDemo */,
 				8AD49F67286837D8009BF0DC /* FJFCatonHandleDemo */,
@@ -567,6 +578,27 @@
 			path = FJFTimerBackgroundDemo;
 			sourceTree = "<group>";
 		};
+		8AD49F8528684C9C009BF0DC /* FJFTableViewCellDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8AD49F8628684C9C009BF0DC /* FJFTableViewCell.h */,
+				8AD49F8828684C9C009BF0DC /* FJFTableViewCell.m */,
+				8AD49F8728684C9C009BF0DC /* FJFTableViewCellController.h */,
+				8AD49F8928684C9C009BF0DC /* FJFTableViewCellController.m */,
+			);
+			name = FJFTableViewCellDemo;
+			path = "../../../../../../Desktop/PersonalProject/MySampleCode-master/FJFBlogProjectDemo/FJFBlogProjectDemo/FJFBlogDemo/FJFTableViewCellDemo";
+			sourceTree = "<group>";
+		};
+		8AD49F8C28684CC1009BF0DC /* FJFAvailableMemoryDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8AD49F8D28684CC1009BF0DC /* FJFAvailableMemoryVc.m */,
+				8AD49F8E28684CC1009BF0DC /* FJFAvailableMemoryVc.h */,
+			);
+			path = FJFAvailableMemoryDemo;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -755,6 +787,7 @@
 				8AD49F76286837D8009BF0DC /* UIImage+FJFGreyImage.m in Sources */,
 				64F4CB0126A28C8000836313 /* FJFFirstViewController.m in Sources */,
 				8A956086273025A900AA7295 /* FJFPermanentThread.m in Sources */,
+				8AD49F8B28684C9C009BF0DC /* FJFTableViewCellController.m in Sources */,
 				8A95606A2730257700AA7295 /* FJFTextView.m in Sources */,
 				8AD49F70286837D8009BF0DC /* NSObject+FJFSwizzle.m in Sources */,
 				8AD49F75286837D8009BF0DC /* WKWebView+FJFGrey.m in Sources */,
@@ -768,12 +801,14 @@
 				64F4CB0626A28C8000836313 /* FJFHtmlHelpTool.m in Sources */,
 				64F4CB0426A28C8000836313 /* FJFLazyTableViewController.m in Sources */,
 				64F4CAFE26A28C8000836313 /* FJFUrlEncodeViewController.m in Sources */,
+				8AD49F8A28684C9C009BF0DC /* FJFTableViewCell.m in Sources */,
 				64F4CAFD26A28C8000836313 /* NSString+MethodTool.m in Sources */,
 				64F4CB0526A28C8000836313 /* FJFChatViewController.m in Sources */,
 				6440FCC72235F47D004D916A /* ViewController.m in Sources */,
 				8AD49F72286837D8009BF0DC /* CAShapeLayer+FJFGrey.m in Sources */,
 				64F4CB0326A28C8000836313 /* FJFTableSubViewController.m in Sources */,
 				8A95607F2730259400AA7295 /* FJFImageLoadViewController.m in Sources */,
+				8AD49F8F28684CC1009BF0DC /* FJFAvailableMemoryVc.m in Sources */,
 				6440FCD22235F47F004D916A /* main.m in Sources */,
 				64F4CB0726A28C8000836313 /* FJFWebViewHeaderView.m in Sources */,
 				8A95607D2730259400AA7295 /* FJFImageTableViewCell.m in Sources */,

@@ -100,7 +100,7 @@
                                 @"FJFCatonHandleViewController": @"runloop空闲处理耗时操作",
                                 @"FJFGreyStyleModuleVC": @"界面黑白色探索",
                                 @"FJFTimerViewController": @"定时器进入后台不暂停",
-                                
+                                @"FJFTableViewCellController": @"TableViewCell内存紧张被释放",
                                 };
     }
     return _viewControllerDict;
