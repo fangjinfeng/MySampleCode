@@ -1,6 +1,7 @@
 platform:ios, '8.0'
 
 target 'FJFBlogProjectDemo' do
+    pod 'fishhook'
     pod 'YBImageBrowser'
     pod 'Masonry',  '~> 1.1.0'
     pod 'JXCategoryView', '1.5.5'

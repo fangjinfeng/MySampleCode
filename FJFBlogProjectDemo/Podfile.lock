@@ -1,4 +1,5 @@
 PODS:
+  - fishhook (0.2)
   - JXCategoryView (1.5.5)
   - Masonry (1.1.0)
   - SDWebImage (5.9.5):
@@ -14,12 +15,14 @@ PODS:
   - YYImage/Core (1.0.4)
 
 DEPENDENCIES:
+  - fishhook
   - JXCategoryView (= 1.5.5)
   - Masonry (~> 1.1.0)
   - YBImageBrowser
 
 SPEC REPOS:
   trunk:
+    - fishhook
     - JXCategoryView
     - Masonry
     - SDWebImage
@@ -27,12 +30,13 @@ SPEC REPOS:
     - YYImage
 
 SPEC CHECKSUMS:
+  fishhook: ea19933abfe8f2f52c55fd8b6e2718467d3ebc89
   JXCategoryView: 0293fcb356f10a5c2e679dac0a1a5f1899ee0c87
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   SDWebImage: 0b2ba0d56479bf6a45ecddbfd5558bea93150d25
   YBImageBrowser: 7ecc8bf33ffa5f3b94c397c29b4f3638dd37f527
   YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
 
-PODFILE CHECKSUM: 2dee32f0d106f133f1b7c36d21e47bd6b956c208
+PODFILE CHECKSUM: 8515e5f0fd3d94ed663262eaf8b815db912ceb1a
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.11.3
